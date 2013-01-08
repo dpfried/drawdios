@@ -207,6 +207,14 @@ function update(source) {
             var o = {x: source.x0, y: source.y0};
             return diagonal({source: o, target: o});
         })
+        .attr('stroke', function(d) {
+            if (is_nonterminal(d.source) && is_production(d.source)) {
+                return "#e50";
+            }
+            else {
+                return "#ccc";
+            }
+        })
     /*
         .attr('stroke', function(d) {
             return stroke_scale(d.target.probability || 1.0);
