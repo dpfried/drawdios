@@ -25,7 +25,7 @@ function expand_symbol(symbol, probability) {
             if (prods.length == 0) {
                 alert('no productions found for ' + symbol.name);
             }
-            obj.children = productions(symbol.name)[0].rhs.map(function(p) { return expand_symbol(p); });
+            obj._children = productions(symbol.name)[0].rhs.map(function(p) { return expand_symbol(p); });
             obj.probability = probability;
             return obj;
         }
@@ -38,7 +38,7 @@ function expand_symbol(symbol, probability) {
             }
             prods.sort(function(p, q) { return q.prob - p.prob });
             children = prods.map(function(p) { return expand_symbol(p.rhs[0], p.prob); });
-            obj.children = children;
+            obj._children = children;
             obj.probability = probability;
             return obj
         }
@@ -80,11 +80,13 @@ function process_input() {
     var obj = new Object();
     if (to_graph.length > 1) {
         obj.name = "S";
-        obj.children = to_graph.map(function (s) { return expand_symbol({'name': s}); });
+        obj._children = to_graph.map(function (s) { return expand_symbol({'name': s}); });
     }
     else {
         obj = expand_symbol({'name': to_graph[0]});
     }
+    var depth = parseInt($('#depth').val());
+    expandToDepth(obj, isNaN(depth) ? 5 : depth);
     draw_tree(obj);
 }
 
@@ -267,12 +269,10 @@ function collapseAll(d) {
         (d.children || d._children).map(collapseAll);
     }
     collapse(d);
-    update(d);
 }
 
 function expandAll(d) {
     expand(d);
-    update(d);
     if (d.children || d._children) {
         (d.children || d._children).map(expandAll);
     }
@@ -281,10 +281,20 @@ function expandAll(d) {
 function expandBottom(d) {
     if (d._children) {
         expand(d);
-        update(d);
     }
     else if (d.children) {
         d.children.map(expandBottom);
+    }
+}
+
+function expandToDepth(node, depth) {
+    if (depth > 0) {
+        if (node._children) {
+            expand(node);
+        }
+        if (node.children) {
+            node.children.map(function (d) { expandToDepth(d, depth - 1); });
+        }
     }
 }
 
@@ -315,7 +325,8 @@ function updateColors() {
 $(window).on('resize', resize).trigger('resize');
 $(document).ready(function() {
     $('#plot').click(process_input);
-    $('#collapseAll').click(function() { collapseAll(root); });
-    $('#expandAll').click(function() { expandAll(root); });
-    $('#expandBottom').click(function() { expandBottom(root); });
+    $('#collapseAll').click(function() { collapseAll(root); update(root); });
+    $('#expandAll').click(function() { expandAll(root); update(root); });
+    $('#expandBottom').click(function() { expandBottom(root); update(root); });
+    $('#depth').val(5);
 });
