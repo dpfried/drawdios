@@ -137,6 +137,30 @@ vis.append('svg:rect')
    .attr('fill', 'white');
 */
 
+function stroke_width(d) {
+    if (d.source.chosen && d.target.chosen) {
+        return "5px";
+    }
+    else {
+        return "1.5px";
+    }
+}
+
+function stroke_color(d) {
+    /*
+    if (d.source.chosen && d.target.chosen) {
+        return "green";
+    }
+    else 
+    */
+    if (is_nonterminal(d.source) && is_production(d.source)) {
+        return "#e50";
+    }
+    else {
+        return "#ccc";
+    }
+}
+
 function update(source) {
     var duration = d3.event && d3.event.altKey ? 5000 : 500;
 
@@ -207,14 +231,8 @@ function update(source) {
             var o = {x: source.x0, y: source.y0};
             return diagonal({source: o, target: o});
         })
-        .attr('stroke', function(d) {
-            if (is_nonterminal(d.source) && is_production(d.source)) {
-                return "#e50";
-            }
-            else {
-                return "#ccc";
-            }
-        })
+        .attr('stroke', stroke_color)
+        .attr('stroke-width', stroke_width)
     /*
         .attr('stroke', function(d) {
             return stroke_scale(d.target.probability || 1.0);
@@ -330,6 +348,12 @@ function updateColors() {
         .attr('stroke-width', function(d) { return d.highlighted ? '.5px' : '.25px'; });
 }
 
+function updatePathColors() {
+    var link = vis.selectAll("path.link");
+    link.attr('stroke-width', stroke_width);
+}
+
+
 $(window).on('resize', resize).trigger('resize');
 $(document).ready(function() {
     $('#plot').click(process_input);
@@ -338,3 +362,105 @@ $(document).ready(function() {
     $('#expandBottom').click(function() { expandBottom(root); update(root); });
     $('#depth').val(5);
 });
+
+function binary_le_search(x, xs) {
+    var low = 0;
+    var high = xs.length;
+    while (low < high) {
+        var mid = Math.floor((low + high) / 2);
+        if (xs[mid] < x) {
+            low += 1;
+        }
+        else {
+            high = mid;
+        }
+    }
+    return low;
+}
+
+function sample(outcomes, probabilities) {
+    var cumulative_sums = [];
+    var sum = 0;
+    probabilities.map(function (p) { sum += p; cumulative_sums.push(sum); });
+    var pos = binary_le_search(Math.random(), cumulative_sums);
+    return outcomes[pos];
+}
+
+function produce(symbol) {
+    var words = [];
+    var prods = productions(symbol);
+    console.debug(prods);
+    var probabilities = prods.map(function(d) { return d.prob; });
+    production = sample(prods, probabilities);
+    console.debug(production);
+    production.rhs.map(function(e) {
+        if (is_nonterminal(e)) {
+            words = words.concat(produce(e.name));
+        }
+        else {
+            words.push(e);
+        }
+    });
+    return words;
+}
+
+function traverse(tree, callback) {
+    callback(tree);
+    if (tree.children || tree._children) {
+        (tree.children || tree._children).map(function (n) { traverse(n, callback); });
+    }
+}
+
+function unchoose(tree) {
+    traverse(tree, function(n) { n.chosen = false; });
+}
+
+function sample_tree(node) {
+    /* traverse the tree, taking one child (sampled according to children's probs)
+     * if the current node is an equivalence class, and
+     * taking all children if the node is a production.
+     * Returns a list of terminals at the bottom of the chosen paths.
+     * If a node is taken, set its chosen property to true to allow drawing the tree
+     */
+    console.debug(node);
+    node.chosen = true;
+    /* can't use is_nonterminal, since that is for grammars, not trees. Terminals have name property now */
+    if (node.children || node._children) {
+        console.log('nonterminal');
+        if (is_production(node)) {
+            console.log('production');
+            /* choose all children */
+            if (node.children || node._children) {
+                var leaves_list = (node.children || node._children).map(sample_tree);
+                console.debug(leaves_list);
+                var ret = leaves_list.reduce(function(p, c) { return p.concat(c); });
+                console.log(ret);
+                return ret;
+            }
+            else {
+                console.log([]);
+                return [];
+            }
+        }
+        else if (is_equiv_class(node)) {
+            console.log('equiv class');
+            /* sample one child based on probability */
+            var children = node.children || node._children
+            if (children) {
+                var probs = children.map(function(d) { return d.prob; });
+                var ret = sample_tree(sample(children, probs));
+                console.log(ret);
+                return ret;
+            }
+            else {
+                console.log([]);
+                return [];
+            }
+        }
+
+    }
+    else {
+        console.log([node.name]);
+        return [node.name];
+    }
+}
