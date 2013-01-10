@@ -76,7 +76,6 @@ function split_whitespace(str) {
 
 function process_input() {
     var to_graph = split_whitespace($('#prods').val().replace(/"/g, ' '));
-    console.log(to_graph);
     var obj = new Object();
     if (to_graph.length > 1) {
         obj.name = "S";
@@ -360,6 +359,7 @@ $(document).ready(function() {
     $('#collapseAll').click(function() { collapseAll(root); update(root); });
     $('#expandAll').click(function() { expandAll(root); update(root); });
     $('#expandBottom').click(function() { expandBottom(root); update(root); });
+    $('#sample').click(do_sample);
     $('#depth').val(5);
 });
 
@@ -389,10 +389,8 @@ function sample(outcomes, probabilities) {
 function produce(symbol) {
     var words = [];
     var prods = productions(symbol);
-    console.debug(prods);
     var probabilities = prods.map(function(d) { return d.prob; });
     production = sample(prods, probabilities);
-    console.debug(production);
     production.rhs.map(function(e) {
         if (is_nonterminal(e)) {
             words = words.concat(produce(e.name));
@@ -422,7 +420,6 @@ function sample_tree(node) {
      * Returns a list of terminals at the bottom of the chosen paths.
      * If a node is taken, set its chosen property to true to allow drawing the tree
      */
-    console.debug(node);
     node.chosen = true;
     /* can't use is_nonterminal, since that is for grammars, not trees. Terminals have name property now */
     if (node.children || node._children) {
@@ -432,13 +429,9 @@ function sample_tree(node) {
             /* choose all children */
             if (node.children || node._children) {
                 var leaves_list = (node.children || node._children).map(sample_tree);
-                console.debug(leaves_list);
-                var ret = leaves_list.reduce(function(p, c) { return p.concat(c); });
-                console.log(ret);
-                return ret;
+                return leaves_list.reduce(function(p, c) { return p.concat(c); });
             }
             else {
-                console.log([]);
                 return [];
             }
         }
@@ -447,20 +440,21 @@ function sample_tree(node) {
             /* sample one child based on probability */
             var children = node.children || node._children
             if (children) {
-                var probs = children.map(function(d) { return d.prob; });
-                var ret = sample_tree(sample(children, probs));
-                console.log(ret);
-                return ret;
+                var probs = children.map(function(d) { return d.probability; });
+                return sample_tree(sample(children, probs));
             }
             else {
-                console.log([]);
                 return [];
             }
         }
-
     }
     else {
-        console.log([node.name]);
         return [node.name];
     }
+}
+
+function do_sample() {
+    unchoose(root);
+    $('#sampledSent').text(sample_tree(root).join(' '));
+    updatePathColors();
 }
