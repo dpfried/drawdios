@@ -84,11 +84,26 @@ function process_input() {
     else {
         obj = expand_symbol({'name': to_graph[0]});
     }
+    return obj;
+}
+
+function plot_click() {
+    var obj = process_input();
     var depth = parseInt($('#depth').val());
     expandToDepth(obj, isNaN(depth) ? 5 : depth);
     draw_tree(obj);
     $('#sample').removeAttr('disabled');
     $('#sampledSent').text('');
+}
+
+function sample_all_click() {
+    var sym_list = sample_all();
+    $('#prods').val(sym_list.join(' '));
+    var obj = process_input();
+    draw_tree(obj);
+    do_sample();
+    expand_chosen(root);
+    $('#sample').removeAttr('disabled');
 }
 
 function draw_tree(source) {
@@ -106,9 +121,9 @@ function draw_tree(source) {
     update(root);
 }
 
-var m = [20, 120, 20, 120],
+var m = [10, 120, 20, 40],
     w = 1280 - m[1] - m[3],
-    h = 800 - m[0] - m[2],
+    h = 700 - m[0] - m[2],
     i = 0,
     root;
 
@@ -176,7 +191,6 @@ function update(source) {
         .data(nodes, function(d) { return d.id || (d.id = ++i); });
 
     var initial_spot = function(d) {
-        console.log(d);
         source_spot = (d.parent || source);
         return "translate(" + source_spot.y + ", " + source_spot.x + ")";
     }
@@ -225,7 +239,7 @@ function update(source) {
     nodeExit.select("text")
         .style("fill-opacity", 1e-6);
 
-    // Update the linksâ¦
+    // Update the links
     var link = vis.selectAll("path.link")
         .data(tree.links(nodes), function(d) { return d.target.id; });
 
@@ -363,13 +377,13 @@ function updatePathColors() {
 
 $(window).on('resize', resize).trigger('resize');
 $(document).ready(function() {
-    $('#plot').click(process_input);
+    $('#plot').click(plot_click);
     $('#collapseAll').click(function() { collapseAll(root); update(root); });
     $('#expandAll').click(function() { expandAll(root); update(root); });
     $('#expandBottom').click(function() { expandBottom(root); update(root); });
     $('#onlySample').click(function() { collapseAll(root); expand_chosen(root); update(root); });
     $('#sample').click(do_sample);
-    $('#sampleAll').click(do_sample_all);
+    $('#sampleAll').click(sample_all_click);
     $('#depth').val(5);
 });
 
@@ -471,13 +485,11 @@ function do_sample() {
     updatePathColors();
 }
 
-function do_sample_all() {
+function sample_all() {
     var sentences = productions('S');
     var sentence = sample(sentences, sentences.map(function(d) { return d.prob; }));
     var sym_list = sentence.rhs.map(function(p) { return is_nonterminal(p) ? p.name : p; });
-    $('#prods').val(sym_list.join(' '));
-    process_input();
-    do_sample();
+    return sym_list;
 }
 
 function expand_chosen(node) {
