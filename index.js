@@ -121,9 +121,9 @@ function draw_tree(source) {
     update(root);
 }
 
-var m = [10, 120, 20, 40],
+var m = [10, 120, 20, 50],
     w = 1280 - m[1] - m[3],
-    h = 700 - m[0] - m[2],
+    h = 680 - m[0] - m[2],
     i = 0,
     root;
 
@@ -213,7 +213,8 @@ function update(source) {
         .attr("dy", ".35em")
         .attr("text-anchor", function(d) { return d.children || d._children ? "end" : "start"; })
         .text(function(d) { return d.name + (d.probability ? ' [' + percentage(d.probability) + ']' : ''); })
-        .style("fill-opacity", 1e-6);
+        .style("fill-opacity", 1e-6)
+        .attr('font-weight', font_weight);
 
     // Transition nodes to their new position.
     var nodeUpdate = node.transition()
@@ -369,9 +370,16 @@ function updateColors() {
         .attr('stroke-width', function(d) { return d.highlighted ? '.5px' : '.25px'; });
 }
 
+function font_weight(d) {
+    /* only bold leaves that are chosen */
+    return (d.chosen && !d._children && !d.children) ? 'bold' : 'normal';
+}
+
 function updatePathColors() {
     var link = vis.selectAll("path.link");
     link.attr('stroke-width', stroke_width);
+    var text = vis.selectAll('text');
+    text.attr('font-weight', font_weight);
 }
 
 
