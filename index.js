@@ -13,7 +13,7 @@ function is_equiv_class(symbol) {
 }
 
 function is_production(symbol) {
-    return is_nonterminal(symbol) && symbol.name[0] == 'P';
+    return is_nonterminal(symbol) && (symbol.name[0] == 'P' || symbol.name == 'S');
 }
 
 function expand_symbol(symbol, probability) {
@@ -360,6 +360,7 @@ $(document).ready(function() {
     $('#expandAll').click(function() { expandAll(root); update(root); });
     $('#expandBottom').click(function() { expandBottom(root); update(root); });
     $('#sample').click(do_sample);
+    $('#sampleAll').click(do_sample_all);
     $('#depth').val(5);
 });
 
@@ -457,4 +458,13 @@ function do_sample() {
     unchoose(root);
     $('#sampledSent').text(sample_tree(root).join(' '));
     updatePathColors();
+}
+
+function do_sample_all() {
+    var sentences = productions('S');
+    var sentence = sample(sentences, sentences.map(function(d) { return d.prob; }));
+    var sym_list = sentence.rhs.map(function(p) { return is_nonterminal(p) ? p.name : p; });
+    $('#prods').val(sym_list.join(' '));
+    process_input();
+    do_sample();
 }
