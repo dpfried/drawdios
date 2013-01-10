@@ -191,7 +191,8 @@ function update(source) {
         .data(nodes, function(d) { return d.id || (d.id = ++i); });
 
     var initial_spot = function(d) {
-        source_spot = (d.parent || source);
+        /* var source_spot = (d.parent || source); */
+        var source_spot = source;
         return "translate(" + source_spot.y + ", " + source_spot.x + ")";
     }
 
@@ -199,7 +200,7 @@ function update(source) {
     var nodeEnter = node.enter().append("svg:g")
         .attr("class", "node")
         .attr("transform", initial_spot)
-        .on("click", function(d) { toggle(d); update(d); })
+        .on("click", function(d) { toggle(d, true); })
         .on('mouseover', function(d) { highlight(d.name, root); updateColors(); })
         .on('mouseout', function(d) { unhighlight(root); updateColors(); });
 
@@ -288,61 +289,91 @@ function update(source) {
 }
 
 // Toggle children.
-function toggle(d) {
-    if (d.children) {
-        d._children = d.children;
-        d.children = null;
+function toggle(node, invalidate) {
+    if (node.children) {
+        node._children = node.children;
+        node.children = null;
     } else {
-        d.children = d._children;
-        d._children = null;
+        node.children = node._children;
+        node._children = null;
+    }
+    if (invalidate) {
+        update(node);
     }
 }
 
-function collapse(d) {
-    if (d.children) {
-        d._children = d.children;
-        d.children = null;
+function collapse(node, invalidate) {
+    if (node.children) {
+        node._children = node.children;
+        node.children = null;
+    }
+    if (invalidate) {
+        update(node);
     }
 }
 
-function expand(d) {
-    if (d._children) {
-        d.children = d._children;
-        d._children = null;
+function expand(node, invalidate) {
+    if (node._children) {
+        node.children = node._children;
+        node._children = null;
+    }
+    if (invalidate) {
+        update(node);
     }
 }
 
-function collapseAll(d) {
-    if (d.children || d._children) {
-        (d.children || d._children).map(collapseAll);
+function collapseAll(node, invalidate) {
+    if (node.children || node._children) {
+        (node.children || node._children).map( function(d) { collapseAll(d, false); });
     }
-    collapse(d);
+    collapse(node, invalidate);
 }
 
-function expandAll(d) {
-    expand(d);
-    if (d.children || d._children) {
-        (d.children || d._children).map(expandAll);
+function expandAll(node, invalidate) {
+    expand(node, invalidate);
+    if (node.children || node._children) {
+        (node.children || node._children).map(function(d) { expandAll(d, false); });
     }
-}
-
-function expandBottom(d) {
-    if (d._children) {
-        expand(d);
-    }
-    else if (d.children) {
-        d.children.map(expandBottom);
+    if (invalidate) {
+        update(node);
     }
 }
 
-function expandToDepth(node, depth) {
+function expandBottom(node, invalidate) {
+    if (node._children) {
+        expand(node, false);
+    }
+    else if (node.children) {
+        node.children.map(function(d) { expandBottom(d, false) });
+    }
+    if (invalidate) {
+        update(node);
+    }
+}
+
+function expandToDepth(node, depth, invalidate) {
     if (depth > 0) {
         if (node._children) {
-            expand(node);
+            expand(node, invalidate);
         }
         if (node.children) {
-            node.children.map(function (d) { expandToDepth(d, depth - 1); });
+            node.children.map(function (d) { expandToDepth(d, depth - 1, false); });
         }
+    }
+    if (invalidate) {
+        update(node);
+    }
+}
+
+function expand_chosen(node, invalidate) {
+    if (node.chosen) {
+        expand(node, invalidate);
+        if (node.children) {
+            node.children.map(function(d) { expand_chosen(d, false) });
+        }
+    }
+    if (invalidate) {
+        update(node);
     }
 }
 
@@ -386,10 +417,10 @@ function updatePathColors() {
 $(window).on('resize', resize).trigger('resize');
 $(document).ready(function() {
     $('#plot').click(plot_click);
-    $('#collapseAll').click(function() { collapseAll(root); update(root); });
-    $('#expandAll').click(function() { expandAll(root); update(root); });
-    $('#expandBottom').click(function() { expandBottom(root); update(root); });
-    $('#onlySample').click(function() { collapseAll(root); expand_chosen(root); update(root); });
+    $('#collapseAll').click(function() { collapseAll(root, true);  });
+    $('#expandAll').click(function() { expandAll(root, true); });
+    $('#expandBottom').click(function() { expandBottom(root, true) });
+    $('#onlySample').click(function() { collapseAll(root, false); expand_chosen(root, true);  });
     $('#sample').click(do_sample);
     $('#sampleAll').click(sample_all_click);
     $('#depth').val(5);
@@ -488,8 +519,7 @@ function sample_tree(node) {
 function do_sample() {
     unchoose(root);
     $('#sampledSent').text(sample_tree(root).join(' '));
-    expand_chosen(root);
-    update(root);
+    expand_chosen(root, true);
     updatePathColors();
 }
 
@@ -500,11 +530,3 @@ function sample_all() {
     return sym_list;
 }
 
-function expand_chosen(node) {
-    if (node.chosen) {
-        expand(node);
-        if (node.children) {
-            node.children.map(expand_chosen);
-        }
-    }
-}
