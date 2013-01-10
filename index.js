@@ -87,6 +87,8 @@ function process_input() {
     var depth = parseInt($('#depth').val());
     expandToDepth(obj, isNaN(depth) ? 5 : depth);
     draw_tree(obj);
+    $('#sample').removeAttr('disabled');
+    $('#sampledSent').text('');
 }
 
 function draw_tree(source) {
@@ -173,10 +175,16 @@ function update(source) {
     var node = vis.selectAll("g.node")
         .data(nodes, function(d) { return d.id || (d.id = ++i); });
 
+    var initial_spot = function(d) {
+        console.log(d);
+        source_spot = (d.parent || source);
+        return "translate(" + source_spot.y + ", " + source_spot.x + ")";
+    }
+
     // Enter any new nodes at the parent's previous position.
     var nodeEnter = node.enter().append("svg:g")
         .attr("class", "node")
-        .attr("transform", function(d) { return "translate(" + source.y0 + "," + source.x0 + ")"; })
+        .attr("transform", initial_spot)
         .on("click", function(d) { toggle(d); update(d); })
         .on('mouseover', function(d) { highlight(d.name, root); updateColors(); })
         .on('mouseout', function(d) { unhighlight(root); updateColors(); });
@@ -208,7 +216,7 @@ function update(source) {
     // Transition exiting nodes to the parent's new position.
     var nodeExit = node.exit().transition()
         .duration(duration)
-        .attr("transform", function(d) { return "translate(" + source.y + "," + source.x + ")"; })
+        .attr("transform", initial_spot)
         .remove();
 
     nodeExit.select("circle")
@@ -359,6 +367,7 @@ $(document).ready(function() {
     $('#collapseAll').click(function() { collapseAll(root); update(root); });
     $('#expandAll').click(function() { expandAll(root); update(root); });
     $('#expandBottom').click(function() { expandBottom(root); update(root); });
+    $('#onlySample').click(function() { collapseAll(root); expand_chosen(root); update(root); });
     $('#sample').click(do_sample);
     $('#sampleAll').click(do_sample_all);
     $('#depth').val(5);
@@ -457,6 +466,8 @@ function sample_tree(node) {
 function do_sample() {
     unchoose(root);
     $('#sampledSent').text(sample_tree(root).join(' '));
+    expand_chosen(root);
+    update(root);
     updatePathColors();
 }
 
@@ -467,4 +478,13 @@ function do_sample_all() {
     $('#prods').val(sym_list.join(' '));
     process_input();
     do_sample();
+}
+
+function expand_chosen(node) {
+    if (node.chosen) {
+        expand(node);
+        if (node.children) {
+            node.children.map(expand_chosen);
+        }
+    }
 }
