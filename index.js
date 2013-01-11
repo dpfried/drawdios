@@ -102,7 +102,7 @@ function sample_all_click() {
     var obj = process_input();
     draw_tree(obj);
     do_sample();
-    expand_chosen(root);
+    expand_chosen(root, false);
     $('#sample').removeAttr('disabled');
 }
 
@@ -341,7 +341,7 @@ function expandAll(node, invalidate) {
 
 function expandBottom(node, invalidate) {
     if (node._children) {
-        expand(node, false);
+        expand(node, invalidate);
     }
     else if (node.children) {
         node.children.map(function(d) { expandBottom(d, false) });
@@ -367,14 +367,18 @@ function expandToDepth(node, depth, invalidate) {
 
 function expand_chosen(node, invalidate) {
     if (node.chosen) {
-        expand(node, invalidate);
+        if (node._children) {
+            expand(node, true);
+        }
         if (node.children) {
             node.children.map(function(d) { expand_chosen(d, false) });
         }
     }
+    /*
     if (invalidate) {
         update(node);
     }
+    */
 }
 
 function redraw() {
