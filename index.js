@@ -341,13 +341,10 @@ function expandAll(node, invalidate) {
 
 function expandBottom(node, invalidate) {
     if (node._children) {
-        expand(node, invalidate);
+        expand(node, true);
     }
     else if (node.children) {
         node.children.map(function(d) { expandBottom(d, false) });
-    }
-    if (invalidate) {
-        update(node);
     }
 }
 
