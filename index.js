@@ -5,22 +5,40 @@ function productions(lhs) {
 }
 
 function is_nonterminal(symbol) {
-    return symbol.name;
+    return ! symbol.is_terminal;
+}
+
+function is_terminal(symbol) {
+    return symbol.is_terminal;
 }
 
 function is_equiv_class(symbol) {
-    return is_nonterminal(symbol) && symbol.name[0] == 'E';
+    return is_nonterminal(symbol) && is_equiv_class_name(symbol.name);
+}
+
+function is_equiv_class_name(string) {
+    return string.match(/E\d+/g);
 }
 
 function is_production(symbol) {
-    return is_nonterminal(symbol) && (symbol.name[0] == 'P' || symbol.name == 'S');
+    console.debug('is_production');
+    console.debug(symbol);
+    return is_nonterminal(symbol) && is_production_name(symbol.name);
+}
+
+function is_production_name(string) {
+    return string.match(/P\d+/g) || string == 'S';
 }
 
 function expand_symbol(symbol, probability) {
+    console.debug('expanding symbol');
+    console.debug(symbol);
     if (is_nonterminal(symbol)) {
         if (is_production(symbol)) {
+            console.debug(symbol.name);
             var obj = new Object();
             obj.name = symbol.name;
+            obj.is_terminal = false;
             var prods = productions(symbol.name);
             if (prods.length == 0) {
                 alert('no productions found for ' + symbol.name);
@@ -32,7 +50,9 @@ function expand_symbol(symbol, probability) {
         else if (is_equiv_class(symbol)) {
             var prods = productions(symbol.name);
             var obj = new Object();
+            console.debug(symbol.name);
             obj.name = symbol.name;
+            obj.is_terminal = false;
             if (prods.length == 0) {
                 alert('no equivalence classes found for ' + symbol.name);
             }
@@ -45,7 +65,8 @@ function expand_symbol(symbol, probability) {
     }
     else {
         var obj = new Object();
-        obj.name = symbol;
+        obj.name = symbol.name;
+        obj.is_terminal = true;
         obj.probability = probability;
         return obj;
     }
@@ -74,15 +95,40 @@ function split_whitespace(str) {
     return str.match(/[\S]+/g);
 }
 
+function make_symbol(name) {
+    console.debug(name);
+    if (is_production_name(name) || is_equiv_class_name(name)) {
+        return {'name': name,
+                'is_terminal': false };
+    }
+    else {
+        return {'name': name,
+                'is_terminal': true };
+    }
+}
+
+function expand_string(s) {
+    /* Create a symbol out of a string, with name s. If s appears to refer to a
+     * prod or an equiv class, recursively expand the symbol
+     */
+    var sym = make_symbol(s);
+    if (is_nonterminal(sym)) {
+        return expand_symbol(sym);
+    }
+    else {
+        return sym;
+    }
+}
+
 function process_input() {
     var to_graph = split_whitespace($('#prods').val().replace(/"/g, ' '));
     var obj = new Object();
     if (to_graph.length > 1) {
         obj.name = "S";
-        obj._children = to_graph.map(function (s) { return expand_symbol({'name': s}); });
+        obj._children = to_graph.map(expand_string);
     }
     else {
-        obj = expand_symbol({'name': to_graph[0]});
+        obj = expand_string(to_graph[0]);
     }
     return obj;
 }
@@ -98,7 +144,7 @@ function plot_click() {
 
 function sample_all_click() {
     var sym_list = sample_all();
-    $('#prods').val(sym_list.join(' '));
+    $('#prods').val(sym_list.map(function(s) { return s.name; }).join(' '));
     var obj = process_input();
     draw_tree(obj);
     do_sample();
@@ -484,9 +530,10 @@ function sample_tree(node) {
      * Returns a list of terminals at the bottom of the chosen paths.
      * If a node is taken, set its chosen property to true to allow drawing the tree
      */
+    console.debug('sample_tree');
+    console.debug(node);
     node.chosen = true;
-    /* can't use is_nonterminal, since that is for grammars, not trees. Terminals have name property now */
-    if (node.children || node._children) {
+    if (is_nonterminal(node)) {
         console.log('nonterminal');
         if (is_production(node)) {
             console.log('production');
@@ -527,7 +574,6 @@ function do_sample() {
 function sample_all() {
     var sentences = productions('S');
     var sentence = sample(sentences, sentences.map(function(d) { return d.prob; }));
-    var sym_list = sentence.rhs.map(function(p) { return is_nonterminal(p) ? p.name : p; });
-    return sym_list;
+    return sentence.rhs;
 }
 
