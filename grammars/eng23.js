@@ -1,4 +1,4 @@
-grammar = [
+grammars.eng23 = [
     {
         "rhs": [
             {

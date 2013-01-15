@@ -21,8 +21,6 @@ function is_equiv_class_name(string) {
 }
 
 function is_production(symbol) {
-    console.debug('is_production');
-    console.debug(symbol);
     return is_nonterminal(symbol) && is_production_name(symbol.name);
 }
 
@@ -32,7 +30,6 @@ function is_production_name(string) {
 
 function expand_symbol(symbol, probability) {
     console.debug('expanding symbol');
-    console.debug(symbol);
     if (is_nonterminal(symbol)) {
         if (is_production(symbol)) {
             console.debug(symbol.name);
@@ -471,6 +468,7 @@ $(document).ready(function() {
     $('#sample').click(do_sample);
     $('#sampleAll').click(sample_all_click);
     $('#depth').val(5);
+    grammar = grammars.mtbolt;
 });
 
 function binary_le_search(x, xs) {
@@ -531,7 +529,6 @@ function sample_tree(node) {
      * If a node is taken, set its chosen property to true to allow drawing the tree
      */
     console.debug('sample_tree');
-    console.debug(node);
     node.chosen = true;
     if (is_nonterminal(node)) {
         console.log('nonterminal');
@@ -576,4 +573,3 @@ function sample_all() {
     var sentence = sample(sentences, sentences.map(function(d) { return d.prob; }));
     return sentence.rhs;
 }
-
