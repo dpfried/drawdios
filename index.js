@@ -28,11 +28,9 @@ function is_production_name(string) {
     return string.match(/P\d+/g) || string == 'S';
 }
 
-function expand_symbol(symbol, probability) {
-    console.debug('expanding symbol');
+function expand_symbol(symbol, probability, count) {
     if (is_nonterminal(symbol)) {
         if (is_production(symbol)) {
-            console.debug(symbol.name);
             var obj = new Object();
             obj.name = symbol.name;
             obj.is_terminal = false;
@@ -40,23 +38,24 @@ function expand_symbol(symbol, probability) {
             if (prods.length == 0) {
                 alert('no productions found for ' + symbol.name);
             }
-            obj._children = productions(symbol.name)[0].rhs.map(function(p) { return expand_symbol(p); });
+            obj._children = prods[0].rhs.map(function(p) { return expand_symbol(p); });
             obj.probability = probability;
+            obj.count = prods[0].count;
             return obj;
         }
         else if (is_equiv_class(symbol)) {
             var prods = productions(symbol.name);
             var obj = new Object();
-            console.debug(symbol.name);
             obj.name = symbol.name;
             obj.is_terminal = false;
             if (prods.length == 0) {
                 alert('no equivalence classes found for ' + symbol.name);
             }
             prods.sort(function(p, q) { return q.prob - p.prob });
-            children = prods.map(function(p) { return expand_symbol(p.rhs[0], p.prob); });
+            children = prods.map(function(p) { console.debug(p); return expand_symbol(p.rhs[0], p.prob, p.count); });
             obj._children = children;
             obj.probability = probability;
+            obj.count = children.map(function(p) { return p.count || 0; }).reduce(function(p, q) { return p + q; });
             return obj
         }
     }
@@ -65,6 +64,7 @@ function expand_symbol(symbol, probability) {
         obj.name = symbol.name;
         obj.is_terminal = true;
         obj.probability = probability;
+        obj.count = count;
         return obj;
     }
 }
@@ -93,7 +93,6 @@ function split_whitespace(str) {
 }
 
 function make_symbol(name) {
-    console.debug(name);
     if (is_production_name(name) || is_equiv_class_name(name)) {
         return {'name': name,
                 'is_terminal': false };
@@ -256,7 +255,7 @@ function update(source) {
         .attr("x", function(d) { return d.children || d._children ? -10 : 10; })
         .attr("dy", ".35em")
         .attr("text-anchor", function(d) { return d.children || d._children ? "end" : "start"; })
-        .text(function(d) { return d.name + (d.probability ? ' [' + percentage(d.probability) + ']' : ''); })
+        .text(function(d) { return d.name + (d.probability ? ' [' + percentage(d.probability) + ']' : '') + (d.count ? ' {' + d.count + '}' : ''); })
         .style("fill-opacity", 1e-6)
         .attr('font-weight', font_weight);
 
@@ -528,12 +527,9 @@ function sample_tree(node) {
      * Returns a list of terminals at the bottom of the chosen paths.
      * If a node is taken, set its chosen property to true to allow drawing the tree
      */
-    console.debug('sample_tree');
     node.chosen = true;
     if (is_nonterminal(node)) {
-        console.log('nonterminal');
         if (is_production(node)) {
-            console.log('production');
             /* choose all children */
             if (node.children || node._children) {
                 var leaves_list = (node.children || node._children).map(sample_tree);
@@ -544,7 +540,6 @@ function sample_tree(node) {
             }
         }
         else if (is_equiv_class(node)) {
-            console.log('equiv class');
             /* sample one child based on probability */
             var children = node.children || node._children
             if (children) {
