@@ -1188,6 +1188,7 @@ grammars.brown = [
         "prob": 0.03333333333333333
     }, 
     {
+        "count": 1025, 
         "rhs": [
             {
                 "is_terminal": true, 
@@ -1202,6 +1203,7 @@ grammars.brown = [
         "prob": 1.0
     }, 
     {
+        "count": 701, 
         "rhs": [
             {
                 "is_terminal": true, 
@@ -1216,6 +1218,7 @@ grammars.brown = [
         "prob": 1.0
     }, 
     {
+        "count": 440, 
         "rhs": [
             {
                 "is_terminal": true, 
@@ -1230,6 +1233,7 @@ grammars.brown = [
         "prob": 1.0
     }, 
     {
+        "count": 352, 
         "rhs": [
             {
                 "is_terminal": true, 
@@ -1244,6 +1248,7 @@ grammars.brown = [
         "prob": 1.0
     }, 
     {
+        "count": 19, 
         "rhs": [
             {
                 "is_terminal": true, 
@@ -1262,6 +1267,7 @@ grammars.brown = [
         "prob": 1.0
     }, 
     {
+        "count": 1, 
         "rhs": [
             {
                 "is_terminal": true, 
@@ -1272,6 +1278,7 @@ grammars.brown = [
         "prob": 0.25
     }, 
     {
+        "count": 1, 
         "rhs": [
             {
                 "is_terminal": true, 
@@ -1282,6 +1289,7 @@ grammars.brown = [
         "prob": 0.25
     }, 
     {
+        "count": 1, 
         "rhs": [
             {
                 "is_terminal": true, 
@@ -1292,6 +1300,7 @@ grammars.brown = [
         "prob": 0.25
     }, 
     {
+        "count": 1, 
         "rhs": [
             {
                 "is_terminal": true, 
@@ -1302,6 +1311,7 @@ grammars.brown = [
         "prob": 0.25
     }, 
     {
+        "count": 4, 
         "rhs": [
             {
                 "is_terminal": true, 
@@ -1324,6 +1334,7 @@ grammars.brown = [
         "prob": 1.0
     }, 
     {
+        "count": 300, 
         "rhs": [
             {
                 "is_terminal": true, 
@@ -1334,6 +1345,7 @@ grammars.brown = [
         "prob": 0.319829
     }, 
     {
+        "count": 638, 
         "rhs": [
             {
                 "is_terminal": true, 
@@ -1344,6 +1356,7 @@ grammars.brown = [
         "prob": 0.680171
     }, 
     {
+        "count": 193, 
         "rhs": [
             {
                 "is_terminal": true, 
@@ -1358,6 +1371,7 @@ grammars.brown = [
         "prob": 1.0
     }, 
     {
+        "count": 143, 
         "rhs": [
             {
                 "is_terminal": true, 
@@ -1368,6 +1382,7 @@ grammars.brown = [
         "prob": 0.44
     }, 
     {
+        "count": 182, 
         "rhs": [
             {
                 "is_terminal": true, 
@@ -1378,6 +1393,7 @@ grammars.brown = [
         "prob": 0.56
     }, 
     {
+        "count": 315, 
         "rhs": [
             {
                 "is_terminal": false, 
@@ -1392,6 +1408,7 @@ grammars.brown = [
         "prob": 1.0
     }, 
     {
+        "count": 1, 
         "rhs": [
             {
                 "is_terminal": true, 
@@ -1402,6 +1419,7 @@ grammars.brown = [
         "prob": 0.125
     }, 
     {
+        "count": 1, 
         "rhs": [
             {
                 "is_terminal": true, 
@@ -1412,6 +1430,7 @@ grammars.brown = [
         "prob": 0.125
     }, 
     {
+        "count": 2, 
         "rhs": [
             {
                 "is_terminal": true, 
@@ -1422,6 +1441,7 @@ grammars.brown = [
         "prob": 0.25
     }, 
     {
+        "count": 1, 
         "rhs": [
             {
                 "is_terminal": true, 
@@ -1432,6 +1452,7 @@ grammars.brown = [
         "prob": 0.125
     }, 
     {
+        "count": 1, 
         "rhs": [
             {
                 "is_terminal": true, 
@@ -1442,6 +1463,7 @@ grammars.brown = [
         "prob": 0.125
     }, 
     {
+        "count": 1, 
         "rhs": [
             {
                 "is_terminal": true, 
@@ -1452,6 +1474,7 @@ grammars.brown = [
         "prob": 0.125
     }, 
     {
+        "count": 1, 
         "rhs": [
             {
                 "is_terminal": true, 
@@ -1462,6 +1485,7 @@ grammars.brown = [
         "prob": 0.125
     }, 
     {
+        "count": 8, 
         "rhs": [
             {
                 "is_terminal": true, 
@@ -1484,6 +1508,7 @@ grammars.brown = [
         "prob": 1.0
     }, 
     {
+        "count": 2, 
         "rhs": [
             {
                 "is_terminal": true, 
@@ -1494,6 +1519,7 @@ grammars.brown = [
         "prob": 0.08
     }, 
     {
+        "count": 3, 
         "rhs": [
             {
                 "is_terminal": true, 
@@ -1504,6 +1530,7 @@ grammars.brown = [
         "prob": 0.12
     }, 
     {
+        "count": 1, 
         "rhs": [
             {
                 "is_terminal": true, 
@@ -1514,6 +1541,7 @@ grammars.brown = [
         "prob": 0.04
     }, 
     {
+        "count": 1, 
         "rhs": [
             {
                 "is_terminal": true, 
@@ -1524,6 +1552,7 @@ grammars.brown = [
         "prob": 0.04
     }, 
     {
+        "count": 1, 
         "rhs": [
             {
                 "is_terminal": true, 
@@ -1534,6 +1563,7 @@ grammars.brown = [
         "prob": 0.04
     }, 
     {
+        "count": 1, 
         "rhs": [
             {
                 "is_terminal": true, 
@@ -1544,6 +1574,7 @@ grammars.brown = [
         "prob": 0.04
     }, 
     {
+        "count": 1, 
         "rhs": [
             {
                 "is_terminal": true, 
@@ -1554,6 +1585,7 @@ grammars.brown = [
         "prob": 0.04
     }, 
     {
+        "count": 1, 
         "rhs": [
             {
                 "is_terminal": true, 
@@ -1564,6 +1596,7 @@ grammars.brown = [
         "prob": 0.04
     }, 
     {
+        "count": 1, 
         "rhs": [
             {
                 "is_terminal": true, 
@@ -1574,6 +1607,7 @@ grammars.brown = [
         "prob": 0.04
     }, 
     {
+        "count": 1, 
         "rhs": [
             {
                 "is_terminal": true, 
@@ -1584,6 +1618,7 @@ grammars.brown = [
         "prob": 0.04
     }, 
     {
+        "count": 1, 
         "rhs": [
             {
                 "is_terminal": true, 
@@ -1594,6 +1629,7 @@ grammars.brown = [
         "prob": 0.04
     }, 
     {
+        "count": 1, 
         "rhs": [
             {
                 "is_terminal": true, 
@@ -1604,6 +1640,7 @@ grammars.brown = [
         "prob": 0.04
     }, 
     {
+        "count": 1, 
         "rhs": [
             {
                 "is_terminal": true, 
@@ -1614,6 +1651,7 @@ grammars.brown = [
         "prob": 0.04
     }, 
     {
+        "count": 1, 
         "rhs": [
             {
                 "is_terminal": true, 
@@ -1624,6 +1662,7 @@ grammars.brown = [
         "prob": 0.04
     }, 
     {
+        "count": 1, 
         "rhs": [
             {
                 "is_terminal": true, 
@@ -1634,6 +1673,7 @@ grammars.brown = [
         "prob": 0.04
     }, 
     {
+        "count": 1, 
         "rhs": [
             {
                 "is_terminal": true, 
@@ -1644,6 +1684,7 @@ grammars.brown = [
         "prob": 0.04
     }, 
     {
+        "count": 1, 
         "rhs": [
             {
                 "is_terminal": true, 
@@ -1654,6 +1695,7 @@ grammars.brown = [
         "prob": 0.04
     }, 
     {
+        "count": 1, 
         "rhs": [
             {
                 "is_terminal": true, 
@@ -1664,6 +1706,7 @@ grammars.brown = [
         "prob": 0.04
     }, 
     {
+        "count": 1, 
         "rhs": [
             {
                 "is_terminal": true, 
@@ -1674,6 +1717,7 @@ grammars.brown = [
         "prob": 0.04
     }, 
     {
+        "count": 1, 
         "rhs": [
             {
                 "is_terminal": true, 
@@ -1684,6 +1728,7 @@ grammars.brown = [
         "prob": 0.04
     }, 
     {
+        "count": 1, 
         "rhs": [
             {
                 "is_terminal": true, 
@@ -1694,6 +1739,7 @@ grammars.brown = [
         "prob": 0.04
     }, 
     {
+        "count": 1, 
         "rhs": [
             {
                 "is_terminal": true, 
@@ -1704,6 +1750,7 @@ grammars.brown = [
         "prob": 0.04
     }, 
     {
+        "count": 25, 
         "rhs": [
             {
                 "is_terminal": true, 
@@ -1726,6 +1773,7 @@ grammars.brown = [
         "prob": 1.0
     }, 
     {
+        "count": 362, 
         "rhs": [
             {
                 "is_terminal": true, 
@@ -1740,6 +1788,7 @@ grammars.brown = [
         "prob": 1.0
     }, 
     {
+        "count": 119, 
         "rhs": [
             {
                 "is_terminal": true, 
@@ -1754,6 +1803,7 @@ grammars.brown = [
         "prob": 1.0
     }, 
     {
+        "count": 2, 
         "rhs": [
             {
                 "is_terminal": true, 
@@ -1764,6 +1814,7 @@ grammars.brown = [
         "prob": 0.333333
     }, 
     {
+        "count": 1, 
         "rhs": [
             {
                 "is_terminal": true, 
@@ -1774,6 +1825,7 @@ grammars.brown = [
         "prob": 0.166667
     }, 
     {
+        "count": 1, 
         "rhs": [
             {
                 "is_terminal": true, 
@@ -1784,6 +1836,7 @@ grammars.brown = [
         "prob": 0.166667
     }, 
     {
+        "count": 1, 
         "rhs": [
             {
                 "is_terminal": true, 
@@ -1794,6 +1847,7 @@ grammars.brown = [
         "prob": 0.166667
     }, 
     {
+        "count": 1, 
         "rhs": [
             {
                 "is_terminal": true, 
@@ -1804,6 +1858,7 @@ grammars.brown = [
         "prob": 0.166667
     }, 
     {
+        "count": 6, 
         "rhs": [
             {
                 "is_terminal": true, 
@@ -1826,6 +1881,7 @@ grammars.brown = [
         "prob": 1.0
     }, 
     {
+        "count": 136, 
         "rhs": [
             {
                 "is_terminal": true, 
@@ -1840,6 +1896,7 @@ grammars.brown = [
         "prob": 1.0
     }, 
     {
+        "count": 35, 
         "rhs": [
             {
                 "is_terminal": true, 
@@ -1850,6 +1907,7 @@ grammars.brown = [
         "prob": 0.116279
     }, 
     {
+        "count": 85, 
         "rhs": [
             {
                 "is_terminal": true, 
@@ -1860,6 +1918,7 @@ grammars.brown = [
         "prob": 0.282392
     }, 
     {
+        "count": 181, 
         "rhs": [
             {
                 "is_terminal": true, 
@@ -1870,6 +1929,7 @@ grammars.brown = [
         "prob": 0.601329
     }, 
     {
+        "count": 295, 
         "rhs": [
             {
                 "is_terminal": false, 
@@ -1884,6 +1944,7 @@ grammars.brown = [
         "prob": 1.0
     }, 
     {
+        "count": 214, 
         "rhs": [
             {
                 "is_terminal": true, 
@@ -1898,6 +1959,7 @@ grammars.brown = [
         "prob": 1.0
     }, 
     {
+        "count": 1, 
         "rhs": [
             {
                 "is_terminal": true, 
@@ -1908,6 +1970,7 @@ grammars.brown = [
         "prob": 0.0357143
     }, 
     {
+        "count": 1, 
         "rhs": [
             {
                 "is_terminal": true, 
@@ -1918,6 +1981,7 @@ grammars.brown = [
         "prob": 0.0357143
     }, 
     {
+        "count": 1, 
         "rhs": [
             {
                 "is_terminal": true, 
@@ -1928,6 +1992,7 @@ grammars.brown = [
         "prob": 0.0357143
     }, 
     {
+        "count": 1, 
         "rhs": [
             {
                 "is_terminal": true, 
@@ -1938,6 +2003,7 @@ grammars.brown = [
         "prob": 0.0357143
     }, 
     {
+        "count": 1, 
         "rhs": [
             {
                 "is_terminal": true, 
@@ -1948,6 +2014,7 @@ grammars.brown = [
         "prob": 0.0357143
     }, 
     {
+        "count": 1, 
         "rhs": [
             {
                 "is_terminal": true, 
@@ -1958,6 +2025,7 @@ grammars.brown = [
         "prob": 0.0357143
     }, 
     {
+        "count": 2, 
         "rhs": [
             {
                 "is_terminal": true, 
@@ -1968,6 +2036,7 @@ grammars.brown = [
         "prob": 0.0714286
     }, 
     {
+        "count": 1, 
         "rhs": [
             {
                 "is_terminal": true, 
@@ -1978,6 +2047,7 @@ grammars.brown = [
         "prob": 0.0357143
     }, 
     {
+        "count": 3, 
         "rhs": [
             {
                 "is_terminal": true, 
@@ -1988,6 +2058,7 @@ grammars.brown = [
         "prob": 0.107143
     }, 
     {
+        "count": 1, 
         "rhs": [
             {
                 "is_terminal": true, 
@@ -1998,6 +2069,7 @@ grammars.brown = [
         "prob": 0.0357143
     }, 
     {
+        "count": 1, 
         "rhs": [
             {
                 "is_terminal": true, 
@@ -2008,6 +2080,7 @@ grammars.brown = [
         "prob": 0.0357143
     }, 
     {
+        "count": 1, 
         "rhs": [
             {
                 "is_terminal": true, 
@@ -2018,6 +2091,7 @@ grammars.brown = [
         "prob": 0.0357143
     }, 
     {
+        "count": 1, 
         "rhs": [
             {
                 "is_terminal": true, 
@@ -2028,6 +2102,7 @@ grammars.brown = [
         "prob": 0.0357143
     }, 
     {
+        "count": 1, 
         "rhs": [
             {
                 "is_terminal": true, 
@@ -2038,6 +2113,7 @@ grammars.brown = [
         "prob": 0.0357143
     }, 
     {
+        "count": 1, 
         "rhs": [
             {
                 "is_terminal": true, 
@@ -2048,6 +2124,7 @@ grammars.brown = [
         "prob": 0.0357143
     }, 
     {
+        "count": 1, 
         "rhs": [
             {
                 "is_terminal": true, 
@@ -2058,6 +2135,7 @@ grammars.brown = [
         "prob": 0.0357143
     }, 
     {
+        "count": 1, 
         "rhs": [
             {
                 "is_terminal": true, 
@@ -2068,6 +2146,7 @@ grammars.brown = [
         "prob": 0.0357143
     }, 
     {
+        "count": 1, 
         "rhs": [
             {
                 "is_terminal": true, 
@@ -2078,6 +2157,7 @@ grammars.brown = [
         "prob": 0.0357143
     }, 
     {
+        "count": 1, 
         "rhs": [
             {
                 "is_terminal": true, 
@@ -2088,6 +2168,7 @@ grammars.brown = [
         "prob": 0.0357143
     }, 
     {
+        "count": 1, 
         "rhs": [
             {
                 "is_terminal": true, 
@@ -2098,6 +2179,7 @@ grammars.brown = [
         "prob": 0.0357143
     }, 
     {
+        "count": 1, 
         "rhs": [
             {
                 "is_terminal": true, 
@@ -2108,6 +2190,7 @@ grammars.brown = [
         "prob": 0.0357143
     }, 
     {
+        "count": 1, 
         "rhs": [
             {
                 "is_terminal": true, 
@@ -2118,6 +2201,7 @@ grammars.brown = [
         "prob": 0.0357143
     }, 
     {
+        "count": 1, 
         "rhs": [
             {
                 "is_terminal": true, 
@@ -2128,6 +2212,7 @@ grammars.brown = [
         "prob": 0.0357143
     }, 
     {
+        "count": 1, 
         "rhs": [
             {
                 "is_terminal": true, 
@@ -2138,6 +2223,7 @@ grammars.brown = [
         "prob": 0.0357143
     }, 
     {
+        "count": 1, 
         "rhs": [
             {
                 "is_terminal": true, 
@@ -2148,6 +2234,7 @@ grammars.brown = [
         "prob": 0.0357143
     }, 
     {
+        "count": 28, 
         "rhs": [
             {
                 "is_terminal": true, 
@@ -2170,6 +2257,7 @@ grammars.brown = [
         "prob": 1.0
     }, 
     {
+        "count": 187, 
         "rhs": [
             {
                 "is_terminal": true, 
@@ -2184,6 +2272,7 @@ grammars.brown = [
         "prob": 1.0
     }, 
     {
+        "count": 1, 
         "rhs": [
             {
                 "is_terminal": true, 
@@ -2194,6 +2283,7 @@ grammars.brown = [
         "prob": 0.125
     }, 
     {
+        "count": 1, 
         "rhs": [
             {
                 "is_terminal": true, 
@@ -2204,6 +2294,7 @@ grammars.brown = [
         "prob": 0.125
     }, 
     {
+        "count": 1, 
         "rhs": [
             {
                 "is_terminal": true, 
@@ -2214,6 +2305,7 @@ grammars.brown = [
         "prob": 0.125
     }, 
     {
+        "count": 1, 
         "rhs": [
             {
                 "is_terminal": true, 
@@ -2224,6 +2316,7 @@ grammars.brown = [
         "prob": 0.125
     }, 
     {
+        "count": 1, 
         "rhs": [
             {
                 "is_terminal": true, 
@@ -2234,6 +2327,7 @@ grammars.brown = [
         "prob": 0.125
     }, 
     {
+        "count": 1, 
         "rhs": [
             {
                 "is_terminal": true, 
@@ -2244,6 +2338,7 @@ grammars.brown = [
         "prob": 0.125
     }, 
     {
+        "count": 1, 
         "rhs": [
             {
                 "is_terminal": true, 
@@ -2254,6 +2349,7 @@ grammars.brown = [
         "prob": 0.125
     }, 
     {
+        "count": 1, 
         "rhs": [
             {
                 "is_terminal": true, 
@@ -2264,6 +2360,7 @@ grammars.brown = [
         "prob": 0.125
     }, 
     {
+        "count": 8, 
         "rhs": [
             {
                 "is_terminal": true, 
@@ -2286,6 +2383,7 @@ grammars.brown = [
         "prob": 1.0
     }, 
     {
+        "count": 424, 
         "rhs": [
             {
                 "is_terminal": true, 
@@ -2300,6 +2398,7 @@ grammars.brown = [
         "prob": 1.0
     }, 
     {
+        "count": 262, 
         "rhs": [
             {
                 "is_terminal": true, 
@@ -2314,6 +2413,7 @@ grammars.brown = [
         "prob": 1.0
     }, 
     {
+        "count": 1, 
         "rhs": [
             {
                 "is_terminal": true, 
@@ -2324,6 +2424,7 @@ grammars.brown = [
         "prob": 0.333333
     }, 
     {
+        "count": 1, 
         "rhs": [
             {
                 "is_terminal": true, 
@@ -2334,6 +2435,7 @@ grammars.brown = [
         "prob": 0.333333
     }, 
     {
+        "count": 1, 
         "rhs": [
             {
                 "is_terminal": true, 
@@ -2344,6 +2446,7 @@ grammars.brown = [
         "prob": 0.333333
     }, 
     {
+        "count": 3, 
         "rhs": [
             {
                 "is_terminal": true, 
@@ -2366,6 +2469,7 @@ grammars.brown = [
         "prob": 1.0
     }, 
     {
+        "count": 1, 
         "rhs": [
             {
                 "is_terminal": true, 
@@ -2376,6 +2480,7 @@ grammars.brown = [
         "prob": 0.5
     }, 
     {
+        "count": 1, 
         "rhs": [
             {
                 "is_terminal": true, 
@@ -2386,6 +2491,7 @@ grammars.brown = [
         "prob": 0.5
     }, 
     {
+        "count": 2, 
         "rhs": [
             {
                 "is_terminal": true, 
@@ -2408,6 +2514,7 @@ grammars.brown = [
         "prob": 1.0
     }, 
     {
+        "count": 19, 
         "rhs": [
             {
                 "is_terminal": true, 
@@ -2426,6 +2533,7 @@ grammars.brown = [
         "prob": 1.0
     }, 
     {
+        "count": 59, 
         "rhs": [
             {
                 "is_terminal": true, 
@@ -2440,6 +2548,7 @@ grammars.brown = [
         "prob": 1.0
     }, 
     {
+        "count": 59, 
         "rhs": [
             {
                 "is_terminal": true, 
@@ -2454,6 +2563,7 @@ grammars.brown = [
         "prob": 1.0
     }, 
     {
+        "count": 70, 
         "rhs": [
             {
                 "is_terminal": true, 
@@ -2468,6 +2578,7 @@ grammars.brown = [
         "prob": 1.0
     }, 
     {
+        "count": 12, 
         "rhs": [
             {
                 "is_terminal": true, 
@@ -2486,6 +2597,7 @@ grammars.brown = [
         "prob": 1.0
     }, 
     {
+        "count": 1, 
         "rhs": [
             {
                 "is_terminal": true, 
@@ -2496,6 +2608,7 @@ grammars.brown = [
         "prob": 0.125
     }, 
     {
+        "count": 7, 
         "rhs": [
             {
                 "is_terminal": true, 
@@ -2506,6 +2619,7 @@ grammars.brown = [
         "prob": 0.875
     }, 
     {
+        "count": 8, 
         "rhs": [
             {
                 "is_terminal": true, 
@@ -2524,6 +2638,7 @@ grammars.brown = [
         "prob": 1.0
     }, 
     {
+        "count": 233, 
         "rhs": [
             {
                 "is_terminal": true, 
@@ -2538,6 +2653,7 @@ grammars.brown = [
         "prob": 1.0
     }, 
     {
+        "count": 31, 
         "rhs": [
             {
                 "is_terminal": true, 
@@ -2556,6 +2672,7 @@ grammars.brown = [
         "prob": 1.0
     }, 
     {
+        "count": 93, 
         "rhs": [
             {
                 "is_terminal": true, 
@@ -2566,6 +2683,7 @@ grammars.brown = [
         "prob": 0.313131
     }, 
     {
+        "count": 35, 
         "rhs": [
             {
                 "is_terminal": false, 
@@ -2576,6 +2694,7 @@ grammars.brown = [
         "prob": 0.117845
     }, 
     {
+        "count": 169, 
         "rhs": [
             {
                 "is_terminal": true, 
@@ -2586,6 +2705,7 @@ grammars.brown = [
         "prob": 0.569024
     }, 
     {
+        "count": 106, 
         "rhs": [
             {
                 "is_terminal": true, 
@@ -2600,6 +2720,7 @@ grammars.brown = [
         "prob": 1.0
     }, 
     {
+        "count": 1, 
         "rhs": [
             {
                 "is_terminal": true, 
@@ -2610,6 +2731,7 @@ grammars.brown = [
         "prob": 0.2
     }, 
     {
+        "count": 1, 
         "rhs": [
             {
                 "is_terminal": true, 
@@ -2620,6 +2742,7 @@ grammars.brown = [
         "prob": 0.2
     }, 
     {
+        "count": 1, 
         "rhs": [
             {
                 "is_terminal": true, 
@@ -2630,6 +2753,7 @@ grammars.brown = [
         "prob": 0.2
     }, 
     {
+        "count": 1, 
         "rhs": [
             {
                 "is_terminal": true, 
@@ -2640,6 +2764,7 @@ grammars.brown = [
         "prob": 0.2
     }, 
     {
+        "count": 1, 
         "rhs": [
             {
                 "is_terminal": true, 
@@ -2650,6 +2775,7 @@ grammars.brown = [
         "prob": 0.2
     }, 
     {
+        "count": 5, 
         "rhs": [
             {
                 "is_terminal": true, 
@@ -2672,6 +2798,7 @@ grammars.brown = [
         "prob": 1.0
     }, 
     {
+        "count": 1, 
         "rhs": [
             {
                 "is_terminal": true, 
@@ -2682,6 +2809,7 @@ grammars.brown = [
         "prob": 0.0909091
     }, 
     {
+        "count": 1, 
         "rhs": [
             {
                 "is_terminal": true, 
@@ -2692,6 +2820,7 @@ grammars.brown = [
         "prob": 0.0909091
     }, 
     {
+        "count": 1, 
         "rhs": [
             {
                 "is_terminal": true, 
@@ -2702,6 +2831,7 @@ grammars.brown = [
         "prob": 0.0909091
     }, 
     {
+        "count": 1, 
         "rhs": [
             {
                 "is_terminal": true, 
@@ -2712,6 +2842,7 @@ grammars.brown = [
         "prob": 0.0909091
     }, 
     {
+        "count": 2, 
         "rhs": [
             {
                 "is_terminal": true, 
@@ -2722,6 +2853,7 @@ grammars.brown = [
         "prob": 0.181818
     }, 
     {
+        "count": 1, 
         "rhs": [
             {
                 "is_terminal": true, 
@@ -2732,6 +2864,7 @@ grammars.brown = [
         "prob": 0.0909091
     }, 
     {
+        "count": 1, 
         "rhs": [
             {
                 "is_terminal": true, 
@@ -2742,6 +2875,7 @@ grammars.brown = [
         "prob": 0.0909091
     }, 
     {
+        "count": 1, 
         "rhs": [
             {
                 "is_terminal": true, 
@@ -2752,6 +2886,7 @@ grammars.brown = [
         "prob": 0.0909091
     }, 
     {
+        "count": 1, 
         "rhs": [
             {
                 "is_terminal": true, 
@@ -2762,6 +2897,7 @@ grammars.brown = [
         "prob": 0.0909091
     }, 
     {
+        "count": 1, 
         "rhs": [
             {
                 "is_terminal": true, 
@@ -2772,6 +2908,7 @@ grammars.brown = [
         "prob": 0.0909091
     }, 
     {
+        "count": 11, 
         "rhs": [
             {
                 "is_terminal": true, 
@@ -2794,6 +2931,7 @@ grammars.brown = [
         "prob": 1.0
     }, 
     {
+        "count": 1, 
         "rhs": [
             {
                 "is_terminal": true, 
@@ -2804,6 +2942,7 @@ grammars.brown = [
         "prob": 0.2
     }, 
     {
+        "count": 1, 
         "rhs": [
             {
                 "is_terminal": true, 
@@ -2814,6 +2953,7 @@ grammars.brown = [
         "prob": 0.2
     }, 
     {
+        "count": 1, 
         "rhs": [
             {
                 "is_terminal": true, 
@@ -2824,6 +2964,7 @@ grammars.brown = [
         "prob": 0.2
     }, 
     {
+        "count": 1, 
         "rhs": [
             {
                 "is_terminal": true, 
@@ -2834,6 +2975,7 @@ grammars.brown = [
         "prob": 0.2
     }, 
     {
+        "count": 1, 
         "rhs": [
             {
                 "is_terminal": true, 
@@ -2844,6 +2986,7 @@ grammars.brown = [
         "prob": 0.2
     }, 
     {
+        "count": 5, 
         "rhs": [
             {
                 "is_terminal": true, 
@@ -2866,6 +3009,7 @@ grammars.brown = [
         "prob": 1.0
     }, 
     {
+        "count": 1, 
         "rhs": [
             {
                 "is_terminal": true, 
@@ -2876,6 +3020,7 @@ grammars.brown = [
         "prob": 0.25
     }, 
     {
+        "count": 1, 
         "rhs": [
             {
                 "is_terminal": true, 
@@ -2886,6 +3031,7 @@ grammars.brown = [
         "prob": 0.25
     }, 
     {
+        "count": 1, 
         "rhs": [
             {
                 "is_terminal": true, 
@@ -2896,6 +3042,7 @@ grammars.brown = [
         "prob": 0.25
     }, 
     {
+        "count": 1, 
         "rhs": [
             {
                 "is_terminal": true, 
@@ -2906,6 +3053,7 @@ grammars.brown = [
         "prob": 0.25
     }, 
     {
+        "count": 4, 
         "rhs": [
             {
                 "is_terminal": true, 
@@ -2928,6 +3076,7 @@ grammars.brown = [
         "prob": 1.0
     }, 
     {
+        "count": 1, 
         "rhs": [
             {
                 "is_terminal": true, 
@@ -2938,6 +3087,7 @@ grammars.brown = [
         "prob": 0.5
     }, 
     {
+        "count": 1, 
         "rhs": [
             {
                 "is_terminal": true, 
@@ -2948,6 +3098,7 @@ grammars.brown = [
         "prob": 0.5
     }, 
     {
+        "count": 2, 
         "rhs": [
             {
                 "is_terminal": true, 
@@ -2970,6 +3121,7 @@ grammars.brown = [
         "prob": 1.0
     }, 
     {
+        "count": 2, 
         "rhs": [
             {
                 "is_terminal": true, 
@@ -2980,6 +3132,7 @@ grammars.brown = [
         "prob": 0.0526316
     }, 
     {
+        "count": 36, 
         "rhs": [
             {
                 "is_terminal": true, 
@@ -2990,6 +3143,7 @@ grammars.brown = [
         "prob": 0.947368
     }, 
     {
+        "count": 109, 
         "rhs": [
             {
                 "is_terminal": true, 
@@ -3000,6 +3154,7 @@ grammars.brown = [
         "prob": 0.514151
     }, 
     {
+        "count": 103, 
         "rhs": [
             {
                 "is_terminal": true, 
@@ -3010,6 +3165,7 @@ grammars.brown = [
         "prob": 0.485849
     }, 
     {
+        "count": 38, 
         "rhs": [
             {
                 "is_terminal": true, 
@@ -3028,6 +3184,7 @@ grammars.brown = [
         "prob": 1.0
     }, 
     {
+        "count": 1, 
         "rhs": [
             {
                 "is_terminal": true, 
@@ -3038,6 +3195,7 @@ grammars.brown = [
         "prob": 0.25
     }, 
     {
+        "count": 1, 
         "rhs": [
             {
                 "is_terminal": true, 
@@ -3048,6 +3206,7 @@ grammars.brown = [
         "prob": 0.25
     }, 
     {
+        "count": 1, 
         "rhs": [
             {
                 "is_terminal": true, 
@@ -3058,6 +3217,7 @@ grammars.brown = [
         "prob": 0.25
     }, 
     {
+        "count": 1, 
         "rhs": [
             {
                 "is_terminal": true, 
@@ -3068,6 +3228,7 @@ grammars.brown = [
         "prob": 0.25
     }, 
     {
+        "count": 4, 
         "rhs": [
             {
                 "is_terminal": true, 
@@ -3090,6 +3251,7 @@ grammars.brown = [
         "prob": 1.0
     }, 
     {
+        "count": 13, 
         "rhs": [
             {
                 "is_terminal": true, 
@@ -3108,6 +3270,7 @@ grammars.brown = [
         "prob": 1.0
     }, 
     {
+        "count": 156, 
         "rhs": [
             {
                 "is_terminal": false, 
@@ -3122,6 +3285,7 @@ grammars.brown = [
         "prob": 1.0
     }, 
     {
+        "count": 1, 
         "rhs": [
             {
                 "is_terminal": true, 
@@ -3132,6 +3296,7 @@ grammars.brown = [
         "prob": 0.0714286
     }, 
     {
+        "count": 2, 
         "rhs": [
             {
                 "is_terminal": true, 
@@ -3142,6 +3307,7 @@ grammars.brown = [
         "prob": 0.142857
     }, 
     {
+        "count": 1, 
         "rhs": [
             {
                 "is_terminal": true, 
@@ -3152,6 +3318,7 @@ grammars.brown = [
         "prob": 0.0714286
     }, 
     {
+        "count": 1, 
         "rhs": [
             {
                 "is_terminal": true, 
@@ -3162,6 +3329,7 @@ grammars.brown = [
         "prob": 0.0714286
     }, 
     {
+        "count": 1, 
         "rhs": [
             {
                 "is_terminal": true, 
@@ -3172,6 +3340,7 @@ grammars.brown = [
         "prob": 0.0714286
     }, 
     {
+        "count": 1, 
         "rhs": [
             {
                 "is_terminal": true, 
@@ -3182,6 +3351,7 @@ grammars.brown = [
         "prob": 0.0714286
     }, 
     {
+        "count": 1, 
         "rhs": [
             {
                 "is_terminal": true, 
@@ -3192,6 +3362,7 @@ grammars.brown = [
         "prob": 0.0714286
     }, 
     {
+        "count": 1, 
         "rhs": [
             {
                 "is_terminal": true, 
@@ -3202,6 +3373,7 @@ grammars.brown = [
         "prob": 0.0714286
     }, 
     {
+        "count": 1, 
         "rhs": [
             {
                 "is_terminal": true, 
@@ -3212,6 +3384,7 @@ grammars.brown = [
         "prob": 0.0714286
     }, 
     {
+        "count": 1, 
         "rhs": [
             {
                 "is_terminal": true, 
@@ -3222,6 +3395,7 @@ grammars.brown = [
         "prob": 0.0714286
     }, 
     {
+        "count": 1, 
         "rhs": [
             {
                 "is_terminal": true, 
@@ -3232,6 +3406,7 @@ grammars.brown = [
         "prob": 0.0714286
     }, 
     {
+        "count": 1, 
         "rhs": [
             {
                 "is_terminal": true, 
@@ -3242,6 +3417,7 @@ grammars.brown = [
         "prob": 0.0714286
     }, 
     {
+        "count": 1, 
         "rhs": [
             {
                 "is_terminal": true, 
@@ -3252,6 +3428,7 @@ grammars.brown = [
         "prob": 0.0714286
     }, 
     {
+        "count": 14, 
         "rhs": [
             {
                 "is_terminal": true, 
@@ -3274,6 +3451,7 @@ grammars.brown = [
         "prob": 1.0
     }, 
     {
+        "count": 1, 
         "rhs": [
             {
                 "is_terminal": true, 
@@ -3284,6 +3462,7 @@ grammars.brown = [
         "prob": 0.125
     }, 
     {
+        "count": 1, 
         "rhs": [
             {
                 "is_terminal": true, 
@@ -3294,6 +3473,7 @@ grammars.brown = [
         "prob": 0.125
     }, 
     {
+        "count": 1, 
         "rhs": [
             {
                 "is_terminal": true, 
@@ -3304,6 +3484,7 @@ grammars.brown = [
         "prob": 0.125
     }, 
     {
+        "count": 1, 
         "rhs": [
             {
                 "is_terminal": true, 
@@ -3314,6 +3495,7 @@ grammars.brown = [
         "prob": 0.125
     }, 
     {
+        "count": 1, 
         "rhs": [
             {
                 "is_terminal": true, 
@@ -3324,6 +3506,7 @@ grammars.brown = [
         "prob": 0.125
     }, 
     {
+        "count": 1, 
         "rhs": [
             {
                 "is_terminal": true, 
@@ -3334,6 +3517,7 @@ grammars.brown = [
         "prob": 0.125
     }, 
     {
+        "count": 1, 
         "rhs": [
             {
                 "is_terminal": true, 
@@ -3344,6 +3528,7 @@ grammars.brown = [
         "prob": 0.125
     }, 
     {
+        "count": 1, 
         "rhs": [
             {
                 "is_terminal": true, 
@@ -3354,6 +3539,7 @@ grammars.brown = [
         "prob": 0.125
     }, 
     {
+        "count": 8, 
         "rhs": [
             {
                 "is_terminal": true, 
@@ -3376,6 +3562,7 @@ grammars.brown = [
         "prob": 1.0
     }, 
     {
+        "count": 2, 
         "rhs": [
             {
                 "is_terminal": true, 
@@ -3386,6 +3573,7 @@ grammars.brown = [
         "prob": 0.0588235
     }, 
     {
+        "count": 7, 
         "rhs": [
             {
                 "is_terminal": true, 
@@ -3396,6 +3584,7 @@ grammars.brown = [
         "prob": 0.205882
     }, 
     {
+        "count": 25, 
         "rhs": [
             {
                 "is_terminal": true, 
@@ -3406,6 +3595,7 @@ grammars.brown = [
         "prob": 0.735294
     }, 
     {
+        "count": 34, 
         "rhs": [
             {
                 "is_terminal": true, 
@@ -3424,6 +3614,7 @@ grammars.brown = [
         "prob": 1.0
     }, 
     {
+        "count": 9, 
         "rhs": [
             {
                 "is_terminal": true, 
@@ -3438,6 +3629,7 @@ grammars.brown = [
         "prob": 1.0
     }, 
     {
+        "count": 1, 
         "rhs": [
             {
                 "is_terminal": true, 
@@ -3448,6 +3640,7 @@ grammars.brown = [
         "prob": 0.333333
     }, 
     {
+        "count": 1, 
         "rhs": [
             {
                 "is_terminal": true, 
@@ -3458,6 +3651,7 @@ grammars.brown = [
         "prob": 0.333333
     }, 
     {
+        "count": 1, 
         "rhs": [
             {
                 "is_terminal": true, 
@@ -3468,6 +3662,7 @@ grammars.brown = [
         "prob": 0.333333
     }, 
     {
+        "count": 78, 
         "rhs": [
             {
                 "is_terminal": true, 
@@ -3478,6 +3673,7 @@ grammars.brown = [
         "prob": 0.83871
     }, 
     {
+        "count": 15, 
         "rhs": [
             {
                 "is_terminal": false, 
@@ -3488,6 +3684,7 @@ grammars.brown = [
         "prob": 0.16129
     }, 
     {
+        "count": 3, 
         "rhs": [
             {
                 "is_terminal": true, 
@@ -3510,6 +3707,7 @@ grammars.brown = [
         "prob": 1.0
     }, 
     {
+        "count": 144, 
         "rhs": [
             {
                 "is_terminal": true, 
@@ -3524,6 +3722,7 @@ grammars.brown = [
         "prob": 1.0
     }, 
     {
+        "count": 1, 
         "rhs": [
             {
                 "is_terminal": true, 
@@ -3534,6 +3733,7 @@ grammars.brown = [
         "prob": 0.5
     }, 
     {
+        "count": 1, 
         "rhs": [
             {
                 "is_terminal": true, 
@@ -3544,6 +3744,7 @@ grammars.brown = [
         "prob": 0.5
     }, 
     {
+        "count": 2, 
         "rhs": [
             {
                 "is_terminal": true, 
@@ -3566,6 +3767,7 @@ grammars.brown = [
         "prob": 1.0
     }, 
     {
+        "count": 1, 
         "rhs": [
             {
                 "is_terminal": true, 
@@ -3576,6 +3778,7 @@ grammars.brown = [
         "prob": 0.0909091
     }, 
     {
+        "count": 1, 
         "rhs": [
             {
                 "is_terminal": true, 
@@ -3586,6 +3789,7 @@ grammars.brown = [
         "prob": 0.0909091
     }, 
     {
+        "count": 1, 
         "rhs": [
             {
                 "is_terminal": true, 
@@ -3596,6 +3800,7 @@ grammars.brown = [
         "prob": 0.0909091
     }, 
     {
+        "count": 1, 
         "rhs": [
             {
                 "is_terminal": true, 
@@ -3606,6 +3811,7 @@ grammars.brown = [
         "prob": 0.0909091
     }, 
     {
+        "count": 1, 
         "rhs": [
             {
                 "is_terminal": true, 
@@ -3616,6 +3822,7 @@ grammars.brown = [
         "prob": 0.0909091
     }, 
     {
+        "count": 1, 
         "rhs": [
             {
                 "is_terminal": true, 
@@ -3626,6 +3833,7 @@ grammars.brown = [
         "prob": 0.0909091
     }, 
     {
+        "count": 1, 
         "rhs": [
             {
                 "is_terminal": true, 
@@ -3636,6 +3844,7 @@ grammars.brown = [
         "prob": 0.0909091
     }, 
     {
+        "count": 1, 
         "rhs": [
             {
                 "is_terminal": true, 
@@ -3646,6 +3855,7 @@ grammars.brown = [
         "prob": 0.0909091
     }, 
     {
+        "count": 1, 
         "rhs": [
             {
                 "is_terminal": true, 
@@ -3656,6 +3866,7 @@ grammars.brown = [
         "prob": 0.0909091
     }, 
     {
+        "count": 1, 
         "rhs": [
             {
                 "is_terminal": true, 
@@ -3666,6 +3877,7 @@ grammars.brown = [
         "prob": 0.0909091
     }, 
     {
+        "count": 1, 
         "rhs": [
             {
                 "is_terminal": true, 
@@ -3676,6 +3888,7 @@ grammars.brown = [
         "prob": 0.0909091
     }, 
     {
+        "count": 11, 
         "rhs": [
             {
                 "is_terminal": true, 
@@ -3698,6 +3911,7 @@ grammars.brown = [
         "prob": 1.0
     }, 
     {
+        "count": 1, 
         "rhs": [
             {
                 "is_terminal": true, 
@@ -3708,6 +3922,7 @@ grammars.brown = [
         "prob": 0.0769231
     }, 
     {
+        "count": 1, 
         "rhs": [
             {
                 "is_terminal": true, 
@@ -3718,6 +3933,7 @@ grammars.brown = [
         "prob": 0.0769231
     }, 
     {
+        "count": 3, 
         "rhs": [
             {
                 "is_terminal": true, 
@@ -3728,6 +3944,7 @@ grammars.brown = [
         "prob": 0.230769
     }, 
     {
+        "count": 1, 
         "rhs": [
             {
                 "is_terminal": true, 
@@ -3738,6 +3955,7 @@ grammars.brown = [
         "prob": 0.0769231
     }, 
     {
+        "count": 1, 
         "rhs": [
             {
                 "is_terminal": true, 
@@ -3748,6 +3966,7 @@ grammars.brown = [
         "prob": 0.0769231
     }, 
     {
+        "count": 1, 
         "rhs": [
             {
                 "is_terminal": true, 
@@ -3758,6 +3977,7 @@ grammars.brown = [
         "prob": 0.0769231
     }, 
     {
+        "count": 1, 
         "rhs": [
             {
                 "is_terminal": true, 
@@ -3768,6 +3988,7 @@ grammars.brown = [
         "prob": 0.0769231
     }, 
     {
+        "count": 1, 
         "rhs": [
             {
                 "is_terminal": true, 
@@ -3778,6 +3999,7 @@ grammars.brown = [
         "prob": 0.0769231
     }, 
     {
+        "count": 2, 
         "rhs": [
             {
                 "is_terminal": true, 
@@ -3788,6 +4010,7 @@ grammars.brown = [
         "prob": 0.153846
     }, 
     {
+        "count": 1, 
         "rhs": [
             {
                 "is_terminal": true, 
@@ -3798,6 +4021,7 @@ grammars.brown = [
         "prob": 0.0769231
     }, 
     {
+        "count": 13, 
         "rhs": [
             {
                 "is_terminal": false, 
@@ -3820,6 +4044,7 @@ grammars.brown = [
         "prob": 1.0
     }, 
     {
+        "count": 1, 
         "rhs": [
             {
                 "is_terminal": true, 
@@ -3830,6 +4055,7 @@ grammars.brown = [
         "prob": 0.166667
     }, 
     {
+        "count": 1, 
         "rhs": [
             {
                 "is_terminal": true, 
@@ -3840,6 +4066,7 @@ grammars.brown = [
         "prob": 0.166667
     }, 
     {
+        "count": 1, 
         "rhs": [
             {
                 "is_terminal": true, 
@@ -3850,6 +4077,7 @@ grammars.brown = [
         "prob": 0.166667
     }, 
     {
+        "count": 1, 
         "rhs": [
             {
                 "is_terminal": true, 
@@ -3860,6 +4088,7 @@ grammars.brown = [
         "prob": 0.166667
     }, 
     {
+        "count": 1, 
         "rhs": [
             {
                 "is_terminal": true, 
@@ -3870,6 +4099,7 @@ grammars.brown = [
         "prob": 0.166667
     }, 
     {
+        "count": 1, 
         "rhs": [
             {
                 "is_terminal": true, 
@@ -3880,6 +4110,7 @@ grammars.brown = [
         "prob": 0.166667
     }, 
     {
+        "count": 6, 
         "rhs": [
             {
                 "is_terminal": true, 
@@ -3902,6 +4133,7 @@ grammars.brown = [
         "prob": 1.0
     }, 
     {
+        "count": 1, 
         "rhs": [
             {
                 "is_terminal": true, 
@@ -3912,6 +4144,7 @@ grammars.brown = [
         "prob": 0.0588235
     }, 
     {
+        "count": 16, 
         "rhs": [
             {
                 "is_terminal": true, 
@@ -3922,6 +4155,7 @@ grammars.brown = [
         "prob": 0.941176
     }, 
     {
+        "count": 17, 
         "rhs": [
             {
                 "is_terminal": true, 
@@ -3936,6 +4170,7 @@ grammars.brown = [
         "prob": 1.0
     }, 
     {
+        "count": 126, 
         "rhs": [
             {
                 "is_terminal": true, 
@@ -3950,6 +4185,7 @@ grammars.brown = [
         "prob": 1.0
     }, 
     {
+        "count": 2, 
         "rhs": [
             {
                 "is_terminal": true, 
@@ -3960,6 +4196,7 @@ grammars.brown = [
         "prob": 0.08
     }, 
     {
+        "count": 4, 
         "rhs": [
             {
                 "is_terminal": true, 
@@ -3970,6 +4207,7 @@ grammars.brown = [
         "prob": 0.16
     }, 
     {
+        "count": 14, 
         "rhs": [
             {
                 "is_terminal": true, 
@@ -3980,6 +4218,7 @@ grammars.brown = [
         "prob": 0.56
     }, 
     {
+        "count": 4, 
         "rhs": [
             {
                 "is_terminal": true, 
@@ -3990,6 +4229,7 @@ grammars.brown = [
         "prob": 0.16
     }, 
     {
+        "count": 1, 
         "rhs": [
             {
                 "is_terminal": true, 
@@ -4000,6 +4240,7 @@ grammars.brown = [
         "prob": 0.04
     }, 
     {
+        "count": 25, 
         "rhs": [
             {
                 "is_terminal": true, 
@@ -4022,6 +4263,7 @@ grammars.brown = [
         "prob": 1.0
     }, 
     {
+        "count": 4, 
         "rhs": [
             {
                 "is_terminal": true, 
@@ -4032,6 +4274,7 @@ grammars.brown = [
         "prob": 0.210526
     }, 
     {
+        "count": 1, 
         "rhs": [
             {
                 "is_terminal": true, 
@@ -4042,6 +4285,7 @@ grammars.brown = [
         "prob": 0.0526316
     }, 
     {
+        "count": 1, 
         "rhs": [
             {
                 "is_terminal": true, 
@@ -4052,6 +4296,7 @@ grammars.brown = [
         "prob": 0.0526316
     }, 
     {
+        "count": 1, 
         "rhs": [
             {
                 "is_terminal": true, 
@@ -4062,6 +4307,7 @@ grammars.brown = [
         "prob": 0.0526316
     }, 
     {
+        "count": 1, 
         "rhs": [
             {
                 "is_terminal": true, 
@@ -4072,6 +4318,7 @@ grammars.brown = [
         "prob": 0.0526316
     }, 
     {
+        "count": 1, 
         "rhs": [
             {
                 "is_terminal": true, 
@@ -4082,6 +4329,7 @@ grammars.brown = [
         "prob": 0.0526316
     }, 
     {
+        "count": 1, 
         "rhs": [
             {
                 "is_terminal": true, 
@@ -4092,6 +4340,7 @@ grammars.brown = [
         "prob": 0.0526316
     }, 
     {
+        "count": 1, 
         "rhs": [
             {
                 "is_terminal": true, 
@@ -4102,6 +4351,7 @@ grammars.brown = [
         "prob": 0.0526316
     }, 
     {
+        "count": 1, 
         "rhs": [
             {
                 "is_terminal": true, 
@@ -4112,6 +4362,7 @@ grammars.brown = [
         "prob": 0.0526316
     }, 
     {
+        "count": 1, 
         "rhs": [
             {
                 "is_terminal": true, 
@@ -4122,6 +4373,7 @@ grammars.brown = [
         "prob": 0.0526316
     }, 
     {
+        "count": 1, 
         "rhs": [
             {
                 "is_terminal": true, 
@@ -4132,6 +4384,7 @@ grammars.brown = [
         "prob": 0.0526316
     }, 
     {
+        "count": 1, 
         "rhs": [
             {
                 "is_terminal": true, 
@@ -4142,6 +4395,7 @@ grammars.brown = [
         "prob": 0.0526316
     }, 
     {
+        "count": 1, 
         "rhs": [
             {
                 "is_terminal": true, 
@@ -4152,6 +4406,7 @@ grammars.brown = [
         "prob": 0.0526316
     }, 
     {
+        "count": 1, 
         "rhs": [
             {
                 "is_terminal": true, 
@@ -4162,6 +4417,7 @@ grammars.brown = [
         "prob": 0.0526316
     }, 
     {
+        "count": 1, 
         "rhs": [
             {
                 "is_terminal": true, 
@@ -4172,6 +4428,7 @@ grammars.brown = [
         "prob": 0.0526316
     }, 
     {
+        "count": 1, 
         "rhs": [
             {
                 "is_terminal": true, 
@@ -4182,6 +4439,7 @@ grammars.brown = [
         "prob": 0.0526316
     }, 
     {
+        "count": 19, 
         "rhs": [
             {
                 "is_terminal": true, 
@@ -4204,6 +4462,7 @@ grammars.brown = [
         "prob": 1.0
     }, 
     {
+        "count": 9, 
         "rhs": [
             {
                 "is_terminal": true, 
@@ -4214,6 +4473,7 @@ grammars.brown = [
         "prob": 0.5625
     }, 
     {
+        "count": 7, 
         "rhs": [
             {
                 "is_terminal": true, 
@@ -4224,6 +4484,7 @@ grammars.brown = [
         "prob": 0.4375
     }, 
     {
+        "count": 1, 
         "rhs": [
             {
                 "is_terminal": true, 
@@ -4234,6 +4495,7 @@ grammars.brown = [
         "prob": 0.25
     }, 
     {
+        "count": 1, 
         "rhs": [
             {
                 "is_terminal": true, 
@@ -4244,6 +4506,7 @@ grammars.brown = [
         "prob": 0.25
     }, 
     {
+        "count": 1, 
         "rhs": [
             {
                 "is_terminal": true, 
@@ -4254,6 +4517,7 @@ grammars.brown = [
         "prob": 0.25
     }, 
     {
+        "count": 1, 
         "rhs": [
             {
                 "is_terminal": true, 
@@ -4264,6 +4528,7 @@ grammars.brown = [
         "prob": 0.25
     }, 
     {
+        "count": 4, 
         "rhs": [
             {
                 "is_terminal": true, 
@@ -4286,6 +4551,7 @@ grammars.brown = [
         "prob": 1.0
     }, 
     {
+        "count": 71, 
         "rhs": [
             {
                 "is_terminal": true, 
@@ -4300,6 +4566,7 @@ grammars.brown = [
         "prob": 1.0
     }, 
     {
+        "count": 1, 
         "rhs": [
             {
                 "is_terminal": true, 
@@ -4310,6 +4577,7 @@ grammars.brown = [
         "prob": 0.2
     }, 
     {
+        "count": 1, 
         "rhs": [
             {
                 "is_terminal": true, 
@@ -4320,6 +4588,7 @@ grammars.brown = [
         "prob": 0.2
     }, 
     {
+        "count": 1, 
         "rhs": [
             {
                 "is_terminal": true, 
@@ -4330,6 +4599,7 @@ grammars.brown = [
         "prob": 0.2
     }, 
     {
+        "count": 1, 
         "rhs": [
             {
                 "is_terminal": true, 
@@ -4340,6 +4610,7 @@ grammars.brown = [
         "prob": 0.2
     }, 
     {
+        "count": 1, 
         "rhs": [
             {
                 "is_terminal": true, 
@@ -4350,6 +4621,7 @@ grammars.brown = [
         "prob": 0.2
     }, 
     {
+        "count": 5, 
         "rhs": [
             {
                 "is_terminal": true, 
@@ -4372,6 +4644,7 @@ grammars.brown = [
         "prob": 1.0
     }, 
     {
+        "count": 1, 
         "rhs": [
             {
                 "is_terminal": true, 
@@ -4382,6 +4655,7 @@ grammars.brown = [
         "prob": 0.5
     }, 
     {
+        "count": 1, 
         "rhs": [
             {
                 "is_terminal": true, 
@@ -4392,6 +4666,7 @@ grammars.brown = [
         "prob": 0.5
     }, 
     {
+        "count": 2, 
         "rhs": [
             {
                 "is_terminal": true, 
@@ -4414,6 +4689,7 @@ grammars.brown = [
         "prob": 1.0
     }, 
     {
+        "count": 1, 
         "rhs": [
             {
                 "is_terminal": true, 
@@ -4424,6 +4700,7 @@ grammars.brown = [
         "prob": 0.5
     }, 
     {
+        "count": 1, 
         "rhs": [
             {
                 "is_terminal": true, 
@@ -4434,6 +4711,7 @@ grammars.brown = [
         "prob": 0.5
     }, 
     {
+        "count": 6, 
         "rhs": [
             {
                 "is_terminal": true, 
@@ -4444,6 +4722,7 @@ grammars.brown = [
         "prob": 0.5
     }, 
     {
+        "count": 6, 
         "rhs": [
             {
                 "is_terminal": true, 
@@ -4454,6 +4733,7 @@ grammars.brown = [
         "prob": 0.5
     }, 
     {
+        "count": 2, 
         "rhs": [
             {
                 "is_terminal": true, 
@@ -4476,6 +4756,7 @@ grammars.brown = [
         "prob": 1.0
     }, 
     {
+        "count": 93, 
         "rhs": [
             {
                 "is_terminal": true, 
@@ -4490,6 +4771,7 @@ grammars.brown = [
         "prob": 1.0
     }, 
     {
+        "count": 32, 
         "rhs": [
             {
                 "is_terminal": true, 
@@ -4504,6 +4786,7 @@ grammars.brown = [
         "prob": 1.0
     }, 
     {
+        "count": 1, 
         "rhs": [
             {
                 "is_terminal": true, 
@@ -4514,6 +4797,7 @@ grammars.brown = [
         "prob": 0.5
     }, 
     {
+        "count": 1, 
         "rhs": [
             {
                 "is_terminal": true, 
@@ -4524,6 +4808,7 @@ grammars.brown = [
         "prob": 0.5
     }, 
     {
+        "count": 2, 
         "rhs": [
             {
                 "is_terminal": true, 
@@ -4546,6 +4831,7 @@ grammars.brown = [
         "prob": 1.0
     }, 
     {
+        "count": 21, 
         "rhs": [
             {
                 "is_terminal": true, 
@@ -4560,6 +4846,7 @@ grammars.brown = [
         "prob": 1.0
     }, 
     {
+        "count": 3, 
         "rhs": [
             {
                 "is_terminal": true, 
@@ -4570,6 +4857,7 @@ grammars.brown = [
         "prob": 0.75
     }, 
     {
+        "count": 1, 
         "rhs": [
             {
                 "is_terminal": true, 
@@ -4580,6 +4868,7 @@ grammars.brown = [
         "prob": 0.25
     }, 
     {
+        "count": 4, 
         "rhs": [
             {
                 "is_terminal": true, 
@@ -4602,6 +4891,7 @@ grammars.brown = [
         "prob": 1.0
     }, 
     {
+        "count": 47, 
         "rhs": [
             {
                 "is_terminal": true, 
@@ -4616,6 +4906,7 @@ grammars.brown = [
         "prob": 1.0
     }, 
     {
+        "count": 8, 
         "rhs": [
             {
                 "is_terminal": true, 
@@ -4626,6 +4917,7 @@ grammars.brown = [
         "prob": 0.571429
     }, 
     {
+        "count": 6, 
         "rhs": [
             {
                 "is_terminal": true, 
@@ -4636,6 +4928,7 @@ grammars.brown = [
         "prob": 0.428571
     }, 
     {
+        "count": 11, 
         "rhs": [
             {
                 "is_terminal": true, 
@@ -4654,6 +4947,7 @@ grammars.brown = [
         "prob": 1.0
     }, 
     {
+        "count": 1, 
         "rhs": [
             {
                 "is_terminal": true, 
@@ -4664,6 +4958,7 @@ grammars.brown = [
         "prob": 0.25
     }, 
     {
+        "count": 1, 
         "rhs": [
             {
                 "is_terminal": true, 
@@ -4674,6 +4969,7 @@ grammars.brown = [
         "prob": 0.25
     }, 
     {
+        "count": 1, 
         "rhs": [
             {
                 "is_terminal": true, 
@@ -4684,6 +4980,7 @@ grammars.brown = [
         "prob": 0.25
     }, 
     {
+        "count": 1, 
         "rhs": [
             {
                 "is_terminal": true, 
@@ -4694,6 +4991,7 @@ grammars.brown = [
         "prob": 0.25
     }, 
     {
+        "count": 4, 
         "rhs": [
             {
                 "is_terminal": true, 
@@ -4716,6 +5014,7 @@ grammars.brown = [
         "prob": 1.0
     }, 
     {
+        "count": 1, 
         "rhs": [
             {
                 "is_terminal": true, 
@@ -4726,6 +5025,7 @@ grammars.brown = [
         "prob": 0.25
     }, 
     {
+        "count": 1, 
         "rhs": [
             {
                 "is_terminal": true, 
@@ -4736,6 +5036,7 @@ grammars.brown = [
         "prob": 0.25
     }, 
     {
+        "count": 1, 
         "rhs": [
             {
                 "is_terminal": true, 
@@ -4746,6 +5047,7 @@ grammars.brown = [
         "prob": 0.25
     }, 
     {
+        "count": 1, 
         "rhs": [
             {
                 "is_terminal": true, 
@@ -4756,6 +5058,7 @@ grammars.brown = [
         "prob": 0.25
     }, 
     {
+        "count": 4, 
         "rhs": [
             {
                 "is_terminal": true, 
@@ -4778,6 +5081,7 @@ grammars.brown = [
         "prob": 1.0
     }, 
     {
+        "count": 1, 
         "rhs": [
             {
                 "is_terminal": true, 
@@ -4788,6 +5092,7 @@ grammars.brown = [
         "prob": 0.5
     }, 
     {
+        "count": 1, 
         "rhs": [
             {
                 "is_terminal": true, 
@@ -4798,6 +5103,7 @@ grammars.brown = [
         "prob": 0.5
     }, 
     {
+        "count": 2, 
         "rhs": [
             {
                 "is_terminal": true, 
@@ -4820,6 +5126,7 @@ grammars.brown = [
         "prob": 1.0
     }, 
     {
+        "count": 1, 
         "rhs": [
             {
                 "is_terminal": true, 
@@ -4830,6 +5137,7 @@ grammars.brown = [
         "prob": 0.166667
     }, 
     {
+        "count": 1, 
         "rhs": [
             {
                 "is_terminal": true, 
@@ -4840,6 +5148,7 @@ grammars.brown = [
         "prob": 0.166667
     }, 
     {
+        "count": 1, 
         "rhs": [
             {
                 "is_terminal": true, 
@@ -4850,6 +5159,7 @@ grammars.brown = [
         "prob": 0.166667
     }, 
     {
+        "count": 1, 
         "rhs": [
             {
                 "is_terminal": true, 
@@ -4860,6 +5170,7 @@ grammars.brown = [
         "prob": 0.166667
     }, 
     {
+        "count": 1, 
         "rhs": [
             {
                 "is_terminal": true, 
@@ -4870,6 +5181,7 @@ grammars.brown = [
         "prob": 0.166667
     }, 
     {
+        "count": 1, 
         "rhs": [
             {
                 "is_terminal": true, 
@@ -4880,6 +5192,7 @@ grammars.brown = [
         "prob": 0.166667
     }, 
     {
+        "count": 6, 
         "rhs": [
             {
                 "is_terminal": true, 
@@ -4902,6 +5215,7 @@ grammars.brown = [
         "prob": 1.0
     }, 
     {
+        "count": 1, 
         "rhs": [
             {
                 "is_terminal": true, 
@@ -4912,6 +5226,7 @@ grammars.brown = [
         "prob": 0.2
     }, 
     {
+        "count": 1, 
         "rhs": [
             {
                 "is_terminal": true, 
@@ -4922,6 +5237,7 @@ grammars.brown = [
         "prob": 0.2
     }, 
     {
+        "count": 1, 
         "rhs": [
             {
                 "is_terminal": true, 
@@ -4932,6 +5248,7 @@ grammars.brown = [
         "prob": 0.2
     }, 
     {
+        "count": 1, 
         "rhs": [
             {
                 "is_terminal": true, 
@@ -4942,6 +5259,7 @@ grammars.brown = [
         "prob": 0.2
     }, 
     {
+        "count": 1, 
         "rhs": [
             {
                 "is_terminal": true, 
@@ -4952,6 +5270,7 @@ grammars.brown = [
         "prob": 0.2
     }, 
     {
+        "count": 5, 
         "rhs": [
             {
                 "is_terminal": true, 
@@ -4974,6 +5293,7 @@ grammars.brown = [
         "prob": 1.0
     }, 
     {
+        "count": 1, 
         "rhs": [
             {
                 "is_terminal": true, 
@@ -4984,6 +5304,7 @@ grammars.brown = [
         "prob": 0.2
     }, 
     {
+        "count": 1, 
         "rhs": [
             {
                 "is_terminal": true, 
@@ -4994,6 +5315,7 @@ grammars.brown = [
         "prob": 0.2
     }, 
     {
+        "count": 1, 
         "rhs": [
             {
                 "is_terminal": true, 
@@ -5004,6 +5326,7 @@ grammars.brown = [
         "prob": 0.2
     }, 
     {
+        "count": 1, 
         "rhs": [
             {
                 "is_terminal": true, 
@@ -5014,6 +5337,7 @@ grammars.brown = [
         "prob": 0.2
     }, 
     {
+        "count": 1, 
         "rhs": [
             {
                 "is_terminal": true, 
@@ -5034,6 +5358,7 @@ grammars.brown = [
         "prob": 0.0
     }, 
     {
+        "count": 9, 
         "rhs": [
             {
                 "is_terminal": true, 
@@ -5044,6 +5369,7 @@ grammars.brown = [
         "prob": 0.346154
     }, 
     {
+        "count": 17, 
         "rhs": [
             {
                 "is_terminal": true, 
@@ -5054,6 +5380,7 @@ grammars.brown = [
         "prob": 0.653846
     }, 
     {
+        "count": 5, 
         "rhs": [
             {
                 "is_terminal": true, 
@@ -5076,6 +5403,7 @@ grammars.brown = [
         "prob": 1.0
     }, 
     {
+        "count": 2, 
         "rhs": [
             {
                 "is_terminal": true, 
@@ -5086,6 +5414,7 @@ grammars.brown = [
         "prob": 0.5
     }, 
     {
+        "count": 2, 
         "rhs": [
             {
                 "is_terminal": true, 
@@ -5096,6 +5425,7 @@ grammars.brown = [
         "prob": 0.5
     }, 
     {
+        "count": 2, 
         "rhs": [
             {
                 "is_terminal": true, 
@@ -5118,6 +5448,7 @@ grammars.brown = [
         "prob": 1.0
     }, 
     {
+        "count": 1, 
         "rhs": [
             {
                 "is_terminal": true, 
@@ -5128,6 +5459,7 @@ grammars.brown = [
         "prob": 0.166667
     }, 
     {
+        "count": 1, 
         "rhs": [
             {
                 "is_terminal": true, 
@@ -5138,6 +5470,7 @@ grammars.brown = [
         "prob": 0.166667
     }, 
     {
+        "count": 1, 
         "rhs": [
             {
                 "is_terminal": true, 
@@ -5148,6 +5481,7 @@ grammars.brown = [
         "prob": 0.166667
     }, 
     {
+        "count": 1, 
         "rhs": [
             {
                 "is_terminal": true, 
@@ -5158,6 +5492,7 @@ grammars.brown = [
         "prob": 0.166667
     }, 
     {
+        "count": 1, 
         "rhs": [
             {
                 "is_terminal": true, 
@@ -5168,6 +5503,7 @@ grammars.brown = [
         "prob": 0.166667
     }, 
     {
+        "count": 1, 
         "rhs": [
             {
                 "is_terminal": true, 
@@ -5178,6 +5514,7 @@ grammars.brown = [
         "prob": 0.166667
     }, 
     {
+        "count": 6, 
         "rhs": [
             {
                 "is_terminal": true, 
@@ -5200,6 +5537,7 @@ grammars.brown = [
         "prob": 1.0
     }, 
     {
+        "count": 14, 
         "rhs": [
             {
                 "is_terminal": true, 
@@ -5210,6 +5548,7 @@ grammars.brown = [
         "prob": 0.229508
     }, 
     {
+        "count": 47, 
         "rhs": [
             {
                 "is_terminal": true, 
@@ -5220,6 +5559,7 @@ grammars.brown = [
         "prob": 0.770492
     }, 
     {
+        "count": 1, 
         "rhs": [
             {
                 "is_terminal": true, 
@@ -5230,6 +5570,7 @@ grammars.brown = [
         "prob": 0.333333
     }, 
     {
+        "count": 1, 
         "rhs": [
             {
                 "is_terminal": true, 
@@ -5240,6 +5581,7 @@ grammars.brown = [
         "prob": 0.333333
     }, 
     {
+        "count": 1, 
         "rhs": [
             {
                 "is_terminal": true, 
@@ -5250,6 +5592,7 @@ grammars.brown = [
         "prob": 0.333333
     }, 
     {
+        "count": 3, 
         "rhs": [
             {
                 "is_terminal": true, 
@@ -5272,6 +5615,7 @@ grammars.brown = [
         "prob": 1.0
     }, 
     {
+        "count": 4, 
         "rhs": [
             {
                 "is_terminal": true, 
@@ -5290,6 +5634,7 @@ grammars.brown = [
         "prob": 1.0
     }, 
     {
+        "count": 4, 
         "rhs": [
             {
                 "is_terminal": false, 
@@ -5300,6 +5645,7 @@ grammars.brown = [
         "prob": 0.5
     }, 
     {
+        "count": 4, 
         "rhs": [
             {
                 "is_terminal": true, 
@@ -5310,6 +5656,7 @@ grammars.brown = [
         "prob": 0.5
     }, 
     {
+        "count": 1, 
         "rhs": [
             {
                 "is_terminal": true, 
@@ -5320,6 +5667,7 @@ grammars.brown = [
         "prob": 0.333333
     }, 
     {
+        "count": 1, 
         "rhs": [
             {
                 "is_terminal": true, 
@@ -5330,6 +5678,7 @@ grammars.brown = [
         "prob": 0.333333
     }, 
     {
+        "count": 1, 
         "rhs": [
             {
                 "is_terminal": true, 
@@ -5340,6 +5689,7 @@ grammars.brown = [
         "prob": 0.333333
     }, 
     {
+        "count": 3, 
         "rhs": [
             {
                 "is_terminal": true, 
@@ -5362,6 +5712,7 @@ grammars.brown = [
         "prob": 1.0
     }, 
     {
+        "count": 59, 
         "rhs": [
             {
                 "is_terminal": true, 
@@ -5376,6 +5727,7 @@ grammars.brown = [
         "prob": 1.0
     }, 
     {
+        "count": 10, 
         "rhs": [
             {
                 "is_terminal": true, 
@@ -5394,6 +5746,7 @@ grammars.brown = [
         "prob": 1.0
     }, 
     {
+        "count": 1, 
         "rhs": [
             {
                 "is_terminal": true, 
@@ -5404,6 +5757,7 @@ grammars.brown = [
         "prob": 0.333333
     }, 
     {
+        "count": 1, 
         "rhs": [
             {
                 "is_terminal": true, 
@@ -5414,6 +5768,7 @@ grammars.brown = [
         "prob": 0.333333
     }, 
     {
+        "count": 1, 
         "rhs": [
             {
                 "is_terminal": true, 
@@ -5424,6 +5779,7 @@ grammars.brown = [
         "prob": 0.333333
     }, 
     {
+        "count": 3, 
         "rhs": [
             {
                 "is_terminal": true, 
@@ -5446,6 +5802,7 @@ grammars.brown = [
         "prob": 1.0
     }, 
     {
+        "count": 2, 
         "rhs": [
             {
                 "is_terminal": true, 
@@ -5456,6 +5813,7 @@ grammars.brown = [
         "prob": 0.5
     }, 
     {
+        "count": 1, 
         "rhs": [
             {
                 "is_terminal": true, 
@@ -5466,6 +5824,7 @@ grammars.brown = [
         "prob": 0.25
     }, 
     {
+        "count": 1, 
         "rhs": [
             {
                 "is_terminal": true, 
@@ -5476,6 +5835,7 @@ grammars.brown = [
         "prob": 0.25
     }, 
     {
+        "count": 4, 
         "rhs": [
             {
                 "is_terminal": true, 
@@ -5498,6 +5858,7 @@ grammars.brown = [
         "prob": 1.0
     }, 
     {
+        "count": 1, 
         "rhs": [
             {
                 "is_terminal": true, 
@@ -5508,6 +5869,7 @@ grammars.brown = [
         "prob": 0.5
     }, 
     {
+        "count": 1, 
         "rhs": [
             {
                 "is_terminal": true, 
@@ -5518,6 +5880,7 @@ grammars.brown = [
         "prob": 0.5
     }, 
     {
+        "count": 2, 
         "rhs": [
             {
                 "is_terminal": true, 
@@ -5540,6 +5903,7 @@ grammars.brown = [
         "prob": 1.0
     }, 
     {
+        "count": 1, 
         "rhs": [
             {
                 "is_terminal": true, 
@@ -5550,6 +5914,7 @@ grammars.brown = [
         "prob": 0.333333
     }, 
     {
+        "count": 1, 
         "rhs": [
             {
                 "is_terminal": true, 
@@ -5560,6 +5925,7 @@ grammars.brown = [
         "prob": 0.333333
     }, 
     {
+        "count": 1, 
         "rhs": [
             {
                 "is_terminal": true, 
@@ -5570,6 +5936,7 @@ grammars.brown = [
         "prob": 0.333333
     }, 
     {
+        "count": 3, 
         "rhs": [
             {
                 "is_terminal": true, 
@@ -5592,6 +5959,7 @@ grammars.brown = [
         "prob": 1.0
     }, 
     {
+        "count": 12, 
         "rhs": [
             {
                 "is_terminal": true, 
@@ -5606,6 +5974,7 @@ grammars.brown = [
         "prob": 1.0
     }, 
     {
+        "count": 1, 
         "rhs": [
             {
                 "is_terminal": true, 
@@ -5616,6 +5985,7 @@ grammars.brown = [
         "prob": 0.2
     }, 
     {
+        "count": 1, 
         "rhs": [
             {
                 "is_terminal": true, 
@@ -5626,6 +5996,7 @@ grammars.brown = [
         "prob": 0.2
     }, 
     {
+        "count": 1, 
         "rhs": [
             {
                 "is_terminal": true, 
@@ -5636,6 +6007,7 @@ grammars.brown = [
         "prob": 0.2
     }, 
     {
+        "count": 1, 
         "rhs": [
             {
                 "is_terminal": true, 
@@ -5646,6 +6018,7 @@ grammars.brown = [
         "prob": 0.2
     }, 
     {
+        "count": 1, 
         "rhs": [
             {
                 "is_terminal": true, 
@@ -5656,6 +6029,7 @@ grammars.brown = [
         "prob": 0.2
     }, 
     {
+        "count": 5, 
         "rhs": [
             {
                 "is_terminal": true, 
@@ -5678,6 +6052,7 @@ grammars.brown = [
         "prob": 1.0
     }, 
     {
+        "count": 1, 
         "rhs": [
             {
                 "is_terminal": true, 
@@ -5688,6 +6063,7 @@ grammars.brown = [
         "prob": 0.2
     }, 
     {
+        "count": 1, 
         "rhs": [
             {
                 "is_terminal": true, 
@@ -5698,6 +6074,7 @@ grammars.brown = [
         "prob": 0.2
     }, 
     {
+        "count": 1, 
         "rhs": [
             {
                 "is_terminal": true, 
@@ -5708,6 +6085,7 @@ grammars.brown = [
         "prob": 0.2
     }, 
     {
+        "count": 1, 
         "rhs": [
             {
                 "is_terminal": true, 
@@ -5718,6 +6096,7 @@ grammars.brown = [
         "prob": 0.2
     }, 
     {
+        "count": 1, 
         "rhs": [
             {
                 "is_terminal": true, 
@@ -5728,6 +6107,7 @@ grammars.brown = [
         "prob": 0.2
     }, 
     {
+        "count": 5, 
         "rhs": [
             {
                 "is_terminal": true, 
@@ -5750,6 +6130,7 @@ grammars.brown = [
         "prob": 1.0
     }, 
     {
+        "count": 1, 
         "rhs": [
             {
                 "is_terminal": true, 
@@ -5760,6 +6141,7 @@ grammars.brown = [
         "prob": 0.25
     }, 
     {
+        "count": 1, 
         "rhs": [
             {
                 "is_terminal": true, 
@@ -5770,6 +6152,7 @@ grammars.brown = [
         "prob": 0.25
     }, 
     {
+        "count": 1, 
         "rhs": [
             {
                 "is_terminal": true, 
@@ -5780,6 +6163,7 @@ grammars.brown = [
         "prob": 0.25
     }, 
     {
+        "count": 1, 
         "rhs": [
             {
                 "is_terminal": true, 
@@ -5790,6 +6174,7 @@ grammars.brown = [
         "prob": 0.25
     }, 
     {
+        "count": 4, 
         "rhs": [
             {
                 "is_terminal": true, 
@@ -5816,6 +6201,7 @@ grammars.brown = [
         "prob": 1.0
     }, 
     {
+        "count": 83, 
         "rhs": [
             {
                 "is_terminal": true, 
@@ -5830,6 +6216,7 @@ grammars.brown = [
         "prob": 1.0
     }, 
     {
+        "count": 34, 
         "rhs": [
             {
                 "is_terminal": true, 
@@ -5840,6 +6227,7 @@ grammars.brown = [
         "prob": 0.85
     }, 
     {
+        "count": 6, 
         "rhs": [
             {
                 "is_terminal": true, 
@@ -5850,6 +6238,7 @@ grammars.brown = [
         "prob": 0.15
     }, 
     {
+        "count": 38, 
         "rhs": [
             {
                 "is_terminal": true, 
@@ -5868,6 +6257,7 @@ grammars.brown = [
         "prob": 1.0
     }, 
     {
+        "count": 175, 
         "rhs": [
             {
                 "is_terminal": true, 
@@ -5882,6 +6272,7 @@ grammars.brown = [
         "prob": 1.0
     }, 
     {
+        "count": 1, 
         "rhs": [
             {
                 "is_terminal": true, 
@@ -5892,6 +6283,7 @@ grammars.brown = [
         "prob": 0.5
     }, 
     {
+        "count": 1, 
         "rhs": [
             {
                 "is_terminal": true, 
@@ -5902,6 +6294,7 @@ grammars.brown = [
         "prob": 0.5
     }, 
     {
+        "count": 2, 
         "rhs": [
             {
                 "is_terminal": true, 
@@ -5924,6 +6317,7 @@ grammars.brown = [
         "prob": 1.0
     }, 
     {
+        "count": 1, 
         "rhs": [
             {
                 "is_terminal": true, 
@@ -5934,6 +6328,7 @@ grammars.brown = [
         "prob": 0.333333
     }, 
     {
+        "count": 1, 
         "rhs": [
             {
                 "is_terminal": true, 
@@ -5944,6 +6339,7 @@ grammars.brown = [
         "prob": 0.333333
     }, 
     {
+        "count": 1, 
         "rhs": [
             {
                 "is_terminal": true, 
@@ -5954,6 +6350,7 @@ grammars.brown = [
         "prob": 0.333333
     }, 
     {
+        "count": 3, 
         "rhs": [
             {
                 "is_terminal": true, 
@@ -5976,6 +6373,7 @@ grammars.brown = [
         "prob": 1.0
     }, 
     {
+        "count": 1, 
         "rhs": [
             {
                 "is_terminal": true, 
@@ -5986,6 +6384,7 @@ grammars.brown = [
         "prob": 0.5
     }, 
     {
+        "count": 1, 
         "rhs": [
             {
                 "is_terminal": true, 
@@ -5996,6 +6395,7 @@ grammars.brown = [
         "prob": 0.5
     }, 
     {
+        "count": 2, 
         "rhs": [
             {
                 "is_terminal": true, 
@@ -6018,6 +6418,7 @@ grammars.brown = [
         "prob": 1.0
     }, 
     {
+        "count": 7, 
         "rhs": [
             {
                 "is_terminal": true, 
@@ -6036,6 +6437,7 @@ grammars.brown = [
         "prob": 1.0
     }, 
     {
+        "count": 4, 
         "rhs": [
             {
                 "is_terminal": true, 
@@ -6046,6 +6448,7 @@ grammars.brown = [
         "prob": 0.333333
     }, 
     {
+        "count": 8, 
         "rhs": [
             {
                 "is_terminal": true, 
@@ -6056,6 +6459,7 @@ grammars.brown = [
         "prob": 0.666667
     }, 
     {
+        "count": 12, 
         "rhs": [
             {
                 "is_terminal": true, 
@@ -6074,6 +6478,7 @@ grammars.brown = [
         "prob": 1.0
     }, 
     {
+        "count": 1, 
         "rhs": [
             {
                 "is_terminal": true, 
@@ -6084,6 +6489,7 @@ grammars.brown = [
         "prob": 0.5
     }, 
     {
+        "count": 1, 
         "rhs": [
             {
                 "is_terminal": true, 
@@ -6094,6 +6500,7 @@ grammars.brown = [
         "prob": 0.5
     }, 
     {
+        "count": 2, 
         "rhs": [
             {
                 "is_terminal": true, 
@@ -6116,6 +6523,7 @@ grammars.brown = [
         "prob": 1.0
     }, 
     {
+        "count": 1, 
         "rhs": [
             {
                 "is_terminal": true, 
@@ -6126,6 +6534,7 @@ grammars.brown = [
         "prob": 0.0833333
     }, 
     {
+        "count": 1, 
         "rhs": [
             {
                 "is_terminal": true, 
@@ -6136,6 +6545,7 @@ grammars.brown = [
         "prob": 0.0833333
     }, 
     {
+        "count": 1, 
         "rhs": [
             {
                 "is_terminal": true, 
@@ -6146,6 +6556,7 @@ grammars.brown = [
         "prob": 0.0833333
     }, 
     {
+        "count": 1, 
         "rhs": [
             {
                 "is_terminal": true, 
@@ -6156,6 +6567,7 @@ grammars.brown = [
         "prob": 0.0833333
     }, 
     {
+        "count": 1, 
         "rhs": [
             {
                 "is_terminal": true, 
@@ -6166,6 +6578,7 @@ grammars.brown = [
         "prob": 0.0833333
     }, 
     {
+        "count": 1, 
         "rhs": [
             {
                 "is_terminal": true, 
@@ -6176,6 +6589,7 @@ grammars.brown = [
         "prob": 0.0833333
     }, 
     {
+        "count": 1, 
         "rhs": [
             {
                 "is_terminal": true, 
@@ -6186,6 +6600,7 @@ grammars.brown = [
         "prob": 0.0833333
     }, 
     {
+        "count": 1, 
         "rhs": [
             {
                 "is_terminal": true, 
@@ -6196,6 +6611,7 @@ grammars.brown = [
         "prob": 0.0833333
     }, 
     {
+        "count": 1, 
         "rhs": [
             {
                 "is_terminal": true, 
@@ -6206,6 +6622,7 @@ grammars.brown = [
         "prob": 0.0833333
     }, 
     {
+        "count": 1, 
         "rhs": [
             {
                 "is_terminal": true, 
@@ -6216,6 +6633,7 @@ grammars.brown = [
         "prob": 0.0833333
     }, 
     {
+        "count": 1, 
         "rhs": [
             {
                 "is_terminal": true, 
@@ -6226,6 +6644,7 @@ grammars.brown = [
         "prob": 0.0833333
     }, 
     {
+        "count": 1, 
         "rhs": [
             {
                 "is_terminal": true, 
@@ -6236,6 +6655,7 @@ grammars.brown = [
         "prob": 0.0833333
     }, 
     {
+        "count": 12, 
         "rhs": [
             {
                 "is_terminal": true, 
@@ -6258,6 +6678,7 @@ grammars.brown = [
         "prob": 1.0
     }, 
     {
+        "count": 1, 
         "rhs": [
             {
                 "is_terminal": true, 
@@ -6268,6 +6689,7 @@ grammars.brown = [
         "prob": 0.5
     }, 
     {
+        "count": 1, 
         "rhs": [
             {
                 "is_terminal": true, 
@@ -6278,6 +6700,7 @@ grammars.brown = [
         "prob": 0.5
     }, 
     {
+        "count": 2, 
         "rhs": [
             {
                 "is_terminal": true, 
@@ -6300,6 +6723,7 @@ grammars.brown = [
         "prob": 1.0
     }, 
     {
+        "count": 2, 
         "rhs": [
             {
                 "is_terminal": true, 
@@ -6310,6 +6734,7 @@ grammars.brown = [
         "prob": 0.333333
     }, 
     {
+        "count": 1, 
         "rhs": [
             {
                 "is_terminal": true, 
@@ -6320,6 +6745,7 @@ grammars.brown = [
         "prob": 0.166667
     }, 
     {
+        "count": 1, 
         "rhs": [
             {
                 "is_terminal": true, 
@@ -6330,6 +6756,7 @@ grammars.brown = [
         "prob": 0.166667
     }, 
     {
+        "count": 1, 
         "rhs": [
             {
                 "is_terminal": true, 
@@ -6340,6 +6767,7 @@ grammars.brown = [
         "prob": 0.166667
     }, 
     {
+        "count": 1, 
         "rhs": [
             {
                 "is_terminal": true, 
@@ -6350,6 +6778,7 @@ grammars.brown = [
         "prob": 0.166667
     }, 
     {
+        "count": 6, 
         "rhs": [
             {
                 "is_terminal": true, 
@@ -6372,6 +6801,7 @@ grammars.brown = [
         "prob": 1.0
     }, 
     {
+        "count": 6, 
         "rhs": [
             {
                 "is_terminal": true, 
@@ -6382,6 +6812,7 @@ grammars.brown = [
         "prob": 0.5
     }, 
     {
+        "count": 6, 
         "rhs": [
             {
                 "is_terminal": true, 
@@ -6392,6 +6823,7 @@ grammars.brown = [
         "prob": 0.5
     }, 
     {
+        "count": 2, 
         "rhs": [
             {
                 "is_terminal": true, 
@@ -6414,6 +6846,7 @@ grammars.brown = [
         "prob": 1.0
     }, 
     {
+        "count": 1, 
         "rhs": [
             {
                 "is_terminal": true, 
@@ -6424,6 +6857,7 @@ grammars.brown = [
         "prob": 0.166667
     }, 
     {
+        "count": 1, 
         "rhs": [
             {
                 "is_terminal": true, 
@@ -6434,6 +6868,7 @@ grammars.brown = [
         "prob": 0.166667
     }, 
     {
+        "count": 1, 
         "rhs": [
             {
                 "is_terminal": true, 
@@ -6444,6 +6879,7 @@ grammars.brown = [
         "prob": 0.166667
     }, 
     {
+        "count": 1, 
         "rhs": [
             {
                 "is_terminal": true, 
@@ -6454,6 +6890,7 @@ grammars.brown = [
         "prob": 0.166667
     }, 
     {
+        "count": 1, 
         "rhs": [
             {
                 "is_terminal": true, 
@@ -6464,6 +6901,7 @@ grammars.brown = [
         "prob": 0.166667
     }, 
     {
+        "count": 1, 
         "rhs": [
             {
                 "is_terminal": true, 
@@ -6474,6 +6912,7 @@ grammars.brown = [
         "prob": 0.166667
     }, 
     {
+        "count": 6, 
         "rhs": [
             {
                 "is_terminal": true, 
@@ -6496,6 +6935,7 @@ grammars.brown = [
         "prob": 1.0
     }, 
     {
+        "count": 1, 
         "rhs": [
             {
                 "is_terminal": true, 
@@ -6506,6 +6946,7 @@ grammars.brown = [
         "prob": 0.25
     }, 
     {
+        "count": 1, 
         "rhs": [
             {
                 "is_terminal": true, 
@@ -6516,6 +6957,7 @@ grammars.brown = [
         "prob": 0.25
     }, 
     {
+        "count": 1, 
         "rhs": [
             {
                 "is_terminal": true, 
@@ -6526,6 +6968,7 @@ grammars.brown = [
         "prob": 0.25
     }, 
     {
+        "count": 1, 
         "rhs": [
             {
                 "is_terminal": true, 
@@ -6536,6 +6979,7 @@ grammars.brown = [
         "prob": 0.25
     }, 
     {
+        "count": 4, 
         "rhs": [
             {
                 "is_terminal": true, 
@@ -6558,6 +7002,7 @@ grammars.brown = [
         "prob": 1.0
     }, 
     {
+        "count": 1, 
         "rhs": [
             {
                 "is_terminal": true, 
@@ -6568,6 +7013,7 @@ grammars.brown = [
         "prob": 0.2
     }, 
     {
+        "count": 1, 
         "rhs": [
             {
                 "is_terminal": true, 
@@ -6578,6 +7024,7 @@ grammars.brown = [
         "prob": 0.2
     }, 
     {
+        "count": 1, 
         "rhs": [
             {
                 "is_terminal": true, 
@@ -6588,6 +7035,7 @@ grammars.brown = [
         "prob": 0.2
     }, 
     {
+        "count": 1, 
         "rhs": [
             {
                 "is_terminal": true, 
@@ -6598,6 +7046,7 @@ grammars.brown = [
         "prob": 0.2
     }, 
     {
+        "count": 1, 
         "rhs": [
             {
                 "is_terminal": true, 
@@ -6608,6 +7057,7 @@ grammars.brown = [
         "prob": 0.2
     }, 
     {
+        "count": 5, 
         "rhs": [
             {
                 "is_terminal": true, 
@@ -6630,6 +7080,7 @@ grammars.brown = [
         "prob": 1.0
     }, 
     {
+        "count": 1, 
         "rhs": [
             {
                 "is_terminal": true, 
@@ -6640,6 +7091,7 @@ grammars.brown = [
         "prob": 0.166667
     }, 
     {
+        "count": 1, 
         "rhs": [
             {
                 "is_terminal": true, 
@@ -6650,6 +7102,7 @@ grammars.brown = [
         "prob": 0.166667
     }, 
     {
+        "count": 1, 
         "rhs": [
             {
                 "is_terminal": true, 
@@ -6660,6 +7113,7 @@ grammars.brown = [
         "prob": 0.166667
     }, 
     {
+        "count": 1, 
         "rhs": [
             {
                 "is_terminal": true, 
@@ -6670,6 +7124,7 @@ grammars.brown = [
         "prob": 0.166667
     }, 
     {
+        "count": 1, 
         "rhs": [
             {
                 "is_terminal": true, 
@@ -6680,6 +7135,7 @@ grammars.brown = [
         "prob": 0.166667
     }, 
     {
+        "count": 1, 
         "rhs": [
             {
                 "is_terminal": true, 
@@ -6690,6 +7146,7 @@ grammars.brown = [
         "prob": 0.166667
     }, 
     {
+        "count": 6, 
         "rhs": [
             {
                 "is_terminal": true, 
@@ -6712,6 +7169,7 @@ grammars.brown = [
         "prob": 1.0
     }, 
     {
+        "count": 64, 
         "rhs": [
             {
                 "is_terminal": true, 
@@ -6726,6 +7184,7 @@ grammars.brown = [
         "prob": 1.0
     }, 
     {
+        "count": 1, 
         "rhs": [
             {
                 "is_terminal": true, 
@@ -6736,6 +7195,7 @@ grammars.brown = [
         "prob": 0.166667
     }, 
     {
+        "count": 1, 
         "rhs": [
             {
                 "is_terminal": true, 
@@ -6746,6 +7206,7 @@ grammars.brown = [
         "prob": 0.166667
     }, 
     {
+        "count": 1, 
         "rhs": [
             {
                 "is_terminal": true, 
@@ -6756,6 +7217,7 @@ grammars.brown = [
         "prob": 0.166667
     }, 
     {
+        "count": 1, 
         "rhs": [
             {
                 "is_terminal": true, 
@@ -6766,6 +7228,7 @@ grammars.brown = [
         "prob": 0.166667
     }, 
     {
+        "count": 1, 
         "rhs": [
             {
                 "is_terminal": true, 
@@ -6776,6 +7239,7 @@ grammars.brown = [
         "prob": 0.166667
     }, 
     {
+        "count": 1, 
         "rhs": [
             {
                 "is_terminal": true, 
@@ -6786,6 +7250,7 @@ grammars.brown = [
         "prob": 0.166667
     }, 
     {
+        "count": 6, 
         "rhs": [
             {
                 "is_terminal": true, 
@@ -6808,6 +7273,7 @@ grammars.brown = [
         "prob": 1.0
     }, 
     {
+        "count": 1, 
         "rhs": [
             {
                 "is_terminal": true, 
@@ -6818,6 +7284,7 @@ grammars.brown = [
         "prob": 0.25
     }, 
     {
+        "count": 1, 
         "rhs": [
             {
                 "is_terminal": true, 
@@ -6828,6 +7295,7 @@ grammars.brown = [
         "prob": 0.25
     }, 
     {
+        "count": 1, 
         "rhs": [
             {
                 "is_terminal": true, 
@@ -6838,6 +7306,7 @@ grammars.brown = [
         "prob": 0.25
     }, 
     {
+        "count": 1, 
         "rhs": [
             {
                 "is_terminal": true, 
@@ -6848,6 +7317,7 @@ grammars.brown = [
         "prob": 0.25
     }, 
     {
+        "count": 4, 
         "rhs": [
             {
                 "is_terminal": true, 
@@ -6870,6 +7340,7 @@ grammars.brown = [
         "prob": 1.0
     }, 
     {
+        "count": 1, 
         "rhs": [
             {
                 "is_terminal": true, 
@@ -6880,6 +7351,7 @@ grammars.brown = [
         "prob": 0.5
     }, 
     {
+        "count": 1, 
         "rhs": [
             {
                 "is_terminal": true, 
@@ -6890,6 +7362,7 @@ grammars.brown = [
         "prob": 0.5
     }, 
     {
+        "count": 2, 
         "rhs": [
             {
                 "is_terminal": false, 
@@ -6912,6 +7385,7 @@ grammars.brown = [
         "prob": 1.0
     }, 
     {
+        "count": 1, 
         "rhs": [
             {
                 "is_terminal": true, 
@@ -6922,6 +7396,7 @@ grammars.brown = [
         "prob": 0.05
     }, 
     {
+        "count": 1, 
         "rhs": [
             {
                 "is_terminal": true, 
@@ -6932,6 +7407,7 @@ grammars.brown = [
         "prob": 0.05
     }, 
     {
+        "count": 1, 
         "rhs": [
             {
                 "is_terminal": true, 
@@ -6942,6 +7418,7 @@ grammars.brown = [
         "prob": 0.05
     }, 
     {
+        "count": 3, 
         "rhs": [
             {
                 "is_terminal": true, 
@@ -6952,6 +7429,7 @@ grammars.brown = [
         "prob": 0.15
     }, 
     {
+        "count": 1, 
         "rhs": [
             {
                 "is_terminal": true, 
@@ -6962,6 +7440,7 @@ grammars.brown = [
         "prob": 0.05
     }, 
     {
+        "count": 2, 
         "rhs": [
             {
                 "is_terminal": true, 
@@ -6972,6 +7451,7 @@ grammars.brown = [
         "prob": 0.1
     }, 
     {
+        "count": 1, 
         "rhs": [
             {
                 "is_terminal": true, 
@@ -6982,6 +7462,7 @@ grammars.brown = [
         "prob": 0.05
     }, 
     {
+        "count": 1, 
         "rhs": [
             {
                 "is_terminal": true, 
@@ -6992,6 +7473,7 @@ grammars.brown = [
         "prob": 0.05
     }, 
     {
+        "count": 2, 
         "rhs": [
             {
                 "is_terminal": true, 
@@ -7002,6 +7484,7 @@ grammars.brown = [
         "prob": 0.1
     }, 
     {
+        "count": 1, 
         "rhs": [
             {
                 "is_terminal": true, 
@@ -7012,6 +7495,7 @@ grammars.brown = [
         "prob": 0.05
     }, 
     {
+        "count": 1, 
         "rhs": [
             {
                 "is_terminal": true, 
@@ -7022,6 +7506,7 @@ grammars.brown = [
         "prob": 0.05
     }, 
     {
+        "count": 1, 
         "rhs": [
             {
                 "is_terminal": true, 
@@ -7032,6 +7517,7 @@ grammars.brown = [
         "prob": 0.05
     }, 
     {
+        "count": 1, 
         "rhs": [
             {
                 "is_terminal": true, 
@@ -7042,6 +7528,7 @@ grammars.brown = [
         "prob": 0.05
     }, 
     {
+        "count": 1, 
         "rhs": [
             {
                 "is_terminal": true, 
@@ -7052,6 +7539,7 @@ grammars.brown = [
         "prob": 0.05
     }, 
     {
+        "count": 1, 
         "rhs": [
             {
                 "is_terminal": true, 
@@ -7062,6 +7550,7 @@ grammars.brown = [
         "prob": 0.05
     }, 
     {
+        "count": 1, 
         "rhs": [
             {
                 "is_terminal": true, 
@@ -7072,6 +7561,7 @@ grammars.brown = [
         "prob": 0.05
     }, 
     {
+        "count": 20, 
         "rhs": [
             {
                 "is_terminal": true, 
@@ -7094,6 +7584,7 @@ grammars.brown = [
         "prob": 1.0
     }, 
     {
+        "count": 2, 
         "rhs": [
             {
                 "is_terminal": true, 
@@ -7104,6 +7595,7 @@ grammars.brown = [
         "prob": 0.5
     }, 
     {
+        "count": 1, 
         "rhs": [
             {
                 "is_terminal": true, 
@@ -7114,6 +7606,7 @@ grammars.brown = [
         "prob": 0.25
     }, 
     {
+        "count": 1, 
         "rhs": [
             {
                 "is_terminal": true, 
@@ -7124,6 +7617,7 @@ grammars.brown = [
         "prob": 0.25
     }, 
     {
+        "count": 4, 
         "rhs": [
             {
                 "is_terminal": true, 
@@ -7146,6 +7640,7 @@ grammars.brown = [
         "prob": 1.0
     }, 
     {
+        "count": 1, 
         "rhs": [
             {
                 "is_terminal": true, 
@@ -7156,6 +7651,7 @@ grammars.brown = [
         "prob": 0.5
     }, 
     {
+        "count": 1, 
         "rhs": [
             {
                 "is_terminal": true, 
@@ -7166,6 +7662,7 @@ grammars.brown = [
         "prob": 0.5
     }, 
     {
+        "count": 2, 
         "rhs": [
             {
                 "is_terminal": true, 
@@ -7188,6 +7685,7 @@ grammars.brown = [
         "prob": 1.0
     }, 
     {
+        "count": 9, 
         "rhs": [
             {
                 "is_terminal": false, 
@@ -7206,6 +7704,7 @@ grammars.brown = [
         "prob": 1.0
     }, 
     {
+        "count": 2, 
         "rhs": [
             {
                 "is_terminal": true, 
@@ -7216,6 +7715,7 @@ grammars.brown = [
         "prob": 0.333333
     }, 
     {
+        "count": 1, 
         "rhs": [
             {
                 "is_terminal": true, 
@@ -7226,6 +7726,7 @@ grammars.brown = [
         "prob": 0.166667
     }, 
     {
+        "count": 1, 
         "rhs": [
             {
                 "is_terminal": true, 
@@ -7236,6 +7737,7 @@ grammars.brown = [
         "prob": 0.166667
     }, 
     {
+        "count": 1, 
         "rhs": [
             {
                 "is_terminal": true, 
@@ -7246,6 +7748,7 @@ grammars.brown = [
         "prob": 0.166667
     }, 
     {
+        "count": 1, 
         "rhs": [
             {
                 "is_terminal": true, 
@@ -7256,6 +7759,7 @@ grammars.brown = [
         "prob": 0.166667
     }, 
     {
+        "count": 6, 
         "rhs": [
             {
                 "is_terminal": true, 
@@ -7278,6 +7782,7 @@ grammars.brown = [
         "prob": 1.0
     }, 
     {
+        "count": 1, 
         "rhs": [
             {
                 "is_terminal": true, 
@@ -7288,6 +7793,7 @@ grammars.brown = [
         "prob": 0.2
     }, 
     {
+        "count": 4, 
         "rhs": [
             {
                 "is_terminal": true, 
@@ -7298,6 +7804,7 @@ grammars.brown = [
         "prob": 0.8
     }, 
     {
+        "count": 5, 
         "rhs": [
             {
                 "is_terminal": true, 
@@ -7320,6 +7827,7 @@ grammars.brown = [
         "prob": 1.0
     }, 
     {
+        "count": 1, 
         "rhs": [
             {
                 "is_terminal": true, 
@@ -7330,6 +7838,7 @@ grammars.brown = [
         "prob": 0.166667
     }, 
     {
+        "count": 1, 
         "rhs": [
             {
                 "is_terminal": true, 
@@ -7340,6 +7849,7 @@ grammars.brown = [
         "prob": 0.166667
     }, 
     {
+        "count": 1, 
         "rhs": [
             {
                 "is_terminal": true, 
@@ -7350,6 +7860,7 @@ grammars.brown = [
         "prob": 0.166667
     }, 
     {
+        "count": 1, 
         "rhs": [
             {
                 "is_terminal": true, 
@@ -7360,6 +7871,7 @@ grammars.brown = [
         "prob": 0.166667
     }, 
     {
+        "count": 1, 
         "rhs": [
             {
                 "is_terminal": true, 
@@ -7370,6 +7882,7 @@ grammars.brown = [
         "prob": 0.166667
     }, 
     {
+        "count": 1, 
         "rhs": [
             {
                 "is_terminal": true, 
@@ -7380,6 +7893,7 @@ grammars.brown = [
         "prob": 0.166667
     }, 
     {
+        "count": 5, 
         "rhs": [
             {
                 "is_terminal": true, 
@@ -7390,6 +7904,7 @@ grammars.brown = [
         "prob": 0.384615
     }, 
     {
+        "count": 8, 
         "rhs": [
             {
                 "is_terminal": true, 
@@ -7400,6 +7915,7 @@ grammars.brown = [
         "prob": 0.615385
     }, 
     {
+        "count": 6, 
         "rhs": [
             {
                 "is_terminal": true, 
@@ -7422,6 +7938,7 @@ grammars.brown = [
         "prob": 1.0
     }, 
     {
+        "count": 1, 
         "rhs": [
             {
                 "is_terminal": true, 
@@ -7432,6 +7949,7 @@ grammars.brown = [
         "prob": 0.166667
     }, 
     {
+        "count": 5, 
         "rhs": [
             {
                 "is_terminal": true, 
@@ -7442,6 +7960,7 @@ grammars.brown = [
         "prob": 0.833333
     }, 
     {
+        "count": 6, 
         "rhs": [
             {
                 "is_terminal": true, 
@@ -7464,6 +7983,7 @@ grammars.brown = [
         "prob": 1.0
     }, 
     {
+        "count": 1, 
         "rhs": [
             {
                 "is_terminal": true, 
@@ -7474,6 +7994,7 @@ grammars.brown = [
         "prob": 0.5
     }, 
     {
+        "count": 1, 
         "rhs": [
             {
                 "is_terminal": true, 
@@ -7484,6 +8005,7 @@ grammars.brown = [
         "prob": 0.5
     }, 
     {
+        "count": 2, 
         "rhs": [
             {
                 "is_terminal": true, 
@@ -7506,6 +8028,7 @@ grammars.brown = [
         "prob": 1.0
     }, 
     {
+        "count": 2, 
         "rhs": [
             {
                 "is_terminal": true, 
@@ -7516,6 +8039,7 @@ grammars.brown = [
         "prob": 0.5
     }, 
     {
+        "count": 2, 
         "rhs": [
             {
                 "is_terminal": true, 
@@ -7526,6 +8050,7 @@ grammars.brown = [
         "prob": 0.5
     }, 
     {
+        "count": 4, 
         "rhs": [
             {
                 "is_terminal": true, 
@@ -7548,6 +8073,7 @@ grammars.brown = [
         "prob": 1.0
     }, 
     {
+        "count": 22, 
         "rhs": [
             {
                 "is_terminal": true, 
@@ -7558,6 +8084,7 @@ grammars.brown = [
         "prob": 0.758621
     }, 
     {
+        "count": 7, 
         "rhs": [
             {
                 "is_terminal": false, 
@@ -7568,6 +8095,7 @@ grammars.brown = [
         "prob": 0.241379
     }, 
     {
+        "count": 12, 
         "rhs": [
             {
                 "is_terminal": false, 
@@ -7586,6 +8114,7 @@ grammars.brown = [
         "prob": 1.0
     }, 
     {
+        "count": 1, 
         "rhs": [
             {
                 "is_terminal": true, 
@@ -7596,6 +8125,7 @@ grammars.brown = [
         "prob": 0.5
     }, 
     {
+        "count": 1, 
         "rhs": [
             {
                 "is_terminal": true, 
@@ -7606,6 +8136,7 @@ grammars.brown = [
         "prob": 0.5
     }, 
     {
+        "count": 2, 
         "rhs": [
             {
                 "is_terminal": true, 
@@ -7628,6 +8159,7 @@ grammars.brown = [
         "prob": 1.0
     }, 
     {
+        "count": 23, 
         "rhs": [
             {
                 "is_terminal": true, 
@@ -7642,6 +8174,7 @@ grammars.brown = [
         "prob": 1.0
     }, 
     {
+        "count": 16, 
         "rhs": [
             {
                 "is_terminal": true, 
@@ -7656,6 +8189,7 @@ grammars.brown = [
         "prob": 1.0
     }, 
     {
+        "count": 12, 
         "rhs": [
             {
                 "is_terminal": true, 
@@ -7674,6 +8208,7 @@ grammars.brown = [
         "prob": 1.0
     }, 
     {
+        "count": 1, 
         "rhs": [
             {
                 "is_terminal": true, 
@@ -7684,6 +8219,7 @@ grammars.brown = [
         "prob": 0.5
     }, 
     {
+        "count": 1, 
         "rhs": [
             {
                 "is_terminal": true, 
@@ -7694,6 +8230,7 @@ grammars.brown = [
         "prob": 0.5
     }, 
     {
+        "count": 2, 
         "rhs": [
             {
                 "is_terminal": true, 
@@ -7716,6 +8253,7 @@ grammars.brown = [
         "prob": 1.0
     }, 
     {
+        "count": 1, 
         "rhs": [
             {
                 "is_terminal": true, 
@@ -7726,6 +8264,7 @@ grammars.brown = [
         "prob": 0.25
     }, 
     {
+        "count": 1, 
         "rhs": [
             {
                 "is_terminal": true, 
@@ -7736,6 +8275,7 @@ grammars.brown = [
         "prob": 0.25
     }, 
     {
+        "count": 1, 
         "rhs": [
             {
                 "is_terminal": true, 
@@ -7746,6 +8286,7 @@ grammars.brown = [
         "prob": 0.25
     }, 
     {
+        "count": 1, 
         "rhs": [
             {
                 "is_terminal": true, 
@@ -7756,6 +8297,7 @@ grammars.brown = [
         "prob": 0.25
     }, 
     {
+        "count": 4, 
         "rhs": [
             {
                 "is_terminal": true, 
@@ -7778,6 +8320,7 @@ grammars.brown = [
         "prob": 1.0
     }, 
     {
+        "count": 14, 
         "rhs": [
             {
                 "is_terminal": true, 
@@ -7796,6 +8339,7 @@ grammars.brown = [
         "prob": 1.0
     }, 
     {
+        "count": 1, 
         "rhs": [
             {
                 "is_terminal": true, 
@@ -7806,6 +8350,7 @@ grammars.brown = [
         "prob": 0.2
     }, 
     {
+        "count": 1, 
         "rhs": [
             {
                 "is_terminal": true, 
@@ -7816,6 +8361,7 @@ grammars.brown = [
         "prob": 0.2
     }, 
     {
+        "count": 1, 
         "rhs": [
             {
                 "is_terminal": true, 
@@ -7826,6 +8372,7 @@ grammars.brown = [
         "prob": 0.2
     }, 
     {
+        "count": 1, 
         "rhs": [
             {
                 "is_terminal": true, 
@@ -7836,6 +8383,7 @@ grammars.brown = [
         "prob": 0.2
     }, 
     {
+        "count": 1, 
         "rhs": [
             {
                 "is_terminal": true, 
@@ -7846,6 +8394,7 @@ grammars.brown = [
         "prob": 0.2
     }, 
     {
+        "count": 5, 
         "rhs": [
             {
                 "is_terminal": true, 
@@ -7868,6 +8417,7 @@ grammars.brown = [
         "prob": 1.0
     }, 
     {
+        "count": 1, 
         "rhs": [
             {
                 "is_terminal": true, 
@@ -7878,6 +8428,7 @@ grammars.brown = [
         "prob": 0.333333
     }, 
     {
+        "count": 1, 
         "rhs": [
             {
                 "is_terminal": true, 
@@ -7888,6 +8439,7 @@ grammars.brown = [
         "prob": 0.333333
     }, 
     {
+        "count": 1, 
         "rhs": [
             {
                 "is_terminal": true, 
@@ -7898,6 +8450,7 @@ grammars.brown = [
         "prob": 0.333333
     }, 
     {
+        "count": 3, 
         "rhs": [
             {
                 "is_terminal": true, 
@@ -7920,6 +8473,7 @@ grammars.brown = [
         "prob": 1.0
     }, 
     {
+        "count": 1, 
         "rhs": [
             {
                 "is_terminal": true, 
@@ -7930,6 +8484,7 @@ grammars.brown = [
         "prob": 0.5
     }, 
     {
+        "count": 1, 
         "rhs": [
             {
                 "is_terminal": true, 
@@ -7940,6 +8495,7 @@ grammars.brown = [
         "prob": 0.5
     }, 
     {
+        "count": 2, 
         "rhs": [
             {
                 "is_terminal": true, 
@@ -7962,6 +8518,7 @@ grammars.brown = [
         "prob": 1.0
     }, 
     {
+        "count": 1, 
         "rhs": [
             {
                 "is_terminal": true, 
@@ -7972,6 +8529,7 @@ grammars.brown = [
         "prob": 0.5
     }, 
     {
+        "count": 1, 
         "rhs": [
             {
                 "is_terminal": true, 
@@ -7982,6 +8540,7 @@ grammars.brown = [
         "prob": 0.5
     }, 
     {
+        "count": 2, 
         "rhs": [
             {
                 "is_terminal": true, 
@@ -8004,6 +8563,7 @@ grammars.brown = [
         "prob": 1.0
     }, 
     {
+        "count": 1, 
         "rhs": [
             {
                 "is_terminal": true, 
@@ -8014,6 +8574,7 @@ grammars.brown = [
         "prob": 0.333333
     }, 
     {
+        "count": 1, 
         "rhs": [
             {
                 "is_terminal": true, 
@@ -8024,6 +8585,7 @@ grammars.brown = [
         "prob": 0.333333
     }, 
     {
+        "count": 1, 
         "rhs": [
             {
                 "is_terminal": true, 
@@ -8034,6 +8596,7 @@ grammars.brown = [
         "prob": 0.333333
     }, 
     {
+        "count": 3, 
         "rhs": [
             {
                 "is_terminal": true, 
@@ -8056,6 +8619,7 @@ grammars.brown = [
         "prob": 1.0
     }, 
     {
+        "count": 1, 
         "rhs": [
             {
                 "is_terminal": true, 
@@ -8066,6 +8630,7 @@ grammars.brown = [
         "prob": 0.333333
     }, 
     {
+        "count": 1, 
         "rhs": [
             {
                 "is_terminal": true, 
@@ -8076,6 +8641,7 @@ grammars.brown = [
         "prob": 0.333333
     }, 
     {
+        "count": 1, 
         "rhs": [
             {
                 "is_terminal": true, 
@@ -8086,6 +8652,7 @@ grammars.brown = [
         "prob": 0.333333
     }, 
     {
+        "count": 3, 
         "rhs": [
             {
                 "is_terminal": true, 
@@ -8108,6 +8675,7 @@ grammars.brown = [
         "prob": 1.0
     }, 
     {
+        "count": 1, 
         "rhs": [
             {
                 "is_terminal": true, 
@@ -8118,6 +8686,7 @@ grammars.brown = [
         "prob": 0.25
     }, 
     {
+        "count": 1, 
         "rhs": [
             {
                 "is_terminal": true, 
@@ -8128,6 +8697,7 @@ grammars.brown = [
         "prob": 0.25
     }, 
     {
+        "count": 1, 
         "rhs": [
             {
                 "is_terminal": true, 
@@ -8138,6 +8708,7 @@ grammars.brown = [
         "prob": 0.25
     }, 
     {
+        "count": 1, 
         "rhs": [
             {
                 "is_terminal": true, 
@@ -8148,6 +8719,7 @@ grammars.brown = [
         "prob": 0.25
     }, 
     {
+        "count": 4, 
         "rhs": [
             {
                 "is_terminal": false, 
@@ -8170,6 +8742,7 @@ grammars.brown = [
         "prob": 1.0
     }, 
     {
+        "count": 1, 
         "rhs": [
             {
                 "is_terminal": true, 
@@ -8180,6 +8753,7 @@ grammars.brown = [
         "prob": 0.25
     }, 
     {
+        "count": 1, 
         "rhs": [
             {
                 "is_terminal": true, 
@@ -8190,6 +8764,7 @@ grammars.brown = [
         "prob": 0.25
     }, 
     {
+        "count": 2, 
         "rhs": [
             {
                 "is_terminal": true, 
@@ -8200,6 +8775,7 @@ grammars.brown = [
         "prob": 0.5
     }, 
     {
+        "count": 4, 
         "rhs": [
             {
                 "is_terminal": true, 
@@ -8222,6 +8798,7 @@ grammars.brown = [
         "prob": 1.0
     }, 
     {
+        "count": 1, 
         "rhs": [
             {
                 "is_terminal": true, 
@@ -8232,6 +8809,7 @@ grammars.brown = [
         "prob": 0.25
     }, 
     {
+        "count": 1, 
         "rhs": [
             {
                 "is_terminal": true, 
@@ -8242,6 +8820,7 @@ grammars.brown = [
         "prob": 0.25
     }, 
     {
+        "count": 1, 
         "rhs": [
             {
                 "is_terminal": true, 
@@ -8252,6 +8831,7 @@ grammars.brown = [
         "prob": 0.25
     }, 
     {
+        "count": 1, 
         "rhs": [
             {
                 "is_terminal": true, 
@@ -8262,6 +8842,7 @@ grammars.brown = [
         "prob": 0.25
     }, 
     {
+        "count": 4, 
         "rhs": [
             {
                 "is_terminal": true, 
@@ -8284,6 +8865,7 @@ grammars.brown = [
         "prob": 1.0
     }, 
     {
+        "count": 1, 
         "rhs": [
             {
                 "is_terminal": true, 
@@ -8294,6 +8876,7 @@ grammars.brown = [
         "prob": 0.25
     }, 
     {
+        "count": 1, 
         "rhs": [
             {
                 "is_terminal": true, 
@@ -8304,6 +8887,7 @@ grammars.brown = [
         "prob": 0.25
     }, 
     {
+        "count": 1, 
         "rhs": [
             {
                 "is_terminal": true, 
@@ -8314,6 +8898,7 @@ grammars.brown = [
         "prob": 0.25
     }, 
     {
+        "count": 1, 
         "rhs": [
             {
                 "is_terminal": true, 
@@ -8324,6 +8909,7 @@ grammars.brown = [
         "prob": 0.25
     }, 
     {
+        "count": 4, 
         "rhs": [
             {
                 "is_terminal": true, 
@@ -8346,6 +8932,7 @@ grammars.brown = [
         "prob": 1.0
     }, 
     {
+        "count": 7, 
         "rhs": [
             {
                 "is_terminal": true, 
@@ -8356,6 +8943,7 @@ grammars.brown = [
         "prob": 0.7
     }, 
     {
+        "count": 3, 
         "rhs": [
             {
                 "is_terminal": true, 
@@ -8366,6 +8954,7 @@ grammars.brown = [
         "prob": 0.3
     }, 
     {
+        "count": 8, 
         "rhs": [
             {
                 "is_terminal": false, 
@@ -8384,6 +8973,7 @@ grammars.brown = [
         "prob": 1.0
     }, 
     {
+        "count": 32, 
         "rhs": [
             {
                 "is_terminal": true, 
@@ -8394,6 +8984,7 @@ grammars.brown = [
         "prob": 0.405063
     }, 
     {
+        "count": 15, 
         "rhs": [
             {
                 "is_terminal": true, 
@@ -8404,6 +8995,7 @@ grammars.brown = [
         "prob": 0.189873
     }, 
     {
+        "count": 32, 
         "rhs": [
             {
                 "is_terminal": true, 
@@ -8414,6 +9006,7 @@ grammars.brown = [
         "prob": 0.405063
     }, 
     {
+        "count": 79, 
         "rhs": [
             {
                 "is_terminal": false, 
@@ -8428,6 +9021,7 @@ grammars.brown = [
         "prob": 1.0
     }, 
     {
+        "count": 1, 
         "rhs": [
             {
                 "is_terminal": true, 
@@ -8438,6 +9032,7 @@ grammars.brown = [
         "prob": 0.5
     }, 
     {
+        "count": 1, 
         "rhs": [
             {
                 "is_terminal": true, 
@@ -8448,6 +9043,7 @@ grammars.brown = [
         "prob": 0.5
     }, 
     {
+        "count": 2, 
         "rhs": [
             {
                 "is_terminal": true, 
@@ -8470,6 +9066,7 @@ grammars.brown = [
         "prob": 1.0
     }, 
     {
+        "count": 1, 
         "rhs": [
             {
                 "is_terminal": true, 
@@ -8480,6 +9077,7 @@ grammars.brown = [
         "prob": 0.2
     }, 
     {
+        "count": 1, 
         "rhs": [
             {
                 "is_terminal": true, 
@@ -8490,6 +9088,7 @@ grammars.brown = [
         "prob": 0.2
     }, 
     {
+        "count": 1, 
         "rhs": [
             {
                 "is_terminal": true, 
@@ -8500,6 +9099,7 @@ grammars.brown = [
         "prob": 0.2
     }, 
     {
+        "count": 1, 
         "rhs": [
             {
                 "is_terminal": true, 
@@ -8510,6 +9110,7 @@ grammars.brown = [
         "prob": 0.2
     }, 
     {
+        "count": 1, 
         "rhs": [
             {
                 "is_terminal": true, 
@@ -8520,6 +9121,7 @@ grammars.brown = [
         "prob": 0.2
     }, 
     {
+        "count": 5, 
         "rhs": [
             {
                 "is_terminal": true, 
@@ -8542,6 +9144,7 @@ grammars.brown = [
         "prob": 1.0
     }, 
     {
+        "count": 1, 
         "rhs": [
             {
                 "is_terminal": true, 
@@ -8552,6 +9155,7 @@ grammars.brown = [
         "prob": 0.5
     }, 
     {
+        "count": 1, 
         "rhs": [
             {
                 "is_terminal": true, 
@@ -8562,6 +9166,7 @@ grammars.brown = [
         "prob": 0.5
     }, 
     {
+        "count": 2, 
         "rhs": [
             {
                 "is_terminal": true, 
@@ -8584,6 +9189,7 @@ grammars.brown = [
         "prob": 1.0
     }, 
     {
+        "count": 1, 
         "rhs": [
             {
                 "is_terminal": true, 
@@ -8594,6 +9200,7 @@ grammars.brown = [
         "prob": 0.5
     }, 
     {
+        "count": 1, 
         "rhs": [
             {
                 "is_terminal": true, 
@@ -8604,6 +9211,7 @@ grammars.brown = [
         "prob": 0.5
     }, 
     {
+        "count": 2, 
         "rhs": [
             {
                 "is_terminal": true, 
@@ -8614,6 +9222,7 @@ grammars.brown = [
         "prob": 0.5
     }, 
     {
+        "count": 2, 
         "rhs": [
             {
                 "is_terminal": true, 
@@ -8624,6 +9233,7 @@ grammars.brown = [
         "prob": 0.5
     }, 
     {
+        "count": 2, 
         "rhs": [
             {
                 "is_terminal": true, 
@@ -8646,6 +9256,7 @@ grammars.brown = [
         "prob": 1.0
     }, 
     {
+        "count": 4, 
         "rhs": [
             {
                 "is_terminal": true, 
@@ -8664,6 +9275,7 @@ grammars.brown = [
         "prob": 1.0
     }, 
     {
+        "count": 5, 
         "rhs": [
             {
                 "is_terminal": true, 
@@ -8674,6 +9286,7 @@ grammars.brown = [
         "prob": 0.357143
     }, 
     {
+        "count": 1, 
         "rhs": [
             {
                 "is_terminal": true, 
@@ -8684,6 +9297,7 @@ grammars.brown = [
         "prob": 0.0714286
     }, 
     {
+        "count": 8, 
         "rhs": [
             {
                 "is_terminal": true, 
@@ -8694,6 +9308,7 @@ grammars.brown = [
         "prob": 0.571429
     }, 
     {
+        "count": 14, 
         "rhs": [
             {
                 "is_terminal": true, 
@@ -8712,6 +9327,7 @@ grammars.brown = [
         "prob": 1.0
     }, 
     {
+        "count": 1, 
         "rhs": [
             {
                 "is_terminal": true, 
@@ -8722,6 +9338,7 @@ grammars.brown = [
         "prob": 0.25
     }, 
     {
+        "count": 1, 
         "rhs": [
             {
                 "is_terminal": true, 
@@ -8732,6 +9349,7 @@ grammars.brown = [
         "prob": 0.25
     }, 
     {
+        "count": 1, 
         "rhs": [
             {
                 "is_terminal": true, 
@@ -8742,6 +9360,7 @@ grammars.brown = [
         "prob": 0.25
     }, 
     {
+        "count": 1, 
         "rhs": [
             {
                 "is_terminal": true, 
@@ -8752,6 +9371,7 @@ grammars.brown = [
         "prob": 0.25
     }, 
     {
+        "count": 4, 
         "rhs": [
             {
                 "is_terminal": true, 
@@ -8774,6 +9394,7 @@ grammars.brown = [
         "prob": 1.0
     }, 
     {
+        "count": 1, 
         "rhs": [
             {
                 "is_terminal": true, 
@@ -8784,6 +9405,7 @@ grammars.brown = [
         "prob": 0.5
     }, 
     {
+        "count": 1, 
         "rhs": [
             {
                 "is_terminal": true, 
@@ -8794,6 +9416,7 @@ grammars.brown = [
         "prob": 0.5
     }, 
     {
+        "count": 5, 
         "rhs": [
             {
                 "is_terminal": true, 
@@ -8804,6 +9427,7 @@ grammars.brown = [
         "prob": 0.625
     }, 
     {
+        "count": 3, 
         "rhs": [
             {
                 "is_terminal": true, 
@@ -8814,6 +9438,7 @@ grammars.brown = [
         "prob": 0.375
     }, 
     {
+        "count": 2, 
         "rhs": [
             {
                 "is_terminal": true, 
@@ -8836,6 +9461,7 @@ grammars.brown = [
         "prob": 1.0
     }, 
     {
+        "count": 15, 
         "rhs": [
             {
                 "is_terminal": true, 
@@ -8850,6 +9476,7 @@ grammars.brown = [
         "prob": 1.0
     }, 
     {
+        "count": 1, 
         "rhs": [
             {
                 "is_terminal": true, 
@@ -8860,6 +9487,7 @@ grammars.brown = [
         "prob": 0.2
     }, 
     {
+        "count": 1, 
         "rhs": [
             {
                 "is_terminal": true, 
@@ -8870,6 +9498,7 @@ grammars.brown = [
         "prob": 0.2
     }, 
     {
+        "count": 1, 
         "rhs": [
             {
                 "is_terminal": true, 
@@ -8880,6 +9509,7 @@ grammars.brown = [
         "prob": 0.2
     }, 
     {
+        "count": 1, 
         "rhs": [
             {
                 "is_terminal": true, 
@@ -8890,6 +9520,7 @@ grammars.brown = [
         "prob": 0.2
     }, 
     {
+        "count": 1, 
         "rhs": [
             {
                 "is_terminal": true, 
@@ -8900,6 +9531,7 @@ grammars.brown = [
         "prob": 0.2
     }, 
     {
+        "count": 5, 
         "rhs": [
             {
                 "is_terminal": true, 
@@ -8922,6 +9554,7 @@ grammars.brown = [
         "prob": 1.0
     }, 
     {
+        "count": 1, 
         "rhs": [
             {
                 "is_terminal": true, 
@@ -8932,6 +9565,7 @@ grammars.brown = [
         "prob": 0.25
     }, 
     {
+        "count": 1, 
         "rhs": [
             {
                 "is_terminal": true, 
@@ -8942,6 +9576,7 @@ grammars.brown = [
         "prob": 0.25
     }, 
     {
+        "count": 1, 
         "rhs": [
             {
                 "is_terminal": true, 
@@ -8952,6 +9587,7 @@ grammars.brown = [
         "prob": 0.25
     }, 
     {
+        "count": 1, 
         "rhs": [
             {
                 "is_terminal": true, 
@@ -8962,6 +9598,7 @@ grammars.brown = [
         "prob": 0.25
     }, 
     {
+        "count": 4, 
         "rhs": [
             {
                 "is_terminal": true, 
@@ -8984,6 +9621,7 @@ grammars.brown = [
         "prob": 1.0
     }, 
     {
+        "count": 1, 
         "rhs": [
             {
                 "is_terminal": true, 
@@ -8994,6 +9632,7 @@ grammars.brown = [
         "prob": 0.25
     }, 
     {
+        "count": 1, 
         "rhs": [
             {
                 "is_terminal": true, 
@@ -9004,6 +9643,7 @@ grammars.brown = [
         "prob": 0.25
     }, 
     {
+        "count": 2, 
         "rhs": [
             {
                 "is_terminal": true, 
@@ -9014,6 +9654,7 @@ grammars.brown = [
         "prob": 0.5
     }, 
     {
+        "count": 4, 
         "rhs": [
             {
                 "is_terminal": true, 
@@ -9036,6 +9677,7 @@ grammars.brown = [
         "prob": 1.0
     }, 
     {
+        "count": 1, 
         "rhs": [
             {
                 "is_terminal": true, 
@@ -9046,6 +9688,7 @@ grammars.brown = [
         "prob": 0.2
     }, 
     {
+        "count": 2, 
         "rhs": [
             {
                 "is_terminal": true, 
@@ -9056,6 +9699,7 @@ grammars.brown = [
         "prob": 0.4
     }, 
     {
+        "count": 1, 
         "rhs": [
             {
                 "is_terminal": true, 
@@ -9066,6 +9710,7 @@ grammars.brown = [
         "prob": 0.2
     }, 
     {
+        "count": 1, 
         "rhs": [
             {
                 "is_terminal": true, 
@@ -9076,6 +9721,7 @@ grammars.brown = [
         "prob": 0.2
     }, 
     {
+        "count": 5, 
         "rhs": [
             {
                 "is_terminal": false, 
@@ -9098,6 +9744,7 @@ grammars.brown = [
         "prob": 1.0
     }, 
     {
+        "count": 1, 
         "rhs": [
             {
                 "is_terminal": true, 
@@ -9108,6 +9755,7 @@ grammars.brown = [
         "prob": 0.142857
     }, 
     {
+        "count": 1, 
         "rhs": [
             {
                 "is_terminal": true, 
@@ -9118,6 +9766,7 @@ grammars.brown = [
         "prob": 0.142857
     }, 
     {
+        "count": 2, 
         "rhs": [
             {
                 "is_terminal": true, 
@@ -9128,6 +9777,7 @@ grammars.brown = [
         "prob": 0.285714
     }, 
     {
+        "count": 1, 
         "rhs": [
             {
                 "is_terminal": true, 
@@ -9138,6 +9788,7 @@ grammars.brown = [
         "prob": 0.142857
     }, 
     {
+        "count": 1, 
         "rhs": [
             {
                 "is_terminal": true, 
@@ -9148,6 +9799,7 @@ grammars.brown = [
         "prob": 0.142857
     }, 
     {
+        "count": 1, 
         "rhs": [
             {
                 "is_terminal": true, 
@@ -9158,6 +9810,7 @@ grammars.brown = [
         "prob": 0.142857
     }, 
     {
+        "count": 7, 
         "rhs": [
             {
                 "is_terminal": true, 
@@ -9180,6 +9833,7 @@ grammars.brown = [
         "prob": 1.0
     }, 
     {
+        "count": 1, 
         "rhs": [
             {
                 "is_terminal": true, 
@@ -9190,6 +9844,7 @@ grammars.brown = [
         "prob": 0.25
     }, 
     {
+        "count": 1, 
         "rhs": [
             {
                 "is_terminal": true, 
@@ -9200,6 +9855,7 @@ grammars.brown = [
         "prob": 0.25
     }, 
     {
+        "count": 1, 
         "rhs": [
             {
                 "is_terminal": true, 
@@ -9210,6 +9866,7 @@ grammars.brown = [
         "prob": 0.25
     }, 
     {
+        "count": 1, 
         "rhs": [
             {
                 "is_terminal": true, 
@@ -9220,6 +9877,7 @@ grammars.brown = [
         "prob": 0.25
     }, 
     {
+        "count": 4, 
         "rhs": [
             {
                 "is_terminal": true, 
@@ -9242,6 +9900,7 @@ grammars.brown = [
         "prob": 1.0
     }, 
     {
+        "count": 1, 
         "rhs": [
             {
                 "is_terminal": true, 
@@ -9252,6 +9911,7 @@ grammars.brown = [
         "prob": 0.5
     }, 
     {
+        "count": 1, 
         "rhs": [
             {
                 "is_terminal": true, 
@@ -9262,6 +9922,7 @@ grammars.brown = [
         "prob": 0.5
     }, 
     {
+        "count": 2, 
         "rhs": [
             {
                 "is_terminal": true, 
@@ -9284,6 +9945,7 @@ grammars.brown = [
         "prob": 1.0
     }, 
     {
+        "count": 1, 
         "rhs": [
             {
                 "is_terminal": true, 
@@ -9294,6 +9956,7 @@ grammars.brown = [
         "prob": 0.25
     }, 
     {
+        "count": 1, 
         "rhs": [
             {
                 "is_terminal": true, 
@@ -9304,6 +9967,7 @@ grammars.brown = [
         "prob": 0.25
     }, 
     {
+        "count": 1, 
         "rhs": [
             {
                 "is_terminal": true, 
@@ -9314,6 +9978,7 @@ grammars.brown = [
         "prob": 0.25
     }, 
     {
+        "count": 1, 
         "rhs": [
             {
                 "is_terminal": true, 
@@ -9324,6 +9989,7 @@ grammars.brown = [
         "prob": 0.25
     }, 
     {
+        "count": 4, 
         "rhs": [
             {
                 "is_terminal": false, 
@@ -9346,6 +10012,7 @@ grammars.brown = [
         "prob": 1.0
     }, 
     {
+        "count": 1, 
         "rhs": [
             {
                 "is_terminal": true, 
@@ -9356,6 +10023,7 @@ grammars.brown = [
         "prob": 0.5
     }, 
     {
+        "count": 1, 
         "rhs": [
             {
                 "is_terminal": true, 
@@ -9366,6 +10034,7 @@ grammars.brown = [
         "prob": 0.5
     }, 
     {
+        "count": 2, 
         "rhs": [
             {
                 "is_terminal": true, 
@@ -9388,6 +10057,7 @@ grammars.brown = [
         "prob": 1.0
     }, 
     {
+        "count": 1, 
         "rhs": [
             {
                 "is_terminal": true, 
@@ -9398,6 +10068,7 @@ grammars.brown = [
         "prob": 0.5
     }, 
     {
+        "count": 1, 
         "rhs": [
             {
                 "is_terminal": true, 
@@ -9408,6 +10079,7 @@ grammars.brown = [
         "prob": 0.5
     }, 
     {
+        "count": 2, 
         "rhs": [
             {
                 "is_terminal": true, 
@@ -9430,6 +10102,7 @@ grammars.brown = [
         "prob": 1.0
     }, 
     {
+        "count": 4, 
         "rhs": [
             {
                 "is_terminal": true, 
@@ -9440,6 +10113,7 @@ grammars.brown = [
         "prob": 0.8
     }, 
     {
+        "count": 1, 
         "rhs": [
             {
                 "is_terminal": true, 
@@ -9450,6 +10124,7 @@ grammars.brown = [
         "prob": 0.2
     }, 
     {
+        "count": 5, 
         "rhs": [
             {
                 "is_terminal": true, 
@@ -9476,6 +10151,7 @@ grammars.brown = [
         "prob": 1.0
     }, 
     {
+        "count": 1, 
         "rhs": [
             {
                 "is_terminal": false, 
@@ -9486,6 +10162,7 @@ grammars.brown = [
         "prob": 0.5
     }, 
     {
+        "count": 1, 
         "rhs": [
             {
                 "is_terminal": true, 
@@ -9496,6 +10173,7 @@ grammars.brown = [
         "prob": 0.5
     }, 
     {
+        "count": 2, 
         "rhs": [
             {
                 "is_terminal": true, 
@@ -9518,6 +10196,7 @@ grammars.brown = [
         "prob": 1.0
     }, 
     {
+        "count": 6, 
         "rhs": [
             {
                 "is_terminal": true, 
@@ -9528,6 +10207,7 @@ grammars.brown = [
         "prob": 0.75
     }, 
     {
+        "count": 2, 
         "rhs": [
             {
                 "is_terminal": true, 
@@ -9538,6 +10218,7 @@ grammars.brown = [
         "prob": 0.25
     }, 
     {
+        "count": 8, 
         "rhs": [
             {
                 "is_terminal": true, 
@@ -9556,6 +10237,7 @@ grammars.brown = [
         "prob": 1.0
     }, 
     {
+        "count": 1, 
         "rhs": [
             {
                 "is_terminal": true, 
@@ -9566,6 +10248,7 @@ grammars.brown = [
         "prob": 0.5
     }, 
     {
+        "count": 1, 
         "rhs": [
             {
                 "is_terminal": true, 
@@ -9576,6 +10259,7 @@ grammars.brown = [
         "prob": 0.5
     }, 
     {
+        "count": 2, 
         "rhs": [
             {
                 "is_terminal": true, 
@@ -9598,6 +10282,7 @@ grammars.brown = [
         "prob": 1.0
     }, 
     {
+        "count": 1, 
         "rhs": [
             {
                 "is_terminal": true, 
@@ -9608,6 +10293,7 @@ grammars.brown = [
         "prob": 0.25
     }, 
     {
+        "count": 1, 
         "rhs": [
             {
                 "is_terminal": true, 
@@ -9618,6 +10304,7 @@ grammars.brown = [
         "prob": 0.25
     }, 
     {
+        "count": 1, 
         "rhs": [
             {
                 "is_terminal": true, 
@@ -9628,6 +10315,7 @@ grammars.brown = [
         "prob": 0.25
     }, 
     {
+        "count": 1, 
         "rhs": [
             {
                 "is_terminal": true, 
@@ -9638,6 +10326,7 @@ grammars.brown = [
         "prob": 0.25
     }, 
     {
+        "count": 4, 
         "rhs": [
             {
                 "is_terminal": true, 
@@ -9660,6 +10349,7 @@ grammars.brown = [
         "prob": 1.0
     }, 
     {
+        "count": 1, 
         "rhs": [
             {
                 "is_terminal": true, 
@@ -9670,6 +10360,7 @@ grammars.brown = [
         "prob": 0.2
     }, 
     {
+        "count": 1, 
         "rhs": [
             {
                 "is_terminal": true, 
@@ -9680,6 +10371,7 @@ grammars.brown = [
         "prob": 0.2
     }, 
     {
+        "count": 1, 
         "rhs": [
             {
                 "is_terminal": true, 
@@ -9690,6 +10382,7 @@ grammars.brown = [
         "prob": 0.2
     }, 
     {
+        "count": 1, 
         "rhs": [
             {
                 "is_terminal": true, 
@@ -9700,6 +10393,7 @@ grammars.brown = [
         "prob": 0.2
     }, 
     {
+        "count": 1, 
         "rhs": [
             {
                 "is_terminal": true, 
@@ -9710,6 +10404,7 @@ grammars.brown = [
         "prob": 0.2
     }, 
     {
+        "count": 5, 
         "rhs": [
             {
                 "is_terminal": true, 
@@ -9732,6 +10427,7 @@ grammars.brown = [
         "prob": 1.0
     }, 
     {
+        "count": 2, 
         "rhs": [
             {
                 "is_terminal": true, 
@@ -9742,6 +10438,7 @@ grammars.brown = [
         "prob": 0.5
     }, 
     {
+        "count": 1, 
         "rhs": [
             {
                 "is_terminal": true, 
@@ -9752,6 +10449,7 @@ grammars.brown = [
         "prob": 0.25
     }, 
     {
+        "count": 1, 
         "rhs": [
             {
                 "is_terminal": true, 
@@ -9762,6 +10460,7 @@ grammars.brown = [
         "prob": 0.25
     }, 
     {
+        "count": 4, 
         "rhs": [
             {
                 "is_terminal": true, 
@@ -9784,6 +10483,7 @@ grammars.brown = [
         "prob": 1.0
     }, 
     {
+        "count": 1, 
         "rhs": [
             {
                 "is_terminal": true, 
@@ -9794,6 +10494,7 @@ grammars.brown = [
         "prob": 0.333333
     }, 
     {
+        "count": 1, 
         "rhs": [
             {
                 "is_terminal": true, 
@@ -9804,6 +10505,7 @@ grammars.brown = [
         "prob": 0.333333
     }, 
     {
+        "count": 1, 
         "rhs": [
             {
                 "is_terminal": true, 
@@ -9814,6 +10516,7 @@ grammars.brown = [
         "prob": 0.333333
     }, 
     {
+        "count": 1, 
         "rhs": [
             {
                 "is_terminal": true, 
@@ -9824,6 +10527,7 @@ grammars.brown = [
         "prob": 0.333333
     }, 
     {
+        "count": 1, 
         "rhs": [
             {
                 "is_terminal": true, 
@@ -9834,6 +10538,7 @@ grammars.brown = [
         "prob": 0.333333
     }, 
     {
+        "count": 1, 
         "rhs": [
             {
                 "is_terminal": true, 
@@ -9844,6 +10549,7 @@ grammars.brown = [
         "prob": 0.333333
     }, 
     {
+        "count": 3, 
         "rhs": [
             {
                 "is_terminal": true, 
@@ -9866,6 +10572,7 @@ grammars.brown = [
         "prob": 1.0
     }, 
     {
+        "count": 6, 
         "rhs": [
             {
                 "is_terminal": true, 
@@ -9876,6 +10583,7 @@ grammars.brown = [
         "prob": 0.166667
     }, 
     {
+        "count": 6, 
         "rhs": [
             {
                 "is_terminal": true, 
@@ -9886,6 +10594,7 @@ grammars.brown = [
         "prob": 0.166667
     }, 
     {
+        "count": 7, 
         "rhs": [
             {
                 "is_terminal": true, 
@@ -9896,6 +10605,7 @@ grammars.brown = [
         "prob": 0.194444
     }, 
     {
+        "count": 2, 
         "rhs": [
             {
                 "is_terminal": true, 
@@ -9906,6 +10616,7 @@ grammars.brown = [
         "prob": 0.0555556
     }, 
     {
+        "count": 2, 
         "rhs": [
             {
                 "is_terminal": true, 
@@ -9916,6 +10627,7 @@ grammars.brown = [
         "prob": 0.0555556
     }, 
     {
+        "count": 10, 
         "rhs": [
             {
                 "is_terminal": true, 
@@ -9926,6 +10638,7 @@ grammars.brown = [
         "prob": 0.277778
     }, 
     {
+        "count": 3, 
         "rhs": [
             {
                 "is_terminal": true, 
@@ -9936,6 +10649,7 @@ grammars.brown = [
         "prob": 0.0833333
     }, 
     {
+        "count": 36, 
         "rhs": [
             {
                 "is_terminal": true, 
@@ -9954,6 +10668,7 @@ grammars.brown = [
         "prob": 1.0
     }, 
     {
+        "count": 24, 
         "rhs": [
             {
                 "is_terminal": true, 
@@ -9968,6 +10683,7 @@ grammars.brown = [
         "prob": 1.0
     }, 
     {
+        "count": 1, 
         "rhs": [
             {
                 "is_terminal": true, 
@@ -9978,6 +10694,7 @@ grammars.brown = [
         "prob": 0.25
     }, 
     {
+        "count": 1, 
         "rhs": [
             {
                 "is_terminal": true, 
@@ -9988,6 +10705,7 @@ grammars.brown = [
         "prob": 0.25
     }, 
     {
+        "count": 1, 
         "rhs": [
             {
                 "is_terminal": true, 
@@ -9998,6 +10716,7 @@ grammars.brown = [
         "prob": 0.25
     }, 
     {
+        "count": 1, 
         "rhs": [
             {
                 "is_terminal": true, 
@@ -10008,6 +10727,7 @@ grammars.brown = [
         "prob": 0.25
     }, 
     {
+        "count": 4, 
         "rhs": [
             {
                 "is_terminal": true, 
@@ -10030,6 +10750,7 @@ grammars.brown = [
         "prob": 1.0
     }, 
     {
+        "count": 1, 
         "rhs": [
             {
                 "is_terminal": true, 
@@ -10040,6 +10761,7 @@ grammars.brown = [
         "prob": 0.25
     }, 
     {
+        "count": 1, 
         "rhs": [
             {
                 "is_terminal": true, 
@@ -10050,6 +10772,7 @@ grammars.brown = [
         "prob": 0.25
     }, 
     {
+        "count": 1, 
         "rhs": [
             {
                 "is_terminal": true, 
@@ -10060,6 +10783,7 @@ grammars.brown = [
         "prob": 0.25
     }, 
     {
+        "count": 1, 
         "rhs": [
             {
                 "is_terminal": true, 
@@ -10070,6 +10794,7 @@ grammars.brown = [
         "prob": 0.25
     }, 
     {
+        "count": 4, 
         "rhs": [
             {
                 "is_terminal": true, 
@@ -10092,6 +10817,7 @@ grammars.brown = [
         "prob": 1.0
     }, 
     {
+        "count": 1, 
         "rhs": [
             {
                 "is_terminal": true, 
@@ -10102,6 +10828,7 @@ grammars.brown = [
         "prob": 0.1
     }, 
     {
+        "count": 1, 
         "rhs": [
             {
                 "is_terminal": true, 
@@ -10112,6 +10839,7 @@ grammars.brown = [
         "prob": 0.1
     }, 
     {
+        "count": 1, 
         "rhs": [
             {
                 "is_terminal": true, 
@@ -10122,6 +10850,7 @@ grammars.brown = [
         "prob": 0.1
     }, 
     {
+        "count": 2, 
         "rhs": [
             {
                 "is_terminal": true, 
@@ -10132,6 +10861,7 @@ grammars.brown = [
         "prob": 0.2
     }, 
     {
+        "count": 1, 
         "rhs": [
             {
                 "is_terminal": true, 
@@ -10142,6 +10872,7 @@ grammars.brown = [
         "prob": 0.1
     }, 
     {
+        "count": 1, 
         "rhs": [
             {
                 "is_terminal": true, 
@@ -10152,6 +10883,7 @@ grammars.brown = [
         "prob": 0.1
     }, 
     {
+        "count": 1, 
         "rhs": [
             {
                 "is_terminal": true, 
@@ -10162,6 +10894,7 @@ grammars.brown = [
         "prob": 0.1
     }, 
     {
+        "count": 1, 
         "rhs": [
             {
                 "is_terminal": true, 
@@ -10172,6 +10905,7 @@ grammars.brown = [
         "prob": 0.1
     }, 
     {
+        "count": 1, 
         "rhs": [
             {
                 "is_terminal": true, 
@@ -10182,6 +10916,7 @@ grammars.brown = [
         "prob": 0.1
     }, 
     {
+        "count": 10, 
         "rhs": [
             {
                 "is_terminal": true, 
@@ -10204,6 +10939,7 @@ grammars.brown = [
         "prob": 1.0
     }, 
     {
+        "count": 1, 
         "rhs": [
             {
                 "is_terminal": true, 
@@ -10214,6 +10950,7 @@ grammars.brown = [
         "prob": 0.5
     }, 
     {
+        "count": 1, 
         "rhs": [
             {
                 "is_terminal": true, 
@@ -10224,6 +10961,7 @@ grammars.brown = [
         "prob": 0.5
     }, 
     {
+        "count": 2, 
         "rhs": [
             {
                 "is_terminal": true, 
@@ -10246,6 +10984,7 @@ grammars.brown = [
         "prob": 1.0
     }, 
     {
+        "count": 1, 
         "rhs": [
             {
                 "is_terminal": true, 
@@ -10256,6 +10995,7 @@ grammars.brown = [
         "prob": 0.25
     }, 
     {
+        "count": 1, 
         "rhs": [
             {
                 "is_terminal": true, 
@@ -10266,6 +11006,7 @@ grammars.brown = [
         "prob": 0.25
     }, 
     {
+        "count": 1, 
         "rhs": [
             {
                 "is_terminal": true, 
@@ -10276,6 +11017,7 @@ grammars.brown = [
         "prob": 0.25
     }, 
     {
+        "count": 1, 
         "rhs": [
             {
                 "is_terminal": true, 
@@ -10286,6 +11028,7 @@ grammars.brown = [
         "prob": 0.25
     }, 
     {
+        "count": 4, 
         "rhs": [
             {
                 "is_terminal": true, 
@@ -10308,6 +11051,7 @@ grammars.brown = [
         "prob": 1.0
     }, 
     {
+        "count": 1, 
         "rhs": [
             {
                 "is_terminal": true, 
@@ -10318,6 +11062,7 @@ grammars.brown = [
         "prob": 0.111111
     }, 
     {
+        "count": 1, 
         "rhs": [
             {
                 "is_terminal": true, 
@@ -10328,6 +11073,7 @@ grammars.brown = [
         "prob": 0.111111
     }, 
     {
+        "count": 1, 
         "rhs": [
             {
                 "is_terminal": true, 
@@ -10338,6 +11084,7 @@ grammars.brown = [
         "prob": 0.111111
     }, 
     {
+        "count": 1, 
         "rhs": [
             {
                 "is_terminal": true, 
@@ -10348,6 +11095,7 @@ grammars.brown = [
         "prob": 0.111111
     }, 
     {
+        "count": 1, 
         "rhs": [
             {
                 "is_terminal": true, 
@@ -10358,6 +11106,7 @@ grammars.brown = [
         "prob": 0.111111
     }, 
     {
+        "count": 1, 
         "rhs": [
             {
                 "is_terminal": true, 
@@ -10368,6 +11117,7 @@ grammars.brown = [
         "prob": 0.111111
     }, 
     {
+        "count": 1, 
         "rhs": [
             {
                 "is_terminal": true, 
@@ -10378,6 +11128,7 @@ grammars.brown = [
         "prob": 0.111111
     }, 
     {
+        "count": 1, 
         "rhs": [
             {
                 "is_terminal": true, 
@@ -10388,6 +11139,7 @@ grammars.brown = [
         "prob": 0.111111
     }, 
     {
+        "count": 1, 
         "rhs": [
             {
                 "is_terminal": true, 
@@ -10398,6 +11150,7 @@ grammars.brown = [
         "prob": 0.111111
     }, 
     {
+        "count": 9, 
         "rhs": [
             {
                 "is_terminal": true, 
@@ -10420,6 +11173,7 @@ grammars.brown = [
         "prob": 1.0
     }, 
     {
+        "count": 1, 
         "rhs": [
             {
                 "is_terminal": true, 
@@ -10430,6 +11184,7 @@ grammars.brown = [
         "prob": 0.166667
     }, 
     {
+        "count": 1, 
         "rhs": [
             {
                 "is_terminal": true, 
@@ -10440,6 +11195,7 @@ grammars.brown = [
         "prob": 0.166667
     }, 
     {
+        "count": 1, 
         "rhs": [
             {
                 "is_terminal": true, 
@@ -10450,6 +11206,7 @@ grammars.brown = [
         "prob": 0.166667
     }, 
     {
+        "count": 1, 
         "rhs": [
             {
                 "is_terminal": true, 
@@ -10460,6 +11217,7 @@ grammars.brown = [
         "prob": 0.166667
     }, 
     {
+        "count": 1, 
         "rhs": [
             {
                 "is_terminal": true, 
@@ -10470,6 +11228,7 @@ grammars.brown = [
         "prob": 0.166667
     }, 
     {
+        "count": 1, 
         "rhs": [
             {
                 "is_terminal": true, 
@@ -10480,6 +11239,7 @@ grammars.brown = [
         "prob": 0.166667
     }, 
     {
+        "count": 6, 
         "rhs": [
             {
                 "is_terminal": true, 
@@ -10502,6 +11262,7 @@ grammars.brown = [
         "prob": 1.0
     }, 
     {
+        "count": 1, 
         "rhs": [
             {
                 "is_terminal": true, 
@@ -10512,6 +11273,7 @@ grammars.brown = [
         "prob": 0.25
     }, 
     {
+        "count": 1, 
         "rhs": [
             {
                 "is_terminal": true, 
@@ -10522,6 +11284,7 @@ grammars.brown = [
         "prob": 0.25
     }, 
     {
+        "count": 1, 
         "rhs": [
             {
                 "is_terminal": true, 
@@ -10532,6 +11295,7 @@ grammars.brown = [
         "prob": 0.25
     }, 
     {
+        "count": 1, 
         "rhs": [
             {
                 "is_terminal": true, 
@@ -10542,6 +11306,7 @@ grammars.brown = [
         "prob": 0.25
     }, 
     {
+        "count": 4, 
         "rhs": [
             {
                 "is_terminal": true, 
@@ -10564,6 +11329,7 @@ grammars.brown = [
         "prob": 1.0
     }, 
     {
+        "count": 1, 
         "rhs": [
             {
                 "is_terminal": true, 
@@ -10574,6 +11340,7 @@ grammars.brown = [
         "prob": 0.5
     }, 
     {
+        "count": 1, 
         "rhs": [
             {
                 "is_terminal": true, 
@@ -10584,6 +11351,7 @@ grammars.brown = [
         "prob": 0.5
     }, 
     {
+        "count": 2, 
         "rhs": [
             {
                 "is_terminal": true, 
@@ -10606,6 +11374,7 @@ grammars.brown = [
         "prob": 1.0
     }, 
     {
+        "count": 1, 
         "rhs": [
             {
                 "is_terminal": true, 
@@ -10616,6 +11385,7 @@ grammars.brown = [
         "prob": 0.5
     }, 
     {
+        "count": 1, 
         "rhs": [
             {
                 "is_terminal": true, 
@@ -10626,6 +11396,7 @@ grammars.brown = [
         "prob": 0.5
     }, 
     {
+        "count": 2, 
         "rhs": [
             {
                 "is_terminal": true, 
@@ -10648,6 +11419,7 @@ grammars.brown = [
         "prob": 1.0
     }, 
     {
+        "count": 1, 
         "rhs": [
             {
                 "is_terminal": true, 
@@ -10658,6 +11430,7 @@ grammars.brown = [
         "prob": 0.5
     }, 
     {
+        "count": 1, 
         "rhs": [
             {
                 "is_terminal": true, 
@@ -10668,6 +11441,7 @@ grammars.brown = [
         "prob": 0.5
     }, 
     {
+        "count": 2, 
         "rhs": [
             {
                 "is_terminal": true, 
@@ -10690,6 +11464,7 @@ grammars.brown = [
         "prob": 1.0
     }, 
     {
+        "count": 5, 
         "rhs": [
             {
                 "is_terminal": true, 
@@ -10704,6 +11479,7 @@ grammars.brown = [
         "prob": 1.0
     }, 
     {
+        "count": 1, 
         "rhs": [
             {
                 "is_terminal": true, 
@@ -10714,6 +11490,7 @@ grammars.brown = [
         "prob": 0.2
     }, 
     {
+        "count": 1, 
         "rhs": [
             {
                 "is_terminal": true, 
@@ -10724,6 +11501,7 @@ grammars.brown = [
         "prob": 0.2
     }, 
     {
+        "count": 1, 
         "rhs": [
             {
                 "is_terminal": true, 
@@ -10734,6 +11512,7 @@ grammars.brown = [
         "prob": 0.2
     }, 
     {
+        "count": 1, 
         "rhs": [
             {
                 "is_terminal": true, 
@@ -10744,6 +11523,7 @@ grammars.brown = [
         "prob": 0.2
     }, 
     {
+        "count": 1, 
         "rhs": [
             {
                 "is_terminal": true, 
@@ -10754,6 +11534,7 @@ grammars.brown = [
         "prob": 0.2
     }, 
     {
+        "count": 5, 
         "rhs": [
             {
                 "is_terminal": true, 
@@ -10776,6 +11557,7 @@ grammars.brown = [
         "prob": 1.0
     }, 
     {
+        "count": 1, 
         "rhs": [
             {
                 "is_terminal": true, 
@@ -10786,6 +11568,7 @@ grammars.brown = [
         "prob": 0.5
     }, 
     {
+        "count": 1, 
         "rhs": [
             {
                 "is_terminal": true, 
@@ -10796,6 +11579,7 @@ grammars.brown = [
         "prob": 0.5
     }, 
     {
+        "count": 1, 
         "rhs": [
             {
                 "is_terminal": true, 
@@ -10806,6 +11590,7 @@ grammars.brown = [
         "prob": 0.5
     }, 
     {
+        "count": 1, 
         "rhs": [
             {
                 "is_terminal": true, 
@@ -10816,6 +11601,7 @@ grammars.brown = [
         "prob": 0.5
     }, 
     {
+        "count": 2, 
         "rhs": [
             {
                 "is_terminal": true, 
@@ -10838,6 +11624,7 @@ grammars.brown = [
         "prob": 1.0
     }, 
     {
+        "count": 1, 
         "rhs": [
             {
                 "is_terminal": true, 
@@ -10848,6 +11635,7 @@ grammars.brown = [
         "prob": 0.25
     }, 
     {
+        "count": 1, 
         "rhs": [
             {
                 "is_terminal": true, 
@@ -10858,6 +11646,7 @@ grammars.brown = [
         "prob": 0.25
     }, 
     {
+        "count": 1, 
         "rhs": [
             {
                 "is_terminal": true, 
@@ -10868,6 +11657,7 @@ grammars.brown = [
         "prob": 0.25
     }, 
     {
+        "count": 1, 
         "rhs": [
             {
                 "is_terminal": true, 
@@ -10878,6 +11668,7 @@ grammars.brown = [
         "prob": 0.25
     }, 
     {
+        "count": 4, 
         "rhs": [
             {
                 "is_terminal": true, 
@@ -10900,6 +11691,7 @@ grammars.brown = [
         "prob": 1.0
     }, 
     {
+        "count": 6, 
         "rhs": [
             {
                 "is_terminal": true, 
@@ -10914,6 +11706,7 @@ grammars.brown = [
         "prob": 1.0
     }, 
     {
+        "count": 42, 
         "rhs": [
             {
                 "is_terminal": true, 
@@ -10932,6 +11725,7 @@ grammars.brown = [
         "prob": 1.0
     }, 
     {
+        "count": 1, 
         "rhs": [
             {
                 "is_terminal": true, 
@@ -10942,6 +11736,7 @@ grammars.brown = [
         "prob": 0.5
     }, 
     {
+        "count": 1, 
         "rhs": [
             {
                 "is_terminal": true, 
@@ -10952,6 +11747,7 @@ grammars.brown = [
         "prob": 0.5
     }, 
     {
+        "count": 2, 
         "rhs": [
             {
                 "is_terminal": true, 
@@ -10974,6 +11770,7 @@ grammars.brown = [
         "prob": 1.0
     }, 
     {
+        "count": 1, 
         "rhs": [
             {
                 "is_terminal": true, 
@@ -10984,6 +11781,7 @@ grammars.brown = [
         "prob": 0.333333
     }, 
     {
+        "count": 1, 
         "rhs": [
             {
                 "is_terminal": true, 
@@ -10994,6 +11792,7 @@ grammars.brown = [
         "prob": 0.333333
     }, 
     {
+        "count": 1, 
         "rhs": [
             {
                 "is_terminal": true, 
@@ -11004,6 +11803,7 @@ grammars.brown = [
         "prob": 0.333333
     }, 
     {
+        "count": 3, 
         "rhs": [
             {
                 "is_terminal": false, 
@@ -11026,6 +11826,7 @@ grammars.brown = [
         "prob": 1.0
     }, 
     {
+        "count": 2, 
         "rhs": [
             {
                 "is_terminal": true, 
@@ -11036,6 +11837,7 @@ grammars.brown = [
         "prob": 0.166667
     }, 
     {
+        "count": 1, 
         "rhs": [
             {
                 "is_terminal": true, 
@@ -11046,6 +11848,7 @@ grammars.brown = [
         "prob": 0.0833333
     }, 
     {
+        "count": 1, 
         "rhs": [
             {
                 "is_terminal": true, 
@@ -11056,6 +11859,7 @@ grammars.brown = [
         "prob": 0.0833333
     }, 
     {
+        "count": 1, 
         "rhs": [
             {
                 "is_terminal": true, 
@@ -11066,6 +11870,7 @@ grammars.brown = [
         "prob": 0.0833333
     }, 
     {
+        "count": 1, 
         "rhs": [
             {
                 "is_terminal": true, 
@@ -11076,6 +11881,7 @@ grammars.brown = [
         "prob": 0.0833333
     }, 
     {
+        "count": 1, 
         "rhs": [
             {
                 "is_terminal": true, 
@@ -11086,6 +11892,7 @@ grammars.brown = [
         "prob": 0.0833333
     }, 
     {
+        "count": 1, 
         "rhs": [
             {
                 "is_terminal": true, 
@@ -11096,6 +11903,7 @@ grammars.brown = [
         "prob": 0.0833333
     }, 
     {
+        "count": 1, 
         "rhs": [
             {
                 "is_terminal": true, 
@@ -11106,6 +11914,7 @@ grammars.brown = [
         "prob": 0.0833333
     }, 
     {
+        "count": 1, 
         "rhs": [
             {
                 "is_terminal": true, 
@@ -11116,6 +11925,7 @@ grammars.brown = [
         "prob": 0.0833333
     }, 
     {
+        "count": 1, 
         "rhs": [
             {
                 "is_terminal": true, 
@@ -11126,6 +11936,7 @@ grammars.brown = [
         "prob": 0.0833333
     }, 
     {
+        "count": 1, 
         "rhs": [
             {
                 "is_terminal": true, 
@@ -11136,6 +11947,7 @@ grammars.brown = [
         "prob": 0.0833333
     }, 
     {
+        "count": 12, 
         "rhs": [
             {
                 "is_terminal": true, 
@@ -11158,6 +11970,7 @@ grammars.brown = [
         "prob": 1.0
     }, 
     {
+        "count": 2, 
         "rhs": [
             {
                 "is_terminal": false, 
@@ -11168,6 +11981,7 @@ grammars.brown = [
         "prob": 0.5
     }, 
     {
+        "count": 2, 
         "rhs": [
             {
                 "is_terminal": false, 
@@ -11178,6 +11992,7 @@ grammars.brown = [
         "prob": 0.5
     }, 
     {
+        "count": 4, 
         "rhs": [
             {
                 "is_terminal": true, 
@@ -11200,6 +12015,7 @@ grammars.brown = [
         "prob": 1.0
     }, 
     {
+        "count": 1, 
         "rhs": [
             {
                 "is_terminal": true, 
@@ -11210,6 +12026,7 @@ grammars.brown = [
         "prob": 0.25
     }, 
     {
+        "count": 1, 
         "rhs": [
             {
                 "is_terminal": true, 
@@ -11220,6 +12037,7 @@ grammars.brown = [
         "prob": 0.25
     }, 
     {
+        "count": 1, 
         "rhs": [
             {
                 "is_terminal": true, 
@@ -11230,6 +12048,7 @@ grammars.brown = [
         "prob": 0.25
     }, 
     {
+        "count": 1, 
         "rhs": [
             {
                 "is_terminal": true, 
@@ -11240,6 +12059,7 @@ grammars.brown = [
         "prob": 0.25
     }, 
     {
+        "count": 4, 
         "rhs": [
             {
                 "is_terminal": true, 
@@ -11262,6 +12082,7 @@ grammars.brown = [
         "prob": 1.0
     }, 
     {
+        "count": 1, 
         "rhs": [
             {
                 "is_terminal": true, 
@@ -11272,6 +12093,7 @@ grammars.brown = [
         "prob": 0.25
     }, 
     {
+        "count": 1, 
         "rhs": [
             {
                 "is_terminal": true, 
@@ -11282,6 +12104,7 @@ grammars.brown = [
         "prob": 0.25
     }, 
     {
+        "count": 1, 
         "rhs": [
             {
                 "is_terminal": true, 
@@ -11292,6 +12115,7 @@ grammars.brown = [
         "prob": 0.25
     }, 
     {
+        "count": 1, 
         "rhs": [
             {
                 "is_terminal": true, 
@@ -11302,6 +12126,7 @@ grammars.brown = [
         "prob": 0.25
     }, 
     {
+        "count": 4, 
         "rhs": [
             {
                 "is_terminal": true, 
@@ -11324,6 +12149,7 @@ grammars.brown = [
         "prob": 1.0
     }, 
     {
+        "count": 1, 
         "rhs": [
             {
                 "is_terminal": true, 
@@ -11334,6 +12160,7 @@ grammars.brown = [
         "prob": 0.25
     }, 
     {
+        "count": 1, 
         "rhs": [
             {
                 "is_terminal": true, 
@@ -11344,6 +12171,7 @@ grammars.brown = [
         "prob": 0.25
     }, 
     {
+        "count": 1, 
         "rhs": [
             {
                 "is_terminal": true, 
@@ -11354,6 +12182,7 @@ grammars.brown = [
         "prob": 0.25
     }, 
     {
+        "count": 1, 
         "rhs": [
             {
                 "is_terminal": true, 
@@ -11364,6 +12193,7 @@ grammars.brown = [
         "prob": 0.25
     }, 
     {
+        "count": 4, 
         "rhs": [
             {
                 "is_terminal": true, 
@@ -11386,6 +12216,7 @@ grammars.brown = [
         "prob": 1.0
     }, 
     {
+        "count": 1, 
         "rhs": [
             {
                 "is_terminal": true, 
@@ -11396,6 +12227,7 @@ grammars.brown = [
         "prob": 0.5
     }, 
     {
+        "count": 1, 
         "rhs": [
             {
                 "is_terminal": true, 
@@ -11406,6 +12238,7 @@ grammars.brown = [
         "prob": 0.5
     }, 
     {
+        "count": 2, 
         "rhs": [
             {
                 "is_terminal": true, 
@@ -11428,6 +12261,7 @@ grammars.brown = [
         "prob": 1.0
     }, 
     {
+        "count": 1, 
         "rhs": [
             {
                 "is_terminal": true, 
@@ -11438,6 +12272,7 @@ grammars.brown = [
         "prob": 0.25
     }, 
     {
+        "count": 2, 
         "rhs": [
             {
                 "is_terminal": true, 
@@ -11448,6 +12283,7 @@ grammars.brown = [
         "prob": 0.5
     }, 
     {
+        "count": 1, 
         "rhs": [
             {
                 "is_terminal": true, 
@@ -11458,6 +12294,7 @@ grammars.brown = [
         "prob": 0.25
     }, 
     {
+        "count": 4, 
         "rhs": [
             {
                 "is_terminal": true, 
@@ -11484,6 +12321,7 @@ grammars.brown = [
         "prob": 1.0
     }, 
     {
+        "count": 1, 
         "rhs": [
             {
                 "is_terminal": true, 
@@ -11494,6 +12332,7 @@ grammars.brown = [
         "prob": 0.1
     }, 
     {
+        "count": 1, 
         "rhs": [
             {
                 "is_terminal": true, 
@@ -11504,6 +12343,7 @@ grammars.brown = [
         "prob": 0.1
     }, 
     {
+        "count": 1, 
         "rhs": [
             {
                 "is_terminal": true, 
@@ -11514,6 +12354,7 @@ grammars.brown = [
         "prob": 0.1
     }, 
     {
+        "count": 1, 
         "rhs": [
             {
                 "is_terminal": true, 
@@ -11524,6 +12365,7 @@ grammars.brown = [
         "prob": 0.1
     }, 
     {
+        "count": 1, 
         "rhs": [
             {
                 "is_terminal": true, 
@@ -11534,6 +12376,7 @@ grammars.brown = [
         "prob": 0.1
     }, 
     {
+        "count": 1, 
         "rhs": [
             {
                 "is_terminal": true, 
@@ -11544,6 +12387,7 @@ grammars.brown = [
         "prob": 0.1
     }, 
     {
+        "count": 1, 
         "rhs": [
             {
                 "is_terminal": true, 
@@ -11554,6 +12398,7 @@ grammars.brown = [
         "prob": 0.1
     }, 
     {
+        "count": 1, 
         "rhs": [
             {
                 "is_terminal": true, 
@@ -11564,6 +12409,7 @@ grammars.brown = [
         "prob": 0.1
     }, 
     {
+        "count": 1, 
         "rhs": [
             {
                 "is_terminal": true, 
@@ -11574,6 +12420,7 @@ grammars.brown = [
         "prob": 0.1
     }, 
     {
+        "count": 1, 
         "rhs": [
             {
                 "is_terminal": true, 
@@ -11584,6 +12431,7 @@ grammars.brown = [
         "prob": 0.1
     }, 
     {
+        "count": 10, 
         "rhs": [
             {
                 "is_terminal": true, 
@@ -11606,6 +12454,7 @@ grammars.brown = [
         "prob": 1.0
     }, 
     {
+        "count": 1, 
         "rhs": [
             {
                 "is_terminal": true, 
@@ -11616,6 +12465,7 @@ grammars.brown = [
         "prob": 0.5
     }, 
     {
+        "count": 1, 
         "rhs": [
             {
                 "is_terminal": true, 
@@ -11626,6 +12476,7 @@ grammars.brown = [
         "prob": 0.5
     }, 
     {
+        "count": 2, 
         "rhs": [
             {
                 "is_terminal": true, 
@@ -11648,6 +12499,7 @@ grammars.brown = [
         "prob": 1.0
     }, 
     {
+        "count": 1, 
         "rhs": [
             {
                 "is_terminal": true, 
@@ -11658,6 +12510,7 @@ grammars.brown = [
         "prob": 0.25
     }, 
     {
+        "count": 1, 
         "rhs": [
             {
                 "is_terminal": true, 
@@ -11668,6 +12521,7 @@ grammars.brown = [
         "prob": 0.25
     }, 
     {
+        "count": 1, 
         "rhs": [
             {
                 "is_terminal": true, 
@@ -11678,6 +12532,7 @@ grammars.brown = [
         "prob": 0.25
     }, 
     {
+        "count": 1, 
         "rhs": [
             {
                 "is_terminal": true, 
@@ -11688,6 +12543,7 @@ grammars.brown = [
         "prob": 0.25
     }, 
     {
+        "count": 4, 
         "rhs": [
             {
                 "is_terminal": true, 
@@ -11710,6 +12566,7 @@ grammars.brown = [
         "prob": 1.0
     }, 
     {
+        "count": 1, 
         "rhs": [
             {
                 "is_terminal": true, 
@@ -11720,6 +12577,7 @@ grammars.brown = [
         "prob": 0.1
     }, 
     {
+        "count": 9, 
         "rhs": [
             {
                 "is_terminal": true, 
@@ -11730,6 +12588,7 @@ grammars.brown = [
         "prob": 0.9
     }, 
     {
+        "count": 10, 
         "rhs": [
             {
                 "is_terminal": true, 
@@ -11748,6 +12607,7 @@ grammars.brown = [
         "prob": 1.0
     }, 
     {
+        "count": 1, 
         "rhs": [
             {
                 "is_terminal": true, 
@@ -11758,6 +12618,7 @@ grammars.brown = [
         "prob": 0.25
     }, 
     {
+        "count": 1, 
         "rhs": [
             {
                 "is_terminal": true, 
@@ -11768,6 +12629,7 @@ grammars.brown = [
         "prob": 0.25
     }, 
     {
+        "count": 1, 
         "rhs": [
             {
                 "is_terminal": true, 
@@ -11778,6 +12640,7 @@ grammars.brown = [
         "prob": 0.25
     }, 
     {
+        "count": 1, 
         "rhs": [
             {
                 "is_terminal": true, 
@@ -11788,6 +12651,7 @@ grammars.brown = [
         "prob": 0.25
     }, 
     {
+        "count": 4, 
         "rhs": [
             {
                 "is_terminal": true, 
@@ -11814,6 +12678,7 @@ grammars.brown = [
         "prob": 1.0
     }, 
     {
+        "count": 1, 
         "rhs": [
             {
                 "is_terminal": true, 
@@ -11824,6 +12689,7 @@ grammars.brown = [
         "prob": 0.5
     }, 
     {
+        "count": 1, 
         "rhs": [
             {
                 "is_terminal": true, 
@@ -11834,6 +12700,7 @@ grammars.brown = [
         "prob": 0.5
     }, 
     {
+        "count": 2, 
         "rhs": [
             {
                 "is_terminal": true, 
@@ -11856,6 +12723,7 @@ grammars.brown = [
         "prob": 1.0
     }, 
     {
+        "count": 1, 
         "rhs": [
             {
                 "is_terminal": true, 
@@ -11866,6 +12734,7 @@ grammars.brown = [
         "prob": 0.2
     }, 
     {
+        "count": 1, 
         "rhs": [
             {
                 "is_terminal": true, 
@@ -11876,6 +12745,7 @@ grammars.brown = [
         "prob": 0.2
     }, 
     {
+        "count": 1, 
         "rhs": [
             {
                 "is_terminal": true, 
@@ -11886,6 +12756,7 @@ grammars.brown = [
         "prob": 0.2
     }, 
     {
+        "count": 1, 
         "rhs": [
             {
                 "is_terminal": true, 
@@ -11896,6 +12767,7 @@ grammars.brown = [
         "prob": 0.2
     }, 
     {
+        "count": 1, 
         "rhs": [
             {
                 "is_terminal": true, 
@@ -11906,6 +12778,7 @@ grammars.brown = [
         "prob": 0.2
     }, 
     {
+        "count": 5, 
         "rhs": [
             {
                 "is_terminal": true, 
@@ -11928,6 +12801,7 @@ grammars.brown = [
         "prob": 1.0
     }, 
     {
+        "count": 6, 
         "rhs": [
             {
                 "is_terminal": false, 
@@ -11946,6 +12820,7 @@ grammars.brown = [
         "prob": 1.0
     }, 
     {
+        "count": 54, 
         "rhs": [
             {
                 "is_terminal": true, 
@@ -11956,6 +12831,7 @@ grammars.brown = [
         "prob": 0.964286
     }, 
     {
+        "count": 2, 
         "rhs": [
             {
                 "is_terminal": true, 
@@ -11966,6 +12842,7 @@ grammars.brown = [
         "prob": 0.0357143
     }, 
     {
+        "count": 54, 
         "rhs": [
             {
                 "is_terminal": true, 
@@ -11980,6 +12857,7 @@ grammars.brown = [
         "prob": 1.0
     }, 
     {
+        "count": 8, 
         "rhs": [
             {
                 "is_terminal": true, 
@@ -11994,6 +12872,7 @@ grammars.brown = [
         "prob": 1.0
     }, 
     {
+        "count": 5, 
         "rhs": [
             {
                 "is_terminal": true, 
@@ -12008,6 +12887,7 @@ grammars.brown = [
         "prob": 1.0
     }, 
     {
+        "count": 1, 
         "rhs": [
             {
                 "is_terminal": true, 
@@ -12018,6 +12898,7 @@ grammars.brown = [
         "prob": 0.5
     }, 
     {
+        "count": 1, 
         "rhs": [
             {
                 "is_terminal": true, 
@@ -12028,6 +12909,7 @@ grammars.brown = [
         "prob": 0.5
     }, 
     {
+        "count": 2, 
         "rhs": [
             {
                 "is_terminal": true, 
@@ -12050,6 +12932,7 @@ grammars.brown = [
         "prob": 1.0
     }, 
     {
+        "count": 1, 
         "rhs": [
             {
                 "is_terminal": true, 
@@ -12060,6 +12943,7 @@ grammars.brown = [
         "prob": 0.333333
     }, 
     {
+        "count": 1, 
         "rhs": [
             {
                 "is_terminal": true, 
@@ -12070,6 +12954,7 @@ grammars.brown = [
         "prob": 0.333333
     }, 
     {
+        "count": 1, 
         "rhs": [
             {
                 "is_terminal": true, 
@@ -12080,6 +12965,7 @@ grammars.brown = [
         "prob": 0.333333
     }, 
     {
+        "count": 3, 
         "rhs": [
             {
                 "is_terminal": true, 
@@ -12102,6 +12988,7 @@ grammars.brown = [
         "prob": 1.0
     }, 
     {
+        "count": 11, 
         "rhs": [
             {
                 "is_terminal": true, 
@@ -12116,6 +13003,7 @@ grammars.brown = [
         "prob": 1.0
     }, 
     {
+        "count": 1, 
         "rhs": [
             {
                 "is_terminal": true, 
@@ -12126,6 +13014,7 @@ grammars.brown = [
         "prob": 0.333333
     }, 
     {
+        "count": 1, 
         "rhs": [
             {
                 "is_terminal": true, 
@@ -12136,6 +13025,7 @@ grammars.brown = [
         "prob": 0.333333
     }, 
     {
+        "count": 1, 
         "rhs": [
             {
                 "is_terminal": true, 
@@ -12146,6 +13036,7 @@ grammars.brown = [
         "prob": 0.333333
     }, 
     {
+        "count": 3, 
         "rhs": [
             {
                 "is_terminal": true, 
@@ -12168,6 +13059,7 @@ grammars.brown = [
         "prob": 1.0
     }, 
     {
+        "count": 1, 
         "rhs": [
             {
                 "is_terminal": true, 
@@ -12178,6 +13070,7 @@ grammars.brown = [
         "prob": 0.25
     }, 
     {
+        "count": 1, 
         "rhs": [
             {
                 "is_terminal": true, 
@@ -12188,6 +13081,7 @@ grammars.brown = [
         "prob": 0.25
     }, 
     {
+        "count": 1, 
         "rhs": [
             {
                 "is_terminal": true, 
@@ -12198,6 +13092,7 @@ grammars.brown = [
         "prob": 0.25
     }, 
     {
+        "count": 1, 
         "rhs": [
             {
                 "is_terminal": true, 
@@ -12208,6 +13103,7 @@ grammars.brown = [
         "prob": 0.25
     }, 
     {
+        "count": 4, 
         "rhs": [
             {
                 "is_terminal": true, 
@@ -12230,6 +13126,7 @@ grammars.brown = [
         "prob": 1.0
     }, 
     {
+        "count": 1, 
         "rhs": [
             {
                 "is_terminal": true, 
@@ -12240,6 +13137,7 @@ grammars.brown = [
         "prob": 0.25
     }, 
     {
+        "count": 1, 
         "rhs": [
             {
                 "is_terminal": true, 
@@ -12250,6 +13148,7 @@ grammars.brown = [
         "prob": 0.25
     }, 
     {
+        "count": 1, 
         "rhs": [
             {
                 "is_terminal": true, 
@@ -12260,6 +13159,7 @@ grammars.brown = [
         "prob": 0.25
     }, 
     {
+        "count": 1, 
         "rhs": [
             {
                 "is_terminal": true, 
@@ -12270,6 +13170,7 @@ grammars.brown = [
         "prob": 0.25
     }, 
     {
+        "count": 4, 
         "rhs": [
             {
                 "is_terminal": true, 
@@ -12292,6 +13193,7 @@ grammars.brown = [
         "prob": 1.0
     }, 
     {
+        "count": 1, 
         "rhs": [
             {
                 "is_terminal": true, 
@@ -12302,6 +13204,7 @@ grammars.brown = [
         "prob": 0.25
     }, 
     {
+        "count": 1, 
         "rhs": [
             {
                 "is_terminal": true, 
@@ -12312,6 +13215,7 @@ grammars.brown = [
         "prob": 0.25
     }, 
     {
+        "count": 1, 
         "rhs": [
             {
                 "is_terminal": true, 
@@ -12322,6 +13226,7 @@ grammars.brown = [
         "prob": 0.25
     }, 
     {
+        "count": 1, 
         "rhs": [
             {
                 "is_terminal": true, 
@@ -12332,6 +13237,7 @@ grammars.brown = [
         "prob": 0.25
     }, 
     {
+        "count": 4, 
         "rhs": [
             {
                 "is_terminal": true, 
@@ -12354,6 +13260,7 @@ grammars.brown = [
         "prob": 1.0
     }, 
     {
+        "count": 1, 
         "rhs": [
             {
                 "is_terminal": true, 
@@ -12364,6 +13271,7 @@ grammars.brown = [
         "prob": 0.2
     }, 
     {
+        "count": 1, 
         "rhs": [
             {
                 "is_terminal": true, 
@@ -12374,6 +13282,7 @@ grammars.brown = [
         "prob": 0.2
     }, 
     {
+        "count": 1, 
         "rhs": [
             {
                 "is_terminal": true, 
@@ -12384,6 +13293,7 @@ grammars.brown = [
         "prob": 0.2
     }, 
     {
+        "count": 1, 
         "rhs": [
             {
                 "is_terminal": true, 
@@ -12394,6 +13304,7 @@ grammars.brown = [
         "prob": 0.2
     }, 
     {
+        "count": 1, 
         "rhs": [
             {
                 "is_terminal": true, 
@@ -12404,6 +13315,7 @@ grammars.brown = [
         "prob": 0.2
     }, 
     {
+        "count": 5, 
         "rhs": [
             {
                 "is_terminal": true, 
@@ -12426,6 +13338,7 @@ grammars.brown = [
         "prob": 1.0
     }, 
     {
+        "count": 4, 
         "rhs": [
             {
                 "is_terminal": true, 
@@ -12444,6 +13357,7 @@ grammars.brown = [
         "prob": 1.0
     }, 
     {
+        "count": 1, 
         "rhs": [
             {
                 "is_terminal": false, 
@@ -12454,6 +13368,7 @@ grammars.brown = [
         "prob": 0.5
     }, 
     {
+        "count": 1, 
         "rhs": [
             {
                 "is_terminal": true, 
@@ -12464,6 +13379,7 @@ grammars.brown = [
         "prob": 0.5
     }, 
     {
+        "count": 2, 
         "rhs": [
             {
                 "is_terminal": true, 
@@ -12486,6 +13402,7 @@ grammars.brown = [
         "prob": 1.0
     }, 
     {
+        "count": 1, 
         "rhs": [
             {
                 "is_terminal": true, 
@@ -12496,6 +13413,7 @@ grammars.brown = [
         "prob": 0.25
     }, 
     {
+        "count": 1, 
         "rhs": [
             {
                 "is_terminal": true, 
@@ -12506,6 +13424,7 @@ grammars.brown = [
         "prob": 0.25
     }, 
     {
+        "count": 1, 
         "rhs": [
             {
                 "is_terminal": true, 
@@ -12516,6 +13435,7 @@ grammars.brown = [
         "prob": 0.25
     }, 
     {
+        "count": 1, 
         "rhs": [
             {
                 "is_terminal": true, 
@@ -12526,6 +13446,7 @@ grammars.brown = [
         "prob": 0.25
     }, 
     {
+        "count": 4, 
         "rhs": [
             {
                 "is_terminal": false, 
@@ -12548,6 +13469,7 @@ grammars.brown = [
         "prob": 1.0
     }, 
     {
+        "count": 1, 
         "rhs": [
             {
                 "is_terminal": true, 
@@ -12558,6 +13480,7 @@ grammars.brown = [
         "prob": 0.5
     }, 
     {
+        "count": 1, 
         "rhs": [
             {
                 "is_terminal": true, 
@@ -12568,6 +13491,7 @@ grammars.brown = [
         "prob": 0.5
     }, 
     {
+        "count": 2, 
         "rhs": [
             {
                 "is_terminal": true, 
@@ -12590,6 +13514,7 @@ grammars.brown = [
         "prob": 1.0
     }, 
     {
+        "count": 1, 
         "rhs": [
             {
                 "is_terminal": true, 
@@ -12600,6 +13525,7 @@ grammars.brown = [
         "prob": 0.5
     }, 
     {
+        "count": 1, 
         "rhs": [
             {
                 "is_terminal": true, 
@@ -12610,6 +13536,7 @@ grammars.brown = [
         "prob": 0.5
     }, 
     {
+        "count": 2, 
         "rhs": [
             {
                 "is_terminal": true, 
@@ -12632,6 +13559,7 @@ grammars.brown = [
         "prob": 1.0
     }, 
     {
+        "count": 109, 
         "rhs": [
             {
                 "is_terminal": true, 
@@ -12646,6 +13574,7 @@ grammars.brown = [
         "prob": 1.0
     }, 
     {
+        "count": 4, 
         "rhs": [
             {
                 "is_terminal": true, 
@@ -12656,6 +13585,7 @@ grammars.brown = [
         "prob": 0.5
     }, 
     {
+        "count": 4, 
         "rhs": [
             {
                 "is_terminal": true, 
@@ -12666,6 +13596,7 @@ grammars.brown = [
         "prob": 0.5
     }, 
     {
+        "count": 1, 
         "rhs": [
             {
                 "is_terminal": true, 
@@ -12676,6 +13607,7 @@ grammars.brown = [
         "prob": 0.5
     }, 
     {
+        "count": 1, 
         "rhs": [
             {
                 "is_terminal": true, 
@@ -12686,6 +13618,7 @@ grammars.brown = [
         "prob": 0.5
     }, 
     {
+        "count": 2, 
         "rhs": [
             {
                 "is_terminal": true, 
@@ -12708,6 +13641,7 @@ grammars.brown = [
         "prob": 1.0
     }, 
     {
+        "count": 1, 
         "rhs": [
             {
                 "is_terminal": true, 
@@ -12718,6 +13652,7 @@ grammars.brown = [
         "prob": 0.5
     }, 
     {
+        "count": 1, 
         "rhs": [
             {
                 "is_terminal": true, 
@@ -12728,6 +13663,7 @@ grammars.brown = [
         "prob": 0.5
     }, 
     {
+        "count": 2, 
         "rhs": [
             {
                 "is_terminal": true, 
@@ -12750,6 +13686,7 @@ grammars.brown = [
         "prob": 1.0
     }, 
     {
+        "count": 36, 
         "rhs": [
             {
                 "is_terminal": true, 
@@ -12764,6 +13701,7 @@ grammars.brown = [
         "prob": 1.0
     }, 
     {
+        "count": 5, 
         "rhs": [
             {
                 "is_terminal": true, 
@@ -12778,6 +13716,7 @@ grammars.brown = [
         "prob": 1.0
     }, 
     {
+        "count": 1, 
         "rhs": [
             {
                 "is_terminal": true, 
@@ -12788,6 +13727,7 @@ grammars.brown = [
         "prob": 0.5
     }, 
     {
+        "count": 1, 
         "rhs": [
             {
                 "is_terminal": true, 
@@ -12798,6 +13738,7 @@ grammars.brown = [
         "prob": 0.5
     }, 
     {
+        "count": 2, 
         "rhs": [
             {
                 "is_terminal": true, 
@@ -12820,6 +13761,7 @@ grammars.brown = [
         "prob": 1.0
     }, 
     {
+        "count": 4, 
         "rhs": [
             {
                 "is_terminal": true, 
@@ -12834,6 +13776,7 @@ grammars.brown = [
         "prob": 1.0
     }, 
     {
+        "count": 1, 
         "rhs": [
             {
                 "is_terminal": true, 
@@ -12844,6 +13787,7 @@ grammars.brown = [
         "prob": 0.5
     }, 
     {
+        "count": 1, 
         "rhs": [
             {
                 "is_terminal": true, 
@@ -12854,6 +13798,7 @@ grammars.brown = [
         "prob": 0.5
     }, 
     {
+        "count": 2, 
         "rhs": [
             {
                 "is_terminal": false, 
@@ -12876,6 +13821,7 @@ grammars.brown = [
         "prob": 1.0
     }, 
     {
+        "count": 5, 
         "rhs": [
             {
                 "is_terminal": true, 
@@ -12890,6 +13836,7 @@ grammars.brown = [
         "prob": 1.0
     }, 
     {
+        "count": 1, 
         "rhs": [
             {
                 "is_terminal": true, 
@@ -12900,6 +13847,7 @@ grammars.brown = [
         "prob": 0.25
     }, 
     {
+        "count": 1, 
         "rhs": [
             {
                 "is_terminal": true, 
@@ -12910,6 +13858,7 @@ grammars.brown = [
         "prob": 0.25
     }, 
     {
+        "count": 1, 
         "rhs": [
             {
                 "is_terminal": true, 
@@ -12920,6 +13869,7 @@ grammars.brown = [
         "prob": 0.25
     }, 
     {
+        "count": 1, 
         "rhs": [
             {
                 "is_terminal": true, 
@@ -12930,6 +13880,7 @@ grammars.brown = [
         "prob": 0.25
     }, 
     {
+        "count": 4, 
         "rhs": [
             {
                 "is_terminal": true, 
@@ -12952,6 +13903,7 @@ grammars.brown = [
         "prob": 1.0
     }, 
     {
+        "count": 1, 
         "rhs": [
             {
                 "is_terminal": true, 
@@ -12962,6 +13914,7 @@ grammars.brown = [
         "prob": 0.166667
     }, 
     {
+        "count": 1, 
         "rhs": [
             {
                 "is_terminal": true, 
@@ -12972,6 +13925,7 @@ grammars.brown = [
         "prob": 0.166667
     }, 
     {
+        "count": 1, 
         "rhs": [
             {
                 "is_terminal": true, 
@@ -12982,6 +13936,7 @@ grammars.brown = [
         "prob": 0.166667
     }, 
     {
+        "count": 1, 
         "rhs": [
             {
                 "is_terminal": true, 
@@ -12992,6 +13947,7 @@ grammars.brown = [
         "prob": 0.166667
     }, 
     {
+        "count": 2, 
         "rhs": [
             {
                 "is_terminal": true, 
@@ -13002,6 +13958,7 @@ grammars.brown = [
         "prob": 0.333333
     }, 
     {
+        "count": 6, 
         "rhs": [
             {
                 "is_terminal": true, 
@@ -13024,6 +13981,7 @@ grammars.brown = [
         "prob": 1.0
     }, 
     {
+        "count": 15, 
         "rhs": [
             {
                 "is_terminal": true, 
@@ -13038,6 +13996,7 @@ grammars.brown = [
         "prob": 1.0
     }, 
     {
+        "count": 1, 
         "rhs": [
             {
                 "is_terminal": true, 
@@ -13048,6 +14007,7 @@ grammars.brown = [
         "prob": 0.5
     }, 
     {
+        "count": 1, 
         "rhs": [
             {
                 "is_terminal": true, 
@@ -13058,6 +14018,7 @@ grammars.brown = [
         "prob": 0.5
     }, 
     {
+        "count": 2, 
         "rhs": [
             {
                 "is_terminal": false, 
@@ -13080,6 +14041,7 @@ grammars.brown = [
         "prob": 1.0
     }, 
     {
+        "count": 1, 
         "rhs": [
             {
                 "is_terminal": true, 
@@ -13090,6 +14052,7 @@ grammars.brown = [
         "prob": 0.5
     }, 
     {
+        "count": 1, 
         "rhs": [
             {
                 "is_terminal": true, 
@@ -13100,6 +14063,7 @@ grammars.brown = [
         "prob": 0.5
     }, 
     {
+        "count": 2, 
         "rhs": [
             {
                 "is_terminal": false, 
@@ -13122,6 +14086,7 @@ grammars.brown = [
         "prob": 1.0
     }, 
     {
+        "count": 4, 
         "rhs": [
             {
                 "is_terminal": true, 
@@ -13144,6 +14109,7 @@ grammars.brown = [
         "prob": 1.0
     }, 
     {
+        "count": 1, 
         "rhs": [
             {
                 "is_terminal": true, 
@@ -13154,6 +14120,7 @@ grammars.brown = [
         "prob": 0.333333
     }, 
     {
+        "count": 1, 
         "rhs": [
             {
                 "is_terminal": true, 
@@ -13164,6 +14131,7 @@ grammars.brown = [
         "prob": 0.333333
     }, 
     {
+        "count": 1, 
         "rhs": [
             {
                 "is_terminal": true, 
@@ -13174,6 +14142,7 @@ grammars.brown = [
         "prob": 0.333333
     }, 
     {
+        "count": 3, 
         "rhs": [
             {
                 "is_terminal": true, 
@@ -13196,6 +14165,7 @@ grammars.brown = [
         "prob": 1.0
     }, 
     {
+        "count": 1, 
         "rhs": [
             {
                 "is_terminal": true, 
@@ -13206,6 +14176,7 @@ grammars.brown = [
         "prob": 0.5
     }, 
     {
+        "count": 1, 
         "rhs": [
             {
                 "is_terminal": true, 
@@ -13216,6 +14187,7 @@ grammars.brown = [
         "prob": 0.5
     }, 
     {
+        "count": 2, 
         "rhs": [
             {
                 "is_terminal": true, 
@@ -13238,6 +14210,7 @@ grammars.brown = [
         "prob": 1.0
     }, 
     {
+        "count": 1, 
         "rhs": [
             {
                 "is_terminal": true, 
@@ -13248,6 +14221,7 @@ grammars.brown = [
         "prob": 0.333333
     }, 
     {
+        "count": 1, 
         "rhs": [
             {
                 "is_terminal": true, 
@@ -13258,6 +14232,7 @@ grammars.brown = [
         "prob": 0.333333
     }, 
     {
+        "count": 1, 
         "rhs": [
             {
                 "is_terminal": true, 
@@ -13268,6 +14243,7 @@ grammars.brown = [
         "prob": 0.333333
     }, 
     {
+        "count": 3, 
         "rhs": [
             {
                 "is_terminal": true, 
@@ -13294,6 +14270,7 @@ grammars.brown = [
         "prob": 1.0
     }, 
     {
+        "count": 1, 
         "rhs": [
             {
                 "is_terminal": true, 
@@ -13304,6 +14281,7 @@ grammars.brown = [
         "prob": 0.25
     }, 
     {
+        "count": 1, 
         "rhs": [
             {
                 "is_terminal": true, 
@@ -13314,6 +14292,7 @@ grammars.brown = [
         "prob": 0.25
     }, 
     {
+        "count": 1, 
         "rhs": [
             {
                 "is_terminal": true, 
@@ -13324,6 +14303,7 @@ grammars.brown = [
         "prob": 0.25
     }, 
     {
+        "count": 1, 
         "rhs": [
             {
                 "is_terminal": true, 
@@ -13334,6 +14314,7 @@ grammars.brown = [
         "prob": 0.25
     }, 
     {
+        "count": 4, 
         "rhs": [
             {
                 "is_terminal": true, 
@@ -13356,6 +14337,7 @@ grammars.brown = [
         "prob": 1.0
     }, 
     {
+        "count": 1, 
         "rhs": [
             {
                 "is_terminal": true, 
@@ -13366,6 +14348,7 @@ grammars.brown = [
         "prob": 0.5
     }, 
     {
+        "count": 1, 
         "rhs": [
             {
                 "is_terminal": true, 
@@ -13376,6 +14359,7 @@ grammars.brown = [
         "prob": 0.5
     }, 
     {
+        "count": 2, 
         "rhs": [
             {
                 "is_terminal": true, 
@@ -13398,6 +14382,7 @@ grammars.brown = [
         "prob": 1.0
     }, 
     {
+        "count": 1, 
         "rhs": [
             {
                 "is_terminal": true, 
@@ -13408,6 +14393,7 @@ grammars.brown = [
         "prob": 0.5
     }, 
     {
+        "count": 1, 
         "rhs": [
             {
                 "is_terminal": true, 
@@ -13418,6 +14404,7 @@ grammars.brown = [
         "prob": 0.5
     }, 
     {
+        "count": 2, 
         "rhs": [
             {
                 "is_terminal": true, 
@@ -13440,6 +14427,7 @@ grammars.brown = [
         "prob": 1.0
     }, 
     {
+        "count": 20, 
         "rhs": [
             {
                 "is_terminal": false, 
@@ -13450,6 +14438,7 @@ grammars.brown = [
         "prob": 0.392157
     }, 
     {
+        "count": 31, 
         "rhs": [
             {
                 "is_terminal": true, 
@@ -13460,6 +14449,7 @@ grammars.brown = [
         "prob": 0.607843
     }, 
     {
+        "count": 5, 
         "rhs": [
             {
                 "is_terminal": true, 
@@ -13478,6 +14468,7 @@ grammars.brown = [
         "prob": 1.0
     }, 
     {
+        "count": 1, 
         "rhs": [
             {
                 "is_terminal": true, 
@@ -13488,6 +14479,7 @@ grammars.brown = [
         "prob": 0.5
     }, 
     {
+        "count": 1, 
         "rhs": [
             {
                 "is_terminal": true, 
@@ -13498,6 +14490,7 @@ grammars.brown = [
         "prob": 0.5
     }, 
     {
+        "count": 2, 
         "rhs": [
             {
                 "is_terminal": true, 
@@ -13520,6 +14513,7 @@ grammars.brown = [
         "prob": 1.0
     }, 
     {
+        "count": 1, 
         "rhs": [
             {
                 "is_terminal": true, 
@@ -13530,6 +14524,7 @@ grammars.brown = [
         "prob": 0.333333
     }, 
     {
+        "count": 1, 
         "rhs": [
             {
                 "is_terminal": true, 
@@ -13540,6 +14535,7 @@ grammars.brown = [
         "prob": 0.333333
     }, 
     {
+        "count": 1, 
         "rhs": [
             {
                 "is_terminal": true, 
@@ -13550,6 +14546,7 @@ grammars.brown = [
         "prob": 0.333333
     }, 
     {
+        "count": 3, 
         "rhs": [
             {
                 "is_terminal": true, 
@@ -13572,6 +14569,7 @@ grammars.brown = [
         "prob": 1.0
     }, 
     {
+        "count": 1, 
         "rhs": [
             {
                 "is_terminal": true, 
@@ -13582,6 +14580,7 @@ grammars.brown = [
         "prob": 0.5
     }, 
     {
+        "count": 1, 
         "rhs": [
             {
                 "is_terminal": true, 
@@ -13592,6 +14591,7 @@ grammars.brown = [
         "prob": 0.5
     }, 
     {
+        "count": 1, 
         "rhs": [
             {
                 "is_terminal": true, 
@@ -13602,6 +14602,7 @@ grammars.brown = [
         "prob": 0.5
     }, 
     {
+        "count": 1, 
         "rhs": [
             {
                 "is_terminal": true, 
@@ -13612,6 +14613,7 @@ grammars.brown = [
         "prob": 0.5
     }, 
     {
+        "count": 2, 
         "rhs": [
             {
                 "is_terminal": true, 
@@ -13634,6 +14636,7 @@ grammars.brown = [
         "prob": 1.0
     }, 
     {
+        "count": 1, 
         "rhs": [
             {
                 "is_terminal": true, 
@@ -13644,6 +14647,7 @@ grammars.brown = [
         "prob": 0.2
     }, 
     {
+        "count": 1, 
         "rhs": [
             {
                 "is_terminal": true, 
@@ -13654,6 +14658,7 @@ grammars.brown = [
         "prob": 0.2
     }, 
     {
+        "count": 1, 
         "rhs": [
             {
                 "is_terminal": true, 
@@ -13664,6 +14669,7 @@ grammars.brown = [
         "prob": 0.2
     }, 
     {
+        "count": 1, 
         "rhs": [
             {
                 "is_terminal": true, 
@@ -13674,6 +14680,7 @@ grammars.brown = [
         "prob": 0.2
     }, 
     {
+        "count": 1, 
         "rhs": [
             {
                 "is_terminal": true, 
@@ -13684,6 +14691,7 @@ grammars.brown = [
         "prob": 0.2
     }, 
     {
+        "count": 5, 
         "rhs": [
             {
                 "is_terminal": true, 
@@ -13706,6 +14714,7 @@ grammars.brown = [
         "prob": 1.0
     }, 
     {
+        "count": 1, 
         "rhs": [
             {
                 "is_terminal": true, 
@@ -13716,6 +14725,7 @@ grammars.brown = [
         "prob": 0.333333
     }, 
     {
+        "count": 1, 
         "rhs": [
             {
                 "is_terminal": true, 
@@ -13726,6 +14736,7 @@ grammars.brown = [
         "prob": 0.333333
     }, 
     {
+        "count": 1, 
         "rhs": [
             {
                 "is_terminal": true, 
@@ -13736,6 +14747,7 @@ grammars.brown = [
         "prob": 0.333333
     }, 
     {
+        "count": 3, 
         "rhs": [
             {
                 "is_terminal": true, 
@@ -13758,6 +14770,7 @@ grammars.brown = [
         "prob": 1.0
     }, 
     {
+        "count": 1, 
         "rhs": [
             {
                 "is_terminal": true, 
@@ -13768,6 +14781,7 @@ grammars.brown = [
         "prob": 0.25
     }, 
     {
+        "count": 1, 
         "rhs": [
             {
                 "is_terminal": true, 
@@ -13778,6 +14792,7 @@ grammars.brown = [
         "prob": 0.25
     }, 
     {
+        "count": 1, 
         "rhs": [
             {
                 "is_terminal": true, 
@@ -13788,6 +14803,7 @@ grammars.brown = [
         "prob": 0.25
     }, 
     {
+        "count": 1, 
         "rhs": [
             {
                 "is_terminal": true, 
@@ -13798,6 +14814,7 @@ grammars.brown = [
         "prob": 0.25
     }, 
     {
+        "count": 4, 
         "rhs": [
             {
                 "is_terminal": true, 
@@ -13820,6 +14837,7 @@ grammars.brown = [
         "prob": 1.0
     }, 
     {
+        "count": 1, 
         "rhs": [
             {
                 "is_terminal": true, 
@@ -13830,6 +14848,7 @@ grammars.brown = [
         "prob": 0.5
     }, 
     {
+        "count": 1, 
         "rhs": [
             {
                 "is_terminal": true, 
@@ -13840,6 +14859,7 @@ grammars.brown = [
         "prob": 0.5
     }, 
     {
+        "count": 2, 
         "rhs": [
             {
                 "is_terminal": true, 
@@ -13862,6 +14882,7 @@ grammars.brown = [
         "prob": 1.0
     }, 
     {
+        "count": 1, 
         "rhs": [
             {
                 "is_terminal": true, 
@@ -13872,6 +14893,7 @@ grammars.brown = [
         "prob": 0.5
     }, 
     {
+        "count": 1, 
         "rhs": [
             {
                 "is_terminal": true, 
@@ -13882,6 +14904,7 @@ grammars.brown = [
         "prob": 0.5
     }, 
     {
+        "count": 2, 
         "rhs": [
             {
                 "is_terminal": true, 
@@ -13904,6 +14927,7 @@ grammars.brown = [
         "prob": 1.0
     }, 
     {
+        "count": 4, 
         "rhs": [
             {
                 "is_terminal": true, 
@@ -13922,6 +14946,7 @@ grammars.brown = [
         "prob": 1.0
     }, 
     {
+        "count": 1, 
         "rhs": [
             {
                 "is_terminal": true, 
@@ -13932,6 +14957,7 @@ grammars.brown = [
         "prob": 0.5
     }, 
     {
+        "count": 1, 
         "rhs": [
             {
                 "is_terminal": true, 
@@ -13942,6 +14968,7 @@ grammars.brown = [
         "prob": 0.5
     }, 
     {
+        "count": 2, 
         "rhs": [
             {
                 "is_terminal": true, 
@@ -13964,6 +14991,7 @@ grammars.brown = [
         "prob": 1.0
     }, 
     {
+        "count": 1, 
         "rhs": [
             {
                 "is_terminal": true, 
@@ -13974,6 +15002,7 @@ grammars.brown = [
         "prob": 0.333333
     }, 
     {
+        "count": 1, 
         "rhs": [
             {
                 "is_terminal": true, 
@@ -13984,6 +15013,7 @@ grammars.brown = [
         "prob": 0.333333
     }, 
     {
+        "count": 1, 
         "rhs": [
             {
                 "is_terminal": true, 
@@ -13994,6 +15024,7 @@ grammars.brown = [
         "prob": 0.333333
     }, 
     {
+        "count": 3, 
         "rhs": [
             {
                 "is_terminal": true, 
@@ -14016,6 +15047,7 @@ grammars.brown = [
         "prob": 1.0
     }, 
     {
+        "count": 1, 
         "rhs": [
             {
                 "is_terminal": true, 
@@ -14026,6 +15058,7 @@ grammars.brown = [
         "prob": 0.25
     }, 
     {
+        "count": 1, 
         "rhs": [
             {
                 "is_terminal": true, 
@@ -14036,6 +15069,7 @@ grammars.brown = [
         "prob": 0.25
     }, 
     {
+        "count": 1, 
         "rhs": [
             {
                 "is_terminal": true, 
@@ -14046,6 +15080,7 @@ grammars.brown = [
         "prob": 0.25
     }, 
     {
+        "count": 1, 
         "rhs": [
             {
                 "is_terminal": true, 
@@ -14056,6 +15091,7 @@ grammars.brown = [
         "prob": 0.25
     }, 
     {
+        "count": 4, 
         "rhs": [
             {
                 "is_terminal": true, 
@@ -14078,6 +15114,7 @@ grammars.brown = [
         "prob": 1.0
     }, 
     {
+        "count": 1, 
         "rhs": [
             {
                 "is_terminal": true, 
@@ -14088,6 +15125,7 @@ grammars.brown = [
         "prob": 0.333333
     }, 
     {
+        "count": 1, 
         "rhs": [
             {
                 "is_terminal": true, 
@@ -14098,6 +15136,7 @@ grammars.brown = [
         "prob": 0.333333
     }, 
     {
+        "count": 1, 
         "rhs": [
             {
                 "is_terminal": true, 
@@ -14108,6 +15147,7 @@ grammars.brown = [
         "prob": 0.333333
     }, 
     {
+        "count": 3, 
         "rhs": [
             {
                 "is_terminal": true, 
@@ -14130,6 +15170,7 @@ grammars.brown = [
         "prob": 1.0
     }, 
     {
+        "count": 2, 
         "rhs": [
             {
                 "is_terminal": true, 
@@ -14160,6 +15201,7 @@ grammars.brown = [
         "prob": 0.0
     }, 
     {
+        "count": 2, 
         "rhs": [
             {
                 "is_terminal": true, 
@@ -14182,6 +15224,7 @@ grammars.brown = [
         "prob": 1.0
     }, 
     {
+        "count": 9, 
         "rhs": [
             {
                 "is_terminal": true, 
@@ -14192,6 +15235,7 @@ grammars.brown = [
         "prob": 0.45
     }, 
     {
+        "count": 6, 
         "rhs": [
             {
                 "is_terminal": true, 
@@ -14202,6 +15246,7 @@ grammars.brown = [
         "prob": 0.3
     }, 
     {
+        "count": 2, 
         "rhs": [
             {
                 "is_terminal": true, 
@@ -14212,6 +15257,7 @@ grammars.brown = [
         "prob": 0.1
     }, 
     {
+        "count": 3, 
         "rhs": [
             {
                 "is_terminal": false, 
@@ -14222,6 +15268,7 @@ grammars.brown = [
         "prob": 0.15
     }, 
     {
+        "count": 20, 
         "rhs": [
             {
                 "is_terminal": true, 
@@ -14236,6 +15283,7 @@ grammars.brown = [
         "prob": 1.0
     }, 
     {
+        "count": 1, 
         "rhs": [
             {
                 "is_terminal": true, 
@@ -14246,6 +15294,7 @@ grammars.brown = [
         "prob": 0.5
     }, 
     {
+        "count": 1, 
         "rhs": [
             {
                 "is_terminal": true, 
@@ -14256,6 +15305,7 @@ grammars.brown = [
         "prob": 0.5
     }, 
     {
+        "count": 2, 
         "rhs": [
             {
                 "is_terminal": true, 
@@ -14278,6 +15328,7 @@ grammars.brown = [
         "prob": 1.0
     }, 
     {
+        "count": 1, 
         "rhs": [
             {
                 "is_terminal": true, 
@@ -14288,6 +15339,7 @@ grammars.brown = [
         "prob": 0.5
     }, 
     {
+        "count": 1, 
         "rhs": [
             {
                 "is_terminal": true, 
@@ -14298,6 +15350,7 @@ grammars.brown = [
         "prob": 0.5
     }, 
     {
+        "count": 2, 
         "rhs": [
             {
                 "is_terminal": true, 
@@ -14320,6 +15373,7 @@ grammars.brown = [
         "prob": 1.0
     }, 
     {
+        "count": 1, 
         "rhs": [
             {
                 "is_terminal": true, 
@@ -14330,6 +15384,7 @@ grammars.brown = [
         "prob": 0.1
     }, 
     {
+        "count": 1, 
         "rhs": [
             {
                 "is_terminal": true, 
@@ -14340,6 +15395,7 @@ grammars.brown = [
         "prob": 0.1
     }, 
     {
+        "count": 5, 
         "rhs": [
             {
                 "is_terminal": true, 
@@ -14350,6 +15406,7 @@ grammars.brown = [
         "prob": 0.5
     }, 
     {
+        "count": 1, 
         "rhs": [
             {
                 "is_terminal": true, 
@@ -14360,6 +15417,7 @@ grammars.brown = [
         "prob": 0.1
     }, 
     {
+        "count": 1, 
         "rhs": [
             {
                 "is_terminal": true, 
@@ -14370,6 +15428,7 @@ grammars.brown = [
         "prob": 0.1
     }, 
     {
+        "count": 1, 
         "rhs": [
             {
                 "is_terminal": false, 
@@ -14380,6 +15439,7 @@ grammars.brown = [
         "prob": 0.1
     }, 
     {
+        "count": 10, 
         "rhs": [
             {
                 "is_terminal": true, 
@@ -14402,6 +15462,7 @@ grammars.brown = [
         "prob": 1.0
     }, 
     {
+        "count": 1, 
         "rhs": [
             {
                 "is_terminal": true, 
@@ -14412,6 +15473,7 @@ grammars.brown = [
         "prob": 0.5
     }, 
     {
+        "count": 1, 
         "rhs": [
             {
                 "is_terminal": true, 
@@ -14422,6 +15484,7 @@ grammars.brown = [
         "prob": 0.5
     }, 
     {
+        "count": 2, 
         "rhs": [
             {
                 "is_terminal": true, 
@@ -14444,6 +15507,7 @@ grammars.brown = [
         "prob": 1.0
     }, 
     {
+        "count": 1, 
         "rhs": [
             {
                 "is_terminal": true, 
@@ -14454,6 +15518,7 @@ grammars.brown = [
         "prob": 0.5
     }, 
     {
+        "count": 1, 
         "rhs": [
             {
                 "is_terminal": true, 
@@ -14464,6 +15529,7 @@ grammars.brown = [
         "prob": 0.5
     }, 
     {
+        "count": 2, 
         "rhs": [
             {
                 "is_terminal": true, 
